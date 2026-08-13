@@ -264,14 +264,17 @@ def fetch_html_scan(source: dict, state: dict) -> list[dict]:
 # Abruf: XML-Sitemap (statisch, kein JavaScript nötig, oft mit echtem Datum)
 # ---------------------------------------------------------------------------
 
-def fetch_sitemap(source: dict) -> list[dict]:
+def fetch_sitemap(source: dict, state: dict) -> list[dict]:
     """
     Manche Seiten (v.a. mit JavaScript-basierter Artikel-Übersicht, wo ein
     einfacher HTML-Scan nichts findet, weil die Liste erst nachträglich per
     Skript geladen wird) veröffentlichen trotzdem eine klassische, statische
-    sitemap.xml mit allen URLs und deren Änderungsdatum (<lastmod>). Das ist
-    zuverlässiger als HTML-Scraping und liefert ein echtes Datum statt einer
-    Näherung.
+    sitemap.xml mit allen URLs und meist deren Änderungsdatum (<lastmod>).
+    Das ist zuverlässiger als HTML-Scraping.
+
+    Nicht jede Sitemap befüllt <lastmod> für jede URL. Fehlt es, greifen wir
+    auf dieselbe "beim ersten Mal gesehen"-Näherung zurück wie beim HTML-Scan,
+    statt den Eintrag ganz zu verwerfen.
     """
     items = []
     url = source["url"]
@@ -287,10 +290,12 @@ def fetch_sitemap(source: dict) -> list[dict]:
 
     soup = BeautifulSoup(content, "xml")
     url_pattern = re.compile(source["url_pattern"]) if source.get("url_pattern") else None
+    seen_links = state.setdefault("seen_links", {}).setdefault(source["id"], {})
+    today_iso = datetime.now(timezone.utc).date().isoformat()
 
     alle_eintraege = soup.find_all("url")
     anzahl_muster_verfehlt = 0
-    anzahl_kein_datum = 0
+    anzahl_naeherung = 0
 
     for entry in alle_eintraege:
         loc_tag = entry.find("loc")
@@ -304,15 +309,21 @@ def fetch_sitemap(source: dict) -> list[dict]:
 
         lastmod_tag = entry.find("lastmod")
         datum = parse_date_safe(lastmod_tag.text.strip()) if lastmod_tag else None
+        datum_ist_naeherung = False
+
         if not datum:
-            anzahl_kein_datum += 1
-            continue  # ohne Datum können wir den MIN_DATUM-Filter nicht anwenden -> auslassen
+            # Kein <lastmod> vorhanden -> "beim ersten Mal gesehen"-Näherung,
+            # genau wie beim HTML-Scan, damit der Fund nicht verloren geht.
+            key = item_hash(loc)
+            if key not in seen_links:
+                seen_links[key] = {"first_seen": today_iso, "url": loc}
+            datum = date.fromisoformat(seen_links[key]["first_seen"])
+            datum_ist_naeherung = True
+            anzahl_naeherung += 1
 
         # Titel gibt es in einer Sitemap nicht - wir leiten einen lesbaren
-        # Platzhalter aus der URL ab; die eigentliche inhaltliche Bewertung
-        # läuft ohnehin über den Volltext-Vergleich weiter unten nicht möglich
-        # (Sitemap enthält keinen Artikeltext) - siehe Hinweis in README zu
-        # dieser Einschränkung.
+        # Platzhalter aus der URL ab. Das schränkt die inhaltliche Keyword-
+        # Bewertung etwas ein (siehe Hinweis in README).
         slug = loc.rstrip("/").rsplit("/", 1)[-1].replace("-", " ")
         items.append({
             "quelle_id": source["id"],
@@ -320,13 +331,13 @@ def fetch_sitemap(source: dict) -> list[dict]:
             "text": slug,
             "url": loc,
             "datum": datum.isoformat(),
-            "datum_ist_naeherung": False,
+            "datum_ist_naeherung": datum_ist_naeherung,
         })
 
     print(
         f"[INFO]   {source['id']}: {len(alle_eintraege)} Sitemap-Einträge, "
         f"{anzahl_muster_verfehlt} durch url_pattern verworfen, "
-        f"{anzahl_kein_datum} ohne lastmod verworfen, {len(items)} übernommen."
+        f"{anzahl_naeherung} ohne lastmod (Näherung genutzt), {len(items)} übernommen."
     )
     return items
 
@@ -475,7 +486,7 @@ def main() -> None:
         elif source["type"] == "html_scan":
             alle_funde.extend(fetch_html_scan(source, state))
         elif source["type"] == "sitemap":
-            alle_funde.extend(fetch_sitemap(source))
+            alle_funde.extend(fetch_sitemap(source, state))
         else:
             print(f"[WARN] Unbekannter Quellentyp: {source['type']}", file=sys.stderr)
 
@@ -500,11 +511,24 @@ def main() -> None:
 
     print(f"[INFO] {len(bewertete_funde)} Treffer gegen Zusagen erkannt.")
 
-    # Log aller Treffer (append-only, für Nachvollziehbarkeit/Debugging)
+    # Log aller Treffer (append-only, für Nachvollziehbarkeit/Debugging).
+    # Deduplizierung: Sitemap-Quellen liefern bei jedem Lauf die komplette
+    # Historie seit MIN_DATUM erneut (nicht nur "was ist neu"), sonst würde
+    # das Log bei jedem Tageslauf dieselben Alt-Treffer erneut aufschreiben
+    # und unkontrolliert wachsen. Wir merken uns daher pro (URL, Zusage), ob
+    # der Treffer schon einmal geloggt wurde.
+    bereits_geloggt = state.setdefault("bereits_geloggt", {})
+    neue_log_eintraege = 0
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     with open(LOG_PATH, "a", encoding="utf-8") as f:
         for bf in bewertete_funde:
+            log_key = item_hash(bf["url"] + "|" + bf["zusage_id"])
+            if log_key in bereits_geloggt:
+                continue
+            bereits_geloggt[log_key] = True
+            neue_log_eintraege += 1
             f.write(json.dumps({**bf, "bewertet_am": datetime.now(timezone.utc).isoformat()}, ensure_ascii=False) + "\n")
+    print(f"[INFO] {neue_log_eintraege} neue Log-Einträge geschrieben (Rest bereits bekannt).")
 
     # Aggregation je Zusage
     ergebnis_zusagen = [aggregiere_ampel(z, bewertete_funde) for z in zusagen_cfg]
