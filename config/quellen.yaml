@@ -55,21 +55,37 @@ quellen:
     link_selector: "a"
 
   # --- NATO-Ebene ---
+  # url_pattern erkennt echte NATO-News-Artikel (nicht Themen-/Erklärseiten wie
+  # ".../introduction-to-nato/collective-defence-and-article-5", die dauerhaft
+  # existieren und kein Aktualitätsdatum tragen).
+  # url_date_regex liest das echte Veröffentlichungsdatum direkt aus der URL
+  # (NATO kodiert es dort: /news/2026/07/07/...), statt nur den Zeitpunkt
+  # des ersten Abrufs zu nähern.
   - id: nato_newsroom
     type: html_scan
     enabled: true
     url: "https://www.nato.int/cps/en/natohq/news.htm"
     link_selector: "a"
+    url_pattern: "/news-and-events/articles/news/\\d{4}/\\d{2}/\\d{2}/"
+    url_date_regex: "/news/(?P<y>\\d{4})/(?P<m>\\d{2})/(?P<d>\\d{2})/"
 
   # --- Bundesministerien ---
+  # url_pattern erkennt echte Pressemitteilungen (enden auf eine numerische ID,
+  # z.B. ".../verteidigungsministerin-stellt-neues-kommando-14672"), nicht
+  # Themenseiten wie ".../de/themen/verteidigungshaushalt".
   - id: bmvg_presse
     type: html_scan
     enabled: true
     url: "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg"
     link_selector: "a"
+    url_pattern: "/alle-pressetermine-pressemitteilungen-bmvg/.+-\\d+$"
 
+  # url_pattern erkennt echte Newsroom-Beiträge (enden auf numerische ID,
+  # z.B. ".../regierungspressekonferenz-2774814"), nicht die Übersichts-
+  # oder Navigationsseiten selbst.
   - id: auswaertiges_amt_presse
     type: html_scan
     enabled: true
     url: "https://www.auswaertiges-amt.de/de/newsroom"
     link_selector: "a"
+    url_pattern: "/de/newsroom/.+-\\d+$"
