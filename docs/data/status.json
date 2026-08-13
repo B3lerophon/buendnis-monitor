@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-08-13T13:22:45.296017+00:00",
+  "generiert_am": "2026-08-13T13:46:25.488635+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -30,7 +30,8 @@
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
-      ]
+      ],
+      "medienberichte": []
     },
     {
       "id": "nato_3_5_prozent",
@@ -51,7 +52,8 @@
           "quelle_id": "auswaertiges_amt_presse",
           "richtung": "unklar"
         }
-      ]
+      ],
+      "medienberichte": []
     },
     {
       "id": "sondervermoegen_bundeswehr",
@@ -63,7 +65,8 @@
       "letzte_aenderung_datum": null,
       "quelle_url": null,
       "aenderung": "keine_neue_information",
-      "historie": []
+      "historie": [],
+      "medienberichte": []
     },
     {
       "id": "ukraine_waffenlieferungen",
@@ -75,7 +78,16 @@
       "letzte_aenderung_datum": null,
       "quelle_url": null,
       "aenderung": "keine_neue_information",
-      "historie": []
+      "historie": [],
+      "medienberichte": [
+        {
+          "datum": "2026-08-11",
+          "datum_ist_naeherung": false,
+          "titel": "Ukraine: Wie kann Deutschland trotz \"Patriot\"-Mangel helfen?",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/patriots-ukraine-europa-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
+        }
+      ]
     },
     {
       "id": "eu_safe_rearm",
@@ -87,7 +99,8 @@
       "letzte_aenderung_datum": null,
       "quelle_url": null,
       "aenderung": "keine_neue_information",
-      "historie": []
+      "historie": [],
+      "medienberichte": []
     },
     {
       "id": "buendnisfall_bekenntnis",
@@ -116,7 +129,8 @@
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
-      ]
+      ],
+      "medienberichte": []
     }
   ]
 }
