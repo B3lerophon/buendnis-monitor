@@ -1,0 +1,75 @@
+# Definiert die Quellen, die täglich abgefragt werden.
+#
+# type: "dip_api"    -> Bundestag DIP-API (Drucksachen/Aktivitäten), liefert echtes Datum
+# type: "rss"        -> normaler RSS/Atom-Feed, liefert echtes Datum
+# type: "html_scan"  -> Seite ohne Feed: Links/Überschriften werden gescannt,
+#                        neue Einträge seit letztem Lauf werden erkannt.
+#                        WICHTIG: hier gibt es kein zuverlässiges Veröffentlichungsdatum,
+#                        das Skript nutzt daher das Datum des ersten Auftauchens
+#                        ("first_seen") als Näherung. Das wird im Dashboard so ausgewiesen.
+#
+# enabled: false      -> Quelle wird übersprungen (z.B. weil noch eine echte URL fehlt)
+#
+# Mindestdatum für alle Quellen: 2025-01-01 (siehe MIN_DATUM im Skript).
+# Einträge, die nachweislich älter sind, werden verworfen.
+
+quellen:
+  # --- Bundesebene: Bundestag DIP-API ---
+  # Öffentlicher, von der DIP-API-Doku bereitgestellter Test-Schlüssel.
+  # Für den Dauerbetrieb empfiehlt sich ein eigener Schlüssel:
+  # per Mail an parlamentsdokumentation@bundestag.de anfragen und in
+  # GitHub -> Settings -> Secrets and variables -> Actions als DIP_API_KEY hinterlegen.
+  - id: bundestag_drucksachen
+    type: dip_api
+    enabled: true
+    resource: drucksache
+    suchbegriffe:
+      - "NATO"
+      - "Bündnis"
+      - "Sondervermögen Bundeswehr"
+      - "Verteidigungsausgaben"
+      - "Ukraine-Hilfe"
+
+  - id: bundestag_plenarprotokolle
+    type: dip_api
+    enabled: true
+    resource: plenarprotokoll-text
+    suchbegriffe:
+      - "NATO"
+      - "Bündnisverpflichtung"
+      - "Sondervermögen"
+
+  # --- EU-Ebene ---
+  # EUR-Lex bietet nur personalisierte RSS-Feeds für angemeldete Nutzer
+  # (My EUR-Lex -> gespeicherte Suche -> "Create in My RSS feeds").
+  # Trag hier deine eigene Feed-URL ein und setze enabled auf true.
+  - id: eurlex_gespeicherte_suche
+    type: rss
+    enabled: false
+    url: "https://eur-lex.europa.eu/DE/display-feed.rss?myRssId=DEINE_ID_HIER"
+
+  - id: rat_der_eu_pressemitteilungen
+    type: html_scan
+    enabled: true
+    url: "https://www.consilium.europa.eu/en/press/press-releases/"
+    link_selector: "a"
+
+  # --- NATO-Ebene ---
+  - id: nato_newsroom
+    type: html_scan
+    enabled: true
+    url: "https://www.nato.int/cps/en/natohq/news.htm"
+    link_selector: "a"
+
+  # --- Bundesministerien ---
+  - id: bmvg_presse
+    type: html_scan
+    enabled: true
+    url: "https://www.bmvg.de/de/aktuelles/presse"
+    link_selector: "a"
+
+  - id: auswaertiges_amt_presse
+    type: html_scan
+    enabled: true
+    url: "https://www.auswaertiges-amt.de/de/newsroom"
+    link_selector: "a"

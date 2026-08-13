@@ -1,0 +1,116 @@
+{
+  "generiert_am": "2026-08-13T10:29:51.700409+00:00",
+  "min_datum_filter": "2025-01-01",
+  "lookback_tage": 120,
+  "hinweis": "BEISPIELDATEN zum Testen des Dashboards - werden beim ersten echten Lauf durch echte Ergebnisse ersetzt.",
+  "zusagen": [
+    {
+      "id": "nato_2_prozent",
+      "name": "NATO 2%-Ziel (Verteidigungsausgaben)",
+      "ebene": "NATO",
+      "beschreibung": "Zusage der NATO-Mitgliedstaaten, mindestens 2% des BIP für Verteidigung auszugeben (Wales-Gipfel 2014, seither wiederholt bekräftigt).",
+      "ampel": "gruen",
+      "begruendung": "Neuester relevanter Fund vom 2026-08-07: verstärkt / bestätigt. Bezug erkannt an: 2%-Ziel, Verteidigungsausgaben; bestätigende Formulierungen: bekräftigt, erhöht",
+      "letzte_aenderung_datum": "2026-08-07",
+      "quelle_url": "https://dserver.bundestag.de/beispiel-drucksache.pdf",
+      "aenderung": "verstärkt / bestätigt",
+      "historie": [
+        {
+          "datum": "2026-08-07",
+          "datum_ist_naeherung": false,
+          "titel": "Bundesregierung bekräftigt NATO 2%-Ziel und erhöht Verteidigungsausgaben",
+          "url": "https://dserver.bundestag.de/beispiel-drucksache.pdf",
+          "quelle_id": "bundestag_drucksachen",
+          "richtung": "verstaerkt"
+        }
+      ]
+    },
+    {
+      "id": "nato_3_5_prozent",
+      "name": "NATO 3,5%-Ziel (Gipfel Den Haag 2025)",
+      "ebene": "NATO",
+      "beschreibung": "Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025, Zielhorizont 2035.",
+      "ampel": "neutral",
+      "begruendung": "Keine aktuellen Funde (letzte 120 Tage, ab 2025-01-01) zu dieser Zusage.",
+      "letzte_aenderung_datum": null,
+      "quelle_url": null,
+      "aenderung": "keine_neue_information",
+      "historie": []
+    },
+    {
+      "id": "sondervermoegen_bundeswehr",
+      "name": "Sondervermögen Bundeswehr / Zeitenwende",
+      "ebene": "Bund",
+      "beschreibung": "2022 beschlossenes Sondervermögen (100 Mrd. €, seit 2025 durch Grundgesetzänderung faktisch unbegrenzte Verteidigungsausgaben außerhalb der Schuldenbremse). Tracking von Mittelabfluss und politischer Debatte darüber.",
+      "ampel": "rot",
+      "begruendung": "Neuester relevanter Fund vom 2026-08-11 (Datum genähert, kein echtes Veröffentlichungsdatum verfügbar): schwächt ab. Bezug erkannt an: Sondervermögen Bundeswehr; abschwächende Formulierungen: Beschaffungsstau, verzögert",
+      "letzte_aenderung_datum": "2026-08-11",
+      "quelle_url": "https://www.bmvg.de/de/aktuelles/presse/beispiel",
+      "aenderung": "schwächt ab",
+      "historie": [
+        {
+          "datum": "2026-08-11",
+          "datum_ist_naeherung": true,
+          "titel": "Kritik: Mittel aus Sondervermögen Bundeswehr weiterhin blockiert, Beschaffungsstau wächst",
+          "url": "https://www.bmvg.de/de/aktuelles/presse/beispiel",
+          "quelle_id": "bmvg_presse",
+          "richtung": "schwaecht_ab"
+        }
+      ]
+    },
+    {
+      "id": "ukraine_waffenlieferungen",
+      "name": "Rüstungslieferungen an die Ukraine",
+      "ebene": "Bund",
+      "beschreibung": "Zusagen der Bundesregierung zu Waffen-/Munitionslieferungen an die Ukraine, Abgleich Ankündigung vs. tatsächliche Lieferung.",
+      "ampel": "rot",
+      "begruendung": "Neuester relevanter Fund vom 2026-08-12 (Datum genähert, kein echtes Veröffentlichungsdatum verfügbar): schwächt ab. Bezug erkannt an: Waffenlieferung; abschwächende Formulierungen: ausgesetzt",
+      "letzte_aenderung_datum": "2026-08-12",
+      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/beispiel",
+      "aenderung": "schwächt ab",
+      "historie": [
+        {
+          "datum": "2026-08-12",
+          "datum_ist_naeherung": true,
+          "titel": "Ukraine-Hilfe: Waffenlieferung ausgesetzt nach Haushaltsstreit",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/beispiel",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "schwaecht_ab"
+        }
+      ]
+    },
+    {
+      "id": "eu_safe_rearm",
+      "name": "EU-Verteidigungsinitiative (SAFE / ReArm Europe) – deutsche Beteiligung",
+      "ebene": "EU",
+      "beschreibung": "EU-Programme zur gemeinsamen Verteidigungsfinanzierung/-beschaffung (SAFE-Verordnung, ReArm Europe / Readiness 2030) und die deutsche Beteiligung bzw. Positionierung dazu.",
+      "ampel": "neutral",
+      "begruendung": "Keine aktuellen Funde (letzte 120 Tage, ab 2025-01-01) zu dieser Zusage.",
+      "letzte_aenderung_datum": null,
+      "quelle_url": null,
+      "aenderung": "keine_neue_information",
+      "historie": []
+    },
+    {
+      "id": "buendnisfall_bekenntnis",
+      "name": "Bekenntnis zu Art. 5 NATO / Art. 42.7 EUV (Beistandsklausel)",
+      "ebene": "NATO",
+      "beschreibung": "Rhetorische/politische Bekräftigungen (oder Infragestellungen) der gegenseitigen Beistandsverpflichtung durch Regierungsvertreter.",
+      "ampel": "gruen",
+      "begruendung": "Neuester relevanter Fund vom 2026-07-24 (Datum genähert, kein echtes Veröffentlichungsdatum verfügbar): verstärkt / bestätigt. Bezug erkannt an: Article 5, collective defence; bestätigende Formulierungen: reaffirms",
+      "letzte_aenderung_datum": "2026-07-24",
+      "quelle_url": "https://www.nato.int/cps/en/natohq/news_beispiel.htm",
+      "aenderung": "verstärkt / bestätigt",
+      "historie": [
+        {
+          "datum": "2026-07-24",
+          "datum_ist_naeherung": true,
+          "titel": "NATO Secretary General reaffirms Article 5 collective defence commitment",
+          "url": "https://www.nato.int/cps/en/natohq/news_beispiel.htm",
+          "quelle_id": "nato_newsroom",
+          "richtung": "verstaerkt"
+        }
+      ]
+    }
+  ]
+}

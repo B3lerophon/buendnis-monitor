@@ -1,0 +1,199 @@
+# Definiert die politischen Zusagen/Bündnisverpflichtungen, die das System trackt.
+#
+# Jede Zusage hat:
+#   id                 eindeutiger Schlüssel (wird im Dashboard als URL-Anker genutzt)
+#   name               Anzeigename
+#   ebene              NATO | EU | Bund
+#   beschreibung       kurzer Kontext, damit die Einordnung nachvollziehbar bleibt
+#   keywords_kontext    Begriffe, die einen Text überhaupt erst als "betrifft diese Zusage" markieren
+#   keywords_positiv    Begriffe, die auf Bestätigung/Einhaltung/Ausweitung hindeuten -> stärkt die Zusage
+#   keywords_negativ    Begriffe, die auf Rückzug/Verzögerung/Aufweichung hindeuten -> schwächt die Zusage
+#
+# Die Keyword-Listen sind Startpunkte. Sie sollten mit der Zeit verfeinert werden,
+# je nachdem welche Formulierungen in den echten Quellen auftauchen (Log in
+# docs/data/status.json unter "historie" prüfen und Begriffe ergänzen).
+
+zusagen:
+  - id: nato_2_prozent
+    name: "NATO 2%-Ziel (Verteidigungsausgaben)"
+    ebene: NATO
+    beschreibung: >
+      Zusage der NATO-Mitgliedstaaten, mindestens 2% des BIP für Verteidigung
+      auszugeben (Wales-Gipfel 2014, seither wiederholt bekräftigt).
+    keywords_kontext:
+      - "2 Prozent"
+      - "2%-Ziel"
+      - "2 % des BIP"
+      - "two percent"
+      - "2% of GDP"
+      - "Verteidigungsausgaben"
+      - "defence spending"
+      - "Wehretat"
+    keywords_positiv:
+      - "erreicht"
+      - "übertroffen"
+      - "eingehalten"
+      - "bekräftigt"
+      - "erhöht"
+      - "aufgestockt"
+      - "exceeded"
+      - "achieved"
+    keywords_negativ:
+      - "verfehlt"
+      - "gekürzt"
+      - "verzögert"
+      - "ausgesetzt"
+      - "in Frage gestellt"
+      - "infrage gestellt"
+      - "gesenkt"
+      - "shortfall"
+      - "cut"
+
+  - id: nato_3_5_prozent
+    name: "NATO 3,5%-Ziel (Gipfel Den Haag 2025)"
+    ebene: NATO
+    beschreibung: >
+      Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere
+      Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025,
+      Zielhorizont 2035.
+    keywords_kontext:
+      - "3,5 Prozent"
+      - "3.5%"
+      - "5-Prozent-Ziel"
+      - "5%-Ziel"
+      - "Den Haag"
+      - "The Hague summit"
+      - "2035"
+    keywords_positiv:
+      - "bekräftigt"
+      - "Fahrplan"
+      - "Umsetzungsplan"
+      - "auf Kurs"
+      - "on track"
+      - "beschlossen"
+    keywords_negativ:
+      - "verzögert"
+      - "unrealistisch"
+      - "in Frage gestellt"
+      - "infrage gestellt"
+      - "aufgeweicht"
+      - "abgeschwächt"
+      - "watered down"
+
+  - id: sondervermoegen_bundeswehr
+    name: "Sondervermögen Bundeswehr / Zeitenwende"
+    ebene: Bund
+    beschreibung: >
+      2022 beschlossenes Sondervermögen (100 Mrd. €, seit 2025 durch
+      Grundgesetzänderung faktisch unbegrenzte Verteidigungsausgaben
+      außerhalb der Schuldenbremse). Tracking von Mittelabfluss und
+      politischer Debatte darüber.
+    keywords_kontext:
+      - "Sondervermögen Bundeswehr"
+      - "Zeitenwende"
+      - "Schuldenbremse"
+      - "Verteidigungshaushalt"
+      - "Wehretat"
+    keywords_positiv:
+      - "freigegeben"
+      - "abgeflossen"
+      - "bewilligt"
+      - "aufgestockt"
+      - "Mittel fließen"
+      - "Beschaffung genehmigt"
+    keywords_negativ:
+      - "verzögert"
+      - "blockiert"
+      - "gekürzt"
+      - "Streit"
+      - "Verzug"
+      - "nicht abgerufen"
+      - "Beschaffungsstau"
+
+  - id: ukraine_waffenlieferungen
+    name: "Rüstungslieferungen an die Ukraine"
+    ebene: Bund
+    beschreibung: >
+      Zusagen der Bundesregierung zu Waffen-/Munitionslieferungen an die
+      Ukraine, Abgleich Ankündigung vs. tatsächliche Lieferung.
+    keywords_kontext:
+      - "Ukraine-Hilfe"
+      - "Waffenlieferung"
+      - "Rüstungslieferung"
+      - "Taurus"
+      - "Patriot"
+      - "Munitionslieferung"
+      - "military aid to Ukraine"
+    keywords_positiv:
+      - "geliefert"
+      - "übergeben"
+      - "zugesagt"
+      - "ausgeweitet"
+      - "aufgestockt"
+      - "delivered"
+    keywords_negativ:
+      - "verzögert"
+      - "gestoppt"
+      - "ausgesetzt"
+      - "zurückgehalten"
+      - "abgelehnt"
+      - "gekürzt"
+      - "withheld"
+      - "blocked"
+
+  - id: eu_safe_rearm
+    name: "EU-Verteidigungsinitiative (SAFE / ReArm Europe) – deutsche Beteiligung"
+    ebene: EU
+    beschreibung: >
+      EU-Programme zur gemeinsamen Verteidigungsfinanzierung/-beschaffung
+      (SAFE-Verordnung, ReArm Europe / Readiness 2030) und die deutsche
+      Beteiligung bzw. Positionierung dazu.
+    keywords_kontext:
+      - "SAFE-Verordnung"
+      - "ReArm Europe"
+      - "Readiness 2030"
+      - "EU-Verteidigungsfonds"
+      - "European defence fund"
+    keywords_positiv:
+      - "beteiligt sich"
+      - "unterzeichnet"
+      - "zugestimmt"
+      - "ausgeweitet"
+      - "beigetreten"
+    keywords_negativ:
+      - "lehnt ab"
+      - "blockiert"
+      - "Vorbehalte"
+      - "Widerstand"
+      - "verzögert"
+      - "kritisiert"
+
+  - id: buendnisfall_bekenntnis
+    name: "Bekenntnis zu Art. 5 NATO / Art. 42.7 EUV (Beistandsklausel)"
+    ebene: NATO
+    beschreibung: >
+      Rhetorische/politische Bekräftigungen (oder Infragestellungen) der
+      gegenseitigen Beistandsverpflichtung durch Regierungsvertreter.
+    keywords_kontext:
+      - "Artikel 5"
+      - "Article 5"
+      - "Bündnisfall"
+      - "Beistandsklausel"
+      - "Art. 42.7"
+      - "collective defence"
+      - "kollektive Verteidigung"
+    keywords_positiv:
+      - "bekräftigt"
+      - "bekennt sich"
+      - "steht zu"
+      - "unmissverständlich"
+      - "reaffirms"
+      - "committed to"
+    keywords_negativ:
+      - "in Frage gestellt"
+      - "infrage gestellt"
+      - "Zweifel"
+      - "unklar"
+      - "relativiert"
+      - "questioned"
+      - "doubts"

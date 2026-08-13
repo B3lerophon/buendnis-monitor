@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bündnisverpflichtungs-Monitor</title>
+<style>
+  :root{
+    --paper: #E9E7DF;
+    --paper-raised: #F4F2EA;
+    --ink: #1E2A33;
+    --ink-soft: #4B5860;
+    --rule: #C9C5B7;
+    --rot: #A63A31;
+    --rot-bg: #F3DFDB;
+    --gelb: #B9821F;
+    --gelb-bg: #F3E7CE;
+    --gruen: #3C7A5B;
+    --gruen-bg: #DCE9E0;
+    --grau: #7C7F76;
+    --grau-bg: #E4E2D9;
+    --serif: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    --mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+    --sans: -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--sans);
+    line-height:1.5;
+  }
+  header{
+    max-width:920px;
+    margin:0 auto;
+    padding:56px 24px 32px;
+    border-bottom:1px solid var(--rule);
+  }
+  .eyebrow{
+    font-family:var(--mono);
+    font-size:12px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+  }
+  h1{
+    font-family:var(--serif);
+    font-weight:600;
+    font-size:clamp(28px,4vw,42px);
+    margin:8px 0 12px;
+    letter-spacing:-0.01em;
+  }
+  .lede{
+    max-width:640px;
+    color:var(--ink-soft);
+    font-size:15.5px;
+  }
+  .meta{
+    margin-top:20px;
+    display:flex;
+    gap:24px;
+    flex-wrap:wrap;
+    font-family:var(--mono);
+    font-size:12.5px;
+    color:var(--ink-soft);
+  }
+  .meta b{color:var(--ink);}
+  .legend{
+    display:flex;
+    gap:18px;
+    margin-top:22px;
+    flex-wrap:wrap;
+  }
+  .legend-item{
+    display:flex;
+    align-items:center;
+    gap:7px;
+    font-family:var(--mono);
+    font-size:12px;
+    color:var(--ink-soft);
+  }
+  .dot{width:9px;height:9px;border-radius:50%;flex:none;}
+  .dot.rot{background:var(--rot);}
+  .dot.gelb{background:var(--gelb);}
+  .dot.gruen{background:var(--gruen);}
+  .dot.neutral{background:var(--grau);}
+
+  main{max-width:920px;margin:0 auto;padding:36px 24px 100px;}
+  section.ebene{margin-bottom:44px;}
+  .ebene-titel{
+    font-family:var(--mono);
+    font-size:12px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin-bottom:14px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .ebene-titel::after{
+    content:"";
+    flex:1;
+    height:1px;
+    background:var(--rule);
+  }
+
+  .karte{
+    background:var(--paper-raised);
+    border:1px solid var(--rule);
+    border-radius:3px;
+    padding:20px 22px;
+    margin-bottom:14px;
+    cursor:pointer;
+    transition:box-shadow .15s ease;
+  }
+  .karte:hover{box-shadow:0 2px 10px rgba(30,42,51,0.08);}
+  .karte-kopf{
+    display:flex;
+    align-items:flex-start;
+    gap:16px;
+  }
+  .stempel{
+    flex:none;
+    width:46px;
+    height:46px;
+    border-radius:50%;
+    border:2.5px solid currentColor;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:var(--mono);
+    font-size:9.5px;
+    font-weight:700;
+    letter-spacing:.04em;
+    text-transform:uppercase;
+    transform:rotate(-3deg);
+    text-align:center;
+    line-height:1.15;
+  }
+  .stempel.rot{color:var(--rot); background:var(--rot-bg);}
+  .stempel.gelb{color:var(--gelb); background:var(--gelb-bg);}
+  .stempel.gruen{color:var(--gruen); background:var(--gruen-bg);}
+  .stempel.neutral{color:var(--grau); background:var(--grau-bg);}
+
+  .karte-titel{
+    font-family:var(--serif);
+    font-size:19px;
+    font-weight:600;
+    margin:0 0 4px;
+  }
+  .karte-begruendung{
+    font-size:14px;
+    color:var(--ink-soft);
+    margin:0;
+  }
+  .karte-datum{
+    font-family:var(--mono);
+    font-size:11.5px;
+    color:var(--ink-soft);
+    margin-top:8px;
+  }
+
+  .details{
+    display:none;
+    margin-top:18px;
+    padding-top:16px;
+    border-top:1px dashed var(--rule);
+  }
+  .karte.offen .details{display:block;}
+  .beschreibung{
+    font-size:13.5px;
+    color:var(--ink-soft);
+    margin-bottom:14px;
+  }
+  .historie-titel{
+    font-family:var(--mono);
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--ink-soft);
+    margin-bottom:8px;
+  }
+  .historie-eintrag{
+    display:flex;
+    gap:10px;
+    align-items:baseline;
+    padding:6px 0;
+    border-bottom:1px solid var(--rule);
+    font-size:13.5px;
+  }
+  .historie-eintrag:last-child{border-bottom:none;}
+  .historie-datum{
+    font-family:var(--mono);
+    font-size:11.5px;
+    color:var(--ink-soft);
+    flex:none;
+    width:78px;
+  }
+  .historie-link{
+    color:var(--ink);
+    text-decoration:none;
+    border-bottom:1px solid var(--rule);
+  }
+  .historie-link:hover{border-bottom-color:var(--ink);}
+  .naeherung{
+    font-size:10.5px;
+    color:var(--ink-soft);
+    font-style:italic;
+  }
+
+  footer{
+    max-width:920px;
+    margin:0 auto;
+    padding:24px;
+    font-family:var(--mono);
+    font-size:11.5px;
+    color:var(--ink-soft);
+    border-top:1px solid var(--rule);
+  }
+  .fehler{
+    max-width:920px;
+    margin:60px auto;
+    padding:0 24px;
+    color:var(--rot);
+    font-family:var(--mono);
+    font-size:13px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Themen-Monitoring · nicht-öffentliche Prüfversion</div>
+  <h1>Bündnisverpflichtungs-Monitor</h1>
+  <p class="lede">
+    Verfolgt politische Zusagen Deutschlands auf NATO-, EU- und Bundesebene und
+    bewertet, ob aktuelle Entwicklungen sie bestätigen, aufweichen oder offen lassen.
+    Jede Ampel verlinkt auf die Originalquelle — keine Bewertung ohne Beleg.
+  </p>
+  <div class="meta" id="meta"></div>
+  <div class="legend">
+    <div class="legend-item"><span class="dot gruen"></span>Grün — bestätigt / eingehalten</div>
+    <div class="legend-item"><span class="dot gelb"></span>Gelb — unklar / in der Schwebe</div>
+    <div class="legend-item"><span class="dot rot"></span>Rot — abgeschwächt / verzögert</div>
+    <div class="legend-item"><span class="dot neutral"></span>Grau — keine aktuellen Infos</div>
+  </div>
+</header>
+
+<main id="main">
+  <p style="font-family:var(--mono);font-size:13px;color:var(--ink-soft);">Lade Daten …</p>
+</main>
+
+<footer>
+  Regelbasierte Ersteinschätzung (Keyword-Abgleich), keine juristische oder abschließende
+  Bewertung. Quellcode &amp; Bewertungskriterien: siehe Repository.
+</footer>
+
+<script>
+const AMPEL_LABEL = { rot: "Rot", gelb: "Gelb", gruen: "Grün", neutral: "Grau" };
+const EBENEN_REIHENFOLGE = ["NATO", "EU", "Bund"];
+
+function formatDatum(iso) {
+  if (!iso) return "–";
+  const d = new Date(iso + "T00:00:00");
+  return d.toLocaleDateString("de-DE", { day: "2-digit", month: "2-digit", year: "numeric" });
+}
+
+function karteHTML(z) {
+  const naeherungHinweis = z.historie[0]?.datum_ist_naeherung
+    ? '<div class="naeherung">Datum genähert (kein Originaldatum verfügbar)</div>' : "";
+
+  const historieHTML = z.historie.length
+    ? z.historie.map(h => `
+        <div class="historie-eintrag">
+          <span class="historie-datum">${formatDatum(h.datum)}${h.datum_ist_naeherung ? "*" : ""}</span>
+          <a class="historie-link" href="${h.url}" target="_blank" rel="noopener">${h.titel}</a>
+        </div>`).join("")
+    : '<div class="historie-eintrag" style="color:var(--ink-soft)">Keine Einzelfunde im Beobachtungszeitraum.</div>';
+
+  return `
+    <div class="karte" data-id="${z.id}">
+      <div class="karte-kopf">
+        <div class="stempel ${z.ampel}">${AMPEL_LABEL[z.ampel]}</div>
+        <div>
+          <p class="karte-titel">${z.name}</p>
+          <p class="karte-begruendung">${z.begruendung}</p>
+          <div class="karte-datum">Stand: ${formatDatum(z.letzte_aenderung_datum)} ${naeherungHinweis}</div>
+        </div>
+      </div>
+      <div class="details">
+        <div class="beschreibung">${z.beschreibung}</div>
+        <div class="historie-titel">Zugrundeliegende Funde</div>
+        ${historieHTML}
+      </div>
+    </div>`;
+}
+
+async function laden() {
+  const main = document.getElementById("main");
+  try {
+    const resp = await fetch("data/status.json?_=" + Date.now());
+    if (!resp.ok) throw new Error("status.json nicht erreichbar (" + resp.status + ")");
+    const data = await resp.json();
+
+    document.getElementById("meta").innerHTML = `
+      <span>Zuletzt geprüft: <b>${new Date(data.generiert_am).toLocaleString("de-DE")}</b></span>
+      <span>Berücksichtigt ab: <b>${formatDatum(data.min_datum_filter)}</b></span>
+      <span>Beobachtungsfenster: <b>${data.lookback_tage} Tage</b></span>
+      ${data.hinweis ? `<span style="color:var(--gelb)">${data.hinweis}</span>` : ""}
+    `;
+
+    const gruppen = {};
+    for (const z of data.zusagen) {
+      (gruppen[z.ebene] = gruppen[z.ebene] || []).push(z);
+    }
+
+    let html = "";
+    for (const ebene of EBENEN_REIHENFOLGE) {
+      if (!gruppen[ebene]) continue;
+      html += `<section class="ebene">
+        <div class="ebene-titel">${ebene}-Ebene</div>
+        ${gruppen[ebene].map(karteHTML).join("")}
+      </section>`;
+    }
+    main.innerHTML = html;
+
+    main.querySelectorAll(".karte").forEach(k => {
+      k.addEventListener("click", () => k.classList.toggle("offen"));
+    });
+
+  } catch (err) {
+    main.innerHTML = `<div class="fehler">Fehler beim Laden der Daten: ${err.message}</div>`;
+  }
+}
+
+laden();
+</script>
+</body>
+</html>
