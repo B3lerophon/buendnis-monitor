@@ -86,6 +86,28 @@
   .dot.gruen{background:var(--gruen);}
   .dot.neutral{background:var(--grau);}
 
+  .tabs{
+    display:flex;
+    gap:4px;
+    margin-top:28px;
+    border-bottom:1px solid var(--rule);
+  }
+  .tab{
+    font-family:var(--mono);
+    font-size:12.5px;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    background:none;
+    border:none;
+    padding:10px 16px;
+    cursor:pointer;
+    border-bottom:2px solid transparent;
+    margin-bottom:-1px;
+  }
+  .tab:hover{color:var(--ink);}
+  .tab.aktiv{color:var(--ink); border-bottom-color:var(--ink); font-weight:600;}
+
   main{max-width:920px;margin:0 auto;padding:36px 24px 100px;}
   section.ebene{margin-bottom:44px;}
   .ebene-titel{
@@ -227,6 +249,53 @@
     font-family:var(--mono);
     font-size:13px;
   }
+
+  .medien-eintrag{
+    background:var(--paper-raised);
+    border:1px solid var(--rule);
+    border-radius:3px;
+    padding:16px 20px;
+    margin-bottom:10px;
+    display:flex;
+    gap:16px;
+    align-items:baseline;
+  }
+  .medien-datum{
+    font-family:var(--mono);
+    font-size:11.5px;
+    color:var(--ink-soft);
+    flex:none;
+    width:78px;
+  }
+  .medien-inhalt{flex:1;}
+  .medien-titel{
+    font-family:var(--serif);
+    font-size:16px;
+    font-weight:600;
+    margin:0 0 4px;
+  }
+  .medien-titel a{color:var(--ink); text-decoration:none;}
+  .medien-titel a:hover{text-decoration:underline;}
+  .medien-meta{
+    font-family:var(--mono);
+    font-size:11px;
+    color:var(--ink-soft);
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+  }
+  .medien-zusage-tag{
+    background:var(--grau-bg);
+    color:var(--ink-soft);
+    padding:2px 8px;
+    border-radius:2px;
+  }
+  .leer-hinweis{
+    font-family:var(--mono);
+    font-size:13px;
+    color:var(--ink-soft);
+    padding:20px 0;
+  }
 </style>
 </head>
 <body>
@@ -246,15 +315,25 @@
     <div class="legend-item"><span class="dot rot"></span>Rot — abgeschwächt / verzögert</div>
     <div class="legend-item"><span class="dot neutral"></span>Grau — keine aktuellen Infos</div>
   </div>
+  <div class="tabs">
+    <button class="tab aktiv" data-tab="offiziell">Politik offiziell</button>
+    <button class="tab" data-tab="nachrichten">Nachrichten</button>
+  </div>
 </header>
 
-<main id="main">
+<main id="main-offiziell">
   <p style="font-family:var(--mono);font-size:13px;color:var(--ink-soft);">Lade Daten …</p>
+</main>
+
+<main id="main-nachrichten" style="display:none;">
 </main>
 
 <footer>
   Regelbasierte Ersteinschätzung (Keyword-Abgleich), keine juristische oder abschließende
-  Bewertung. Quellcode &amp; Bewertungskriterien: siehe Repository.
+  Bewertung. Die Ampel im Reiter "Politik offiziell" basiert ausschließlich auf offiziellen
+  Quellen (Regierung, Parlament, NATO, EU). Der Reiter "Nachrichten" zeigt mediale
+  Berichterstattung zu denselben Themen rein informativ — sie fließt nicht in die Ampel ein.
+  Quellcode &amp; Bewertungskriterien: siehe Repository.
 </footer>
 
 <script>
@@ -297,8 +376,24 @@ function karteHTML(z) {
     </div>`;
 }
 
+function medienEintragHTML(m) {
+  const naeherung = m.datum_ist_naeherung ? "*" : "";
+  return `
+    <div class="medien-eintrag">
+      <span class="medien-datum">${formatDatum(m.datum)}${naeherung}</span>
+      <div class="medien-inhalt">
+        <p class="medien-titel"><a href="${m.url}" target="_blank" rel="noopener">${m.titel}</a></p>
+        <div class="medien-meta">
+          <span class="medien-zusage-tag">${m.zusageName}</span>
+          <span>${m.quelle_id}</span>
+        </div>
+      </div>
+    </div>`;
+}
+
 async function laden() {
-  const main = document.getElementById("main");
+  const mainOffiziell = document.getElementById("main-offiziell");
+  const mainNachrichten = document.getElementById("main-nachrichten");
   try {
     const resp = await fetch("data/status.json?_=" + Date.now());
     if (!resp.ok) throw new Error("status.json nicht erreichbar (" + resp.status + ")");
@@ -311,11 +406,11 @@ async function laden() {
       ${data.hinweis ? `<span style="color:var(--gelb)">${data.hinweis}</span>` : ""}
     `;
 
+    // --- Reiter "Politik offiziell" ---
     const gruppen = {};
     for (const z of data.zusagen) {
       (gruppen[z.ebene] = gruppen[z.ebene] || []).push(z);
     }
-
     let html = "";
     for (const ebene of EBENEN_REIHENFOLGE) {
       if (!gruppen[ebene]) continue;
@@ -324,16 +419,38 @@ async function laden() {
         ${gruppen[ebene].map(karteHTML).join("")}
       </section>`;
     }
-    main.innerHTML = html;
-
-    main.querySelectorAll(".karte").forEach(k => {
+    mainOffiziell.innerHTML = html;
+    mainOffiziell.querySelectorAll(".karte").forEach(k => {
       k.addEventListener("click", () => k.classList.toggle("offen"));
     });
 
+    // --- Reiter "Nachrichten" ---
+    const alleMedien = [];
+    for (const z of data.zusagen) {
+      for (const m of (z.medienberichte || [])) {
+        alleMedien.push({ ...m, zusageName: z.name });
+      }
+    }
+    alleMedien.sort((a, b) => (a.datum < b.datum ? 1 : -1));
+
+    mainNachrichten.innerHTML = alleMedien.length
+      ? alleMedien.map(medienEintragHTML).join("")
+      : '<p class="leer-hinweis">Noch keine passenden Medienberichte im Beobachtungsfenster gefunden.</p>';
+
   } catch (err) {
-    main.innerHTML = `<div class="fehler">Fehler beim Laden der Daten: ${err.message}</div>`;
+    mainOffiziell.innerHTML = `<div class="fehler">Fehler beim Laden der Daten: ${err.message}</div>`;
   }
 }
+
+document.querySelectorAll(".tab").forEach(tab => {
+  tab.addEventListener("click", () => {
+    document.querySelectorAll(".tab").forEach(t => t.classList.remove("aktiv"));
+    tab.classList.add("aktiv");
+    const ziel = tab.dataset.tab;
+    document.getElementById("main-offiziell").style.display = ziel === "offiziell" ? "" : "none";
+    document.getElementById("main-nachrichten").style.display = ziel === "nachrichten" ? "" : "none";
+  });
+});
 
 laden();
 </script>
