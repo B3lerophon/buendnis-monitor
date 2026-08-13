@@ -1,0 +1,44 @@
+name: Bündnisverpflichtungs-Monitor
+
+on:
+  schedule:
+    # täglich um 06:00 UTC (= 07:00/08:00 MEZ/MESZ)
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}   # erlaubt manuellen Start über den "Run workflow"-Button
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhängigkeiten installieren
+        run: pip install -r requirements.txt
+
+      - name: Quellen abrufen und bewerten
+        env:
+          # Optional: eigenen DIP-API-Key als Repo-Secret "DIP_API_KEY" hinterlegen,
+          # sonst wird automatisch der öffentliche Test-Key genutzt.
+          DIP_API_KEY: ${{ secrets.DIP_API_KEY }}
+        run: python scripts/fetch_and_assess.py
+
+      - name: Ergebnis committen, falls geändert
+        run: |
+          git config user.name "buendnis-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data/status.json docs/data/state.json docs/data/log.jsonl
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "Automatisches Update: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
