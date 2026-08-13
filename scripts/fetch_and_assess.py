@@ -465,6 +465,33 @@ def aggregiere_ampel(zusage: dict, bewertete_funde: list[dict]) -> dict:
     }
 
 
+def sammle_medienberichte(zusage: dict, bewertete_nachrichten: list[dict], max_eintraege: int = 15) -> list[dict]:
+    """
+    Rein informative Liste von Medienberichten zu einer Zusage - beeinflusst
+    KEINE Ampelfarbe (die basiert ausschließlich auf offiziellen Quellen,
+    siehe aggregiere_ampel). Dient nur der Einordnung im "Nachrichten"-Reiter
+    des Dashboards.
+    """
+    heute = datetime.now(timezone.utc).date()
+    relevante = [
+        f for f in bewertete_nachrichten
+        if f["zusage_id"] == zusage["id"]
+        and f["datum"] is not None
+        and (heute - date.fromisoformat(f["datum"])).days <= LOOKBACK_TAGE_FUER_AMPEL
+    ]
+    relevante.sort(key=lambda f: f["datum"], reverse=True)
+    return [
+        {
+            "datum": f["datum"],
+            "datum_ist_naeherung": f.get("datum_ist_naeherung", False),
+            "titel": f["titel"],
+            "url": f["url"],
+            "quelle_id": f["quelle_id"],
+        }
+        for f in relevante[:max_eintraege]
+    ]
+
+
 # ---------------------------------------------------------------------------
 # Hauptprogramm
 # ---------------------------------------------------------------------------
@@ -478,17 +505,26 @@ def main() -> None:
     for source in quellen_cfg:
         if not source.get("enabled", True):
             continue
-        print(f"[INFO] Rufe Quelle ab: {source['id']} ({source['type']})")
+        print(f"[INFO] Rufe Quelle ab: {source['id']} ({source['type']}, Kategorie: {source.get('kategorie', 'offiziell')})")
         if source["type"] == "dip_api":
-            alle_funde.extend(fetch_dip_api(source))
+            neue_funde = fetch_dip_api(source)
         elif source["type"] == "rss":
-            alle_funde.extend(fetch_rss(source))
+            neue_funde = fetch_rss(source)
         elif source["type"] == "html_scan":
-            alle_funde.extend(fetch_html_scan(source, state))
+            neue_funde = fetch_html_scan(source, state)
         elif source["type"] == "sitemap":
-            alle_funde.extend(fetch_sitemap(source, state))
+            neue_funde = fetch_sitemap(source, state)
         else:
             print(f"[WARN] Unbekannter Quellentyp: {source['type']}", file=sys.stderr)
+            neue_funde = []
+
+        # Kategorie an jeden Fund anhängen, damit wir später trennen können:
+        # "offiziell" bestimmt die Ampel, "nachrichten" ist nur Kontext im
+        # separaten Dashboard-Reiter und beeinflusst keine Farbe.
+        kategorie = source.get("kategorie", "offiziell")
+        for f in neue_funde:
+            f["kategorie"] = kategorie
+        alle_funde.extend(neue_funde)
 
     # Harte Datumsgrenze: alles vor MIN_DATUM raus (fehlendes Datum bleibt drin,
     # wird aber im Frontend als "Datum unsicher" markiert statt verworfen)
@@ -502,14 +538,19 @@ def main() -> None:
 
     print(f"[INFO] {len(alle_funde)} Funde insgesamt, {len(gefiltert)} nach Datumsfilter (>= {MIN_DATUM}).")
 
-    # Bewertung gegen Zusagen
+    # Bewertung gegen Zusagen (beide Kategorien laufen durch dieselbe Logik,
+    # werden aber getrennt weiterverarbeitet)
     bewertete_funde = []
     for item in gefiltert:
         treffer = assess_item(item, zusagen_cfg)
         for t in treffer:
             bewertete_funde.append({**item, **t})
 
-    print(f"[INFO] {len(bewertete_funde)} Treffer gegen Zusagen erkannt.")
+    bewertete_offiziell = [f for f in bewertete_funde if f["kategorie"] == "offiziell"]
+    bewertete_nachrichten = [f for f in bewertete_funde if f["kategorie"] == "nachrichten"]
+
+    print(f"[INFO] {len(bewertete_funde)} Treffer gegen Zusagen erkannt "
+          f"({len(bewertete_offiziell)} offiziell, {len(bewertete_nachrichten)} Nachrichten).")
 
     # Log aller Treffer (append-only, für Nachvollziehbarkeit/Debugging).
     # Deduplizierung: Sitemap-Quellen liefern bei jedem Lauf die komplette
@@ -530,8 +571,13 @@ def main() -> None:
             f.write(json.dumps({**bf, "bewertet_am": datetime.now(timezone.utc).isoformat()}, ensure_ascii=False) + "\n")
     print(f"[INFO] {neue_log_eintraege} neue Log-Einträge geschrieben (Rest bereits bekannt).")
 
-    # Aggregation je Zusage
-    ergebnis_zusagen = [aggregiere_ampel(z, bewertete_funde) for z in zusagen_cfg]
+    # Aggregation je Zusage - Ampel basiert NUR auf offiziellen Quellen,
+    # Medienberichte werden separat angehängt (rein informativ)
+    ergebnis_zusagen = []
+    for z in zusagen_cfg:
+        eintrag = aggregiere_ampel(z, bewertete_offiziell)
+        eintrag["medienberichte"] = sammle_medienberichte(z, bewertete_nachrichten)
+        ergebnis_zusagen.append(eintrag)
 
     output = {
         "generiert_am": datetime.now(timezone.utc).isoformat(),
