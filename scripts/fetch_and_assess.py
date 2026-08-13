@@ -22,6 +22,7 @@ import json
 import os
 import re
 import sys
+import gzip
 import hashlib
 from datetime import datetime, timezone, date
 from pathlib import Path
@@ -260,6 +261,77 @@ def fetch_html_scan(source: dict, state: dict) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
+# Abruf: XML-Sitemap (statisch, kein JavaScript nötig, oft mit echtem Datum)
+# ---------------------------------------------------------------------------
+
+def fetch_sitemap(source: dict) -> list[dict]:
+    """
+    Manche Seiten (v.a. mit JavaScript-basierter Artikel-Übersicht, wo ein
+    einfacher HTML-Scan nichts findet, weil die Liste erst nachträglich per
+    Skript geladen wird) veröffentlichen trotzdem eine klassische, statische
+    sitemap.xml mit allen URLs und deren Änderungsdatum (<lastmod>). Das ist
+    zuverlässiger als HTML-Scraping und liefert ein echtes Datum statt einer
+    Näherung.
+    """
+    items = []
+    url = source["url"]
+    try:
+        resp = session.get(url, timeout=30)
+        resp.raise_for_status()
+        content = resp.content
+        if url.endswith(".gz") or content[:2] == b"\x1f\x8b":
+            content = gzip.decompress(content)
+    except Exception as exc:
+        print(f"[WARN] Sitemap-Fehler ({source['id']}): {exc}", file=sys.stderr)
+        return items
+
+    soup = BeautifulSoup(content, "xml")
+    url_pattern = re.compile(source["url_pattern"]) if source.get("url_pattern") else None
+
+    alle_eintraege = soup.find_all("url")
+    anzahl_muster_verfehlt = 0
+    anzahl_kein_datum = 0
+
+    for entry in alle_eintraege:
+        loc_tag = entry.find("loc")
+        if not loc_tag or not loc_tag.text:
+            continue
+        loc = loc_tag.text.strip()
+
+        if url_pattern and not url_pattern.search(loc):
+            anzahl_muster_verfehlt += 1
+            continue
+
+        lastmod_tag = entry.find("lastmod")
+        datum = parse_date_safe(lastmod_tag.text.strip()) if lastmod_tag else None
+        if not datum:
+            anzahl_kein_datum += 1
+            continue  # ohne Datum können wir den MIN_DATUM-Filter nicht anwenden -> auslassen
+
+        # Titel gibt es in einer Sitemap nicht - wir leiten einen lesbaren
+        # Platzhalter aus der URL ab; die eigentliche inhaltliche Bewertung
+        # läuft ohnehin über den Volltext-Vergleich weiter unten nicht möglich
+        # (Sitemap enthält keinen Artikeltext) - siehe Hinweis in README zu
+        # dieser Einschränkung.
+        slug = loc.rstrip("/").rsplit("/", 1)[-1].replace("-", " ")
+        items.append({
+            "quelle_id": source["id"],
+            "titel": slug,
+            "text": slug,
+            "url": loc,
+            "datum": datum.isoformat(),
+            "datum_ist_naeherung": False,
+        })
+
+    print(
+        f"[INFO]   {source['id']}: {len(alle_eintraege)} Sitemap-Einträge, "
+        f"{anzahl_muster_verfehlt} durch url_pattern verworfen, "
+        f"{anzahl_kein_datum} ohne lastmod verworfen, {len(items)} übernommen."
+    )
+    return items
+
+
+# ---------------------------------------------------------------------------
 # Bewertung gegen Zusagen
 # ---------------------------------------------------------------------------
 
@@ -402,6 +474,8 @@ def main() -> None:
             alle_funde.extend(fetch_rss(source))
         elif source["type"] == "html_scan":
             alle_funde.extend(fetch_html_scan(source, state))
+        elif source["type"] == "sitemap":
+            alle_funde.extend(fetch_sitemap(source))
         else:
             print(f"[WARN] Unbekannter Quellentyp: {source['type']}", file=sys.stderr)
 
