@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-08-13T11:54:08.635098+00:00",
+  "generiert_am": "2026-08-13T11:55:52.325378+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -68,21 +68,12 @@
       "name": "Bekenntnis zu Art. 5 NATO / Art. 42.7 EUV (Beistandsklausel)",
       "ebene": "NATO",
       "beschreibung": "Rhetorische/politische Bekräftigungen (oder Infragestellungen) der gegenseitigen Beistandsverpflichtung durch Regierungsvertreter.",
-      "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-08-13 (Datum genähert, kein echtes Veröffentlichungsdatum verfügbar): keine klare Richtung erkennbar. Bezug erkannt an: Article 5, collective defence",
-      "letzte_aenderung_datum": "2026-08-13",
-      "quelle_url": "https://www.nato.int/en/what-we-do/introduction-to-nato/collective-defence-and-article-5",
-      "aenderung": "keine klare Richtung erkennbar",
-      "historie": [
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "Collective defence and Article 5",
-          "url": "https://www.nato.int/en/what-we-do/introduction-to-nato/collective-defence-and-article-5",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        }
-      ]
+      "ampel": "neutral",
+      "begruendung": "Keine aktuellen Funde (letzte 120 Tage, ab 2025-01-01) zu dieser Zusage.",
+      "letzte_aenderung_datum": null,
+      "quelle_url": null,
+      "aenderung": "keine_neue_information",
+      "historie": []
     }
   ]
 }
