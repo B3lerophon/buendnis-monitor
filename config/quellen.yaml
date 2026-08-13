@@ -1,7 +1,19 @@
 # Definiert die Quellen, die täglich abgefragt werden.
 #
+# kategorie: "offiziell"   -> fließt in die Ampel-Bewertung ein (Regierung,
+#                              Parlament, NATO, EU - die eigentlichen Träger
+#                              der Bündnisverpflichtungen)
+# kategorie: "nachrichten" -> NICHT Teil der Ampel-Berechnung, erscheint nur
+#                              im separaten "Nachrichten"-Reiter im Dashboard
+#                              als mediale Einordnung/Kontext. So bleibt die
+#                              Ampel an belastbaren, offiziellen Quellen
+#                              verankert, ohne mediale Berichterstattung ganz
+#                              außen vor zu lassen.
+#
 # type: "dip_api"    -> Bundestag DIP-API (Drucksachen/Aktivitäten), liefert echtes Datum
 # type: "rss"        -> normaler RSS/Atom-Feed, liefert echtes Datum
+# type: "sitemap"     -> statische XML-Sitemap; nutzt <lastmod> falls vorhanden,
+#                        sonst "beim ersten Mal gesehen"-Näherung
 # type: "html_scan"  -> Seite ohne Feed: Links/Überschriften werden gescannt,
 #                        neue Einträge seit letztem Lauf werden erkannt.
 #                        WICHTIG: hier gibt es kein zuverlässiges Veröffentlichungsdatum,
@@ -14,6 +26,10 @@
 # Einträge, die nachweislich älter sind, werden verworfen.
 
 quellen:
+  # =========================================================================
+  # OFFIZIELLE QUELLEN (bestimmen die Ampelfarbe)
+  # =========================================================================
+
   # --- Bundesebene: Bundestag DIP-API ---
   # Öffentlicher, von der DIP-API-Doku bereitgestellter Test-Schlüssel.
   # Für den Dauerbetrieb empfiehlt sich ein eigener Schlüssel:
@@ -21,6 +37,7 @@ quellen:
   # GitHub -> Settings -> Secrets and variables -> Actions als DIP_API_KEY hinterlegen.
   - id: bundestag_drucksachen
     type: dip_api
+    kategorie: offiziell
     enabled: true
     resource: drucksache
     suchbegriffe:
@@ -32,6 +49,7 @@ quellen:
 
   - id: bundestag_plenarprotokolle
     type: dip_api
+    kategorie: offiziell
     enabled: true
     resource: plenarprotokoll-text
     suchbegriffe:
@@ -45,11 +63,13 @@ quellen:
   # Trag hier deine eigene Feed-URL ein und setze enabled auf true.
   - id: eurlex_gespeicherte_suche
     type: rss
+    kategorie: offiziell
     enabled: false
     url: "https://eur-lex.europa.eu/DE/display-feed.rss?myRssId=DEINE_ID_HIER"
 
   - id: rat_der_eu_pressemitteilungen
     type: html_scan
+    kategorie: offiziell
     enabled: false  # blockt automatisierte Abrufe (403 Forbidden), siehe README
     url: "https://www.consilium.europa.eu/en/press/press-releases/"
     link_selector: "a"
@@ -62,6 +82,7 @@ quellen:
   # echtem Änderungsdatum, direkt vom Server geliefert.
   - id: nato_newsroom
     type: sitemap
+    kategorie: offiziell
     enabled: true
     url: "https://www.nato.int/sitemap.xml"
     url_pattern: "/news-and-events/articles/news/\\d{4}/\\d{2}/\\d{2}/"
@@ -71,6 +92,7 @@ quellen:
   # Lösung über die offizielle (gzip-komprimierte) Sitemap.
   - id: bmvg_presse
     type: sitemap
+    kategorie: offiziell
     enabled: true
     url: "https://www.bmvg.de/sitemap/de-sitemap.xml.gz"
     url_pattern: "/alle-pressetermine-pressemitteilungen-bmvg/.+-\\d+$"
@@ -79,5 +101,36 @@ quellen:
   # die zuverlässigste Quellenart, kein Workaround nötig.
   - id: auswaertiges_amt_presse
     type: rss
+    kategorie: offiziell
     enabled: true
     url: "https://www.auswaertiges-amt.de/static/includes/rss/Presse-RSS-Feed.xml"
+
+  # =========================================================================
+  # NACHRICHTEN-QUELLEN (nur informativ, beeinflussen KEINE Ampel)
+  # Bewusst redaktionell unabhängige Quellen mit unterschiedlicher
+  # Ausrichtung für eine ausgewogene mediale Einordnung.
+  # =========================================================================
+
+  - id: tagesschau_innenpolitik
+    type: rss
+    kategorie: nachrichten
+    enabled: true
+    url: "https://www.tagesschau.de/inland/innenpolitik/index~rss2.xml"
+
+  - id: tagesschau_ausland
+    type: rss
+    kategorie: nachrichten
+    enabled: true
+    url: "https://www.tagesschau.de/ausland/index~rss2.xml"
+
+  - id: zeit_politik
+    type: rss
+    kategorie: nachrichten
+    enabled: true
+    url: "https://newsfeed.zeit.de/politik/index"
+
+  - id: sueddeutsche_politik
+    type: rss
+    kategorie: nachrichten
+    enabled: true
+    url: "https://rss.sueddeutsche.de/rss/Politik"
