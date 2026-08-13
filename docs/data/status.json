@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-08-13T11:55:52.325378+00:00",
+  "generiert_am": "2026-08-13T12:11:54.297761+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -32,12 +32,21 @@
       "name": "Sondervermögen Bundeswehr / Zeitenwende",
       "ebene": "Bund",
       "beschreibung": "2022 beschlossenes Sondervermögen (100 Mrd. €, seit 2025 durch Grundgesetzänderung faktisch unbegrenzte Verteidigungsausgaben außerhalb der Schuldenbremse). Tracking von Mittelabfluss und politischer Debatte darüber.",
-      "ampel": "neutral",
-      "begruendung": "Keine aktuellen Funde (letzte 120 Tage, ab 2025-01-01) zu dieser Zusage.",
-      "letzte_aenderung_datum": null,
-      "quelle_url": null,
-      "aenderung": "keine_neue_information",
-      "historie": []
+      "ampel": "gelb",
+      "begruendung": "Neuester relevanter Fund vom 2026-08-13 (Datum genähert, kein echtes Veröffentlichungsdatum verfügbar): keine klare Richtung erkennbar. Bezug erkannt an: Verteidigungshaushalt",
+      "letzte_aenderung_datum": "2026-08-13",
+      "quelle_url": "https://www.bmvg.de/de/themen/verteidigungshaushalt",
+      "aenderung": "keine klare Richtung erkennbar",
+      "historie": [
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "Verteidigungshaushalt",
+          "url": "https://www.bmvg.de/de/themen/verteidigungshaushalt",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        }
+      ]
     },
     {
       "id": "ukraine_waffenlieferungen",
