@@ -193,8 +193,20 @@ def fetch_html_scan(source: dict, state: dict) -> list[dict]:
     seen_links = state.setdefault("seen_links", {}).setdefault(source["id"], {})
     today_iso = datetime.now(timezone.utc).date().isoformat()
 
+    # Optionale Filter/Extraktions-Regeln aus der Quellen-Konfiguration:
+    # url_pattern      -> Link wird nur berücksichtigt, wenn die volle URL matcht.
+    #                     Damit werden Navigations-/Themenseiten (die dauerhaft
+    #                     existieren und kein Aktualitätsdatum haben) ausgeschlossen -
+    #                     nur echte Presseartikel/-mitteilungen zählen.
+    # url_date_regex   -> falls die URL selbst ein Datum enthält (z.B. NATO:
+    #                     /news/2026/07/07/...), wird das echte Datum extrahiert
+    #                     statt der "first seen"-Näherung.
+    url_pattern = re.compile(source["url_pattern"]) if source.get("url_pattern") else None
+    url_date_regex = re.compile(source["url_date_regex"]) if source.get("url_date_regex") else None
+
     alle_links = soup.select(source.get("link_selector", "a"))
     anzahl_zu_kurz = 0
+    anzahl_muster_verfehlt = 0
     anzahl_neu = 0
 
     for a in alle_links:
@@ -204,28 +216,45 @@ def fetch_html_scan(source: dict, state: dict) -> list[dict]:
             anzahl_zu_kurz += 1
             continue  # zu kurze Linktexte sind meist Navigation, keine Artikel
         full_url = urljoin(url, href)
-        key = item_hash(full_url)
 
-        if key not in seen_links:
-            # neuer Link seit dem letzten Lauf -> als "gerade gesehen" markieren
-            anzahl_neu += 1
-            seen_links[key] = {"first_seen": today_iso, "titel": text, "url": full_url}
-            items.append({
-                "quelle_id": source["id"],
-                "titel": text,
-                "text": text,
-                "url": full_url,
-                "datum": today_iso,
-                "datum_ist_naeherung": True,  # kein echtes Veröffentlichungsdatum verfügbar
-            })
+        if url_pattern and not url_pattern.search(full_url):
+            anzahl_muster_verfehlt += 1
+            continue  # keine echte Pressemitteilung/Artikel-URL (z.B. Themen-/Navigationsseite)
+
+        key = item_hash(full_url)
+        if key in seen_links:
+            continue  # schon in einem früheren Lauf gesehen
+
+        # Datum bestimmen: aus der URL, falls möglich, sonst Näherung über "first seen"
+        echtes_datum = None
+        if url_date_regex:
+            m = url_date_regex.search(full_url)
+            if m:
+                try:
+                    echtes_datum = date(int(m.group("y")), int(m.group("m")), int(m.group("d"))).isoformat()
+                except (ValueError, IndexError):
+                    echtes_datum = None
+
+        anzahl_neu += 1
+        seen_links[key] = {"first_seen": today_iso, "titel": text, "url": full_url}
+        items.append({
+            "quelle_id": source["id"],
+            "titel": text,
+            "text": text,
+            "url": full_url,
+            "datum": echtes_datum or today_iso,
+            "datum_ist_naeherung": echtes_datum is None,
+        })
 
     # Diagnose-Ausgabe: hilft zu unterscheiden zwischen "Seite liefert nichts
-    # Sinnvolles" (alle_links niedrig) und "alles schon bekannt" (anzahl_neu=0
-    # aber alle_links hoch) und "Selektor passt nicht zur Seitenstruktur"
-    # (alle_links = 0 trotz Status 200).
+    # Sinnvolles" (alle_links niedrig), "Selektor passt nicht zur Seitenstruktur"
+    # (alle_links = 0 trotz Status 200), "url_pattern zu streng/falsch"
+    # (anzahl_muster_verfehlt hoch, anzahl_neu = 0) und "alles schon bekannt"
+    # (anzahl_neu = 0, aber die anderen Zahlen normal).
     print(
-        f"[INFO]   {source['id']}: {len(alle_links)} Links gefunden, "
-        f"{anzahl_zu_kurz} zu kurz/ohne href, {anzahl_neu} neu seit letztem Lauf."
+        f"[INFO]   {source['id']}: {len(alle_links)} Links gesamt, "
+        f"{anzahl_zu_kurz} zu kurz/ohne href, {anzahl_muster_verfehlt} durch url_pattern verworfen, "
+        f"{anzahl_neu} neu seit letztem Lauf."
     )
     return items
 
