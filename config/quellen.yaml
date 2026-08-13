@@ -50,7 +50,7 @@ quellen:
 
   - id: rat_der_eu_pressemitteilungen
     type: html_scan
-    enabled: true
+    enabled: false  # blockt automatisierte Abrufe (403 Forbidden), siehe README
     url: "https://www.consilium.europa.eu/en/press/press-releases/"
     link_selector: "a"
 
@@ -65,7 +65,7 @@ quellen:
   - id: bmvg_presse
     type: html_scan
     enabled: true
-    url: "https://www.bmvg.de/de/aktuelles/presse"
+    url: "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg"
     link_selector: "a"
 
   - id: auswaertiges_amt_presse
