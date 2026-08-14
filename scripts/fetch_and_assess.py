@@ -346,9 +346,25 @@ def fetch_sitemap(source: dict, state: dict) -> list[dict]:
 # Bewertung gegen Zusagen
 # ---------------------------------------------------------------------------
 
+def normalisiere_umlaute(text: str) -> str:
+    """
+    URL-Slugs (z.B. aus Sitemaps) transliterieren deutsche Umlaute meist zu
+    ae/oe/ue/ss (z.B. "sondervermoegen" statt "sondervermögen"). Damit
+    Keywords mit echten Umlauten trotzdem greifen, normalisieren wir beide
+    Seiten des Vergleichs auf dieselbe Schreibweise.
+    """
+    ersetzungen = {
+        "ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss",
+        "Ä": "ae", "Ö": "oe", "Ü": "ue",
+    }
+    for original, ersatz in ersetzungen.items():
+        text = text.replace(original, ersatz)
+    return text
+
+
 def contains_any(text: str, keywords: list[str]) -> list[str]:
-    text_low = text.lower()
-    return [kw for kw in keywords if kw.lower() in text_low]
+    text_norm = normalisiere_umlaute(text.lower())
+    return [kw for kw in keywords if normalisiere_umlaute(kw.lower()) in text_norm]
 
 
 def assess_item(item: dict, zusagen: list[dict]) -> list[dict]:
