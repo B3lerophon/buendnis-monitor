@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-08-14T07:36:40.630528+00:00",
+  "generiert_am": "2026-08-14T09:40:11.440773+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -588,6 +588,253 @@
           "titel": "Russlands Krieg in der Ukraine: Stundenlanger Luftalarm in Odessa",
           "url": "https://www.tagesschau.de/ausland/europa/ukraine-russland-angriffe-odessa-belgorod-100.html",
           "quelle_id": "tagesschau_ausland"
+        }
+      ]
+    }
+  ],
+  "osint": [
+    {
+      "id": "inland",
+      "name": "Inland",
+      "eintraege": []
+    },
+    {
+      "id": "russland_ukraine",
+      "name": "Russland / Ukraine",
+      "eintraege": [
+        {
+          "datum": "2026-08-10",
+          "datum_ist_naeherung": false,
+          "titel": "Putin’s Political Longevity – A Framework of Considerations",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/putins-political-longevity-framework-considerations",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-08-05",
+          "datum_ist_naeherung": false,
+          "titel": "Instrumentalised Migration and Russia’s ‘Disposable Agents’",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/instrumentalised-migration-and-russias-disposable-agents",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-07-28",
+          "datum_ist_naeherung": false,
+          "titel": "Rosatom is a Military Supplier – Europe Must Treat It as Such",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/rosatom-military-supplier-europe-must-treat-it-such",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-07-27",
+          "datum_ist_naeherung": false,
+          "titel": "Assessing China’s Language on its Stance on Ukraine and Belarus",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/assessing-chinas-language-its-stance-ukraine-and-belarus",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-07-27",
+          "datum_ist_naeherung": false,
+          "titel": "Four Years On: An Update on the Air War Over Ukraine",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/four-years-update-air-war-over-ukraine",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-06-25",
+          "datum_ist_naeherung": false,
+          "titel": "How to Use AI to Help Find Civilian Harm",
+          "url": "https://www.bellingcat.com/resources/2026/06/25/how-to-use-ai-to-help-find-civilian-harm-conflict-report-monitor-war-machine-learning-telegram/",
+          "quelle_id": "bellingcat"
+        }
+      ]
+    },
+    {
+      "id": "naher_mittlerer_osten",
+      "name": "Naher- und Mittlerer Osten",
+      "eintraege": [
+        {
+          "datum": "2026-08-05",
+          "datum_ist_naeherung": false,
+          "titel": "The Resource Politics of Cold Peace: Israel’s Relations with Jordan, Egypt",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/resource-politics-cold-peace-israels-relations-jordan-egypt",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-07-22",
+          "datum_ist_naeherung": false,
+          "titel": "North Africa’s Flaring Problem is Europe’s Gas Opportunity",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/north-africas-flaring-problem-europes-gas-opportunity",
+          "quelle_id": "rusi_commentary"
+        }
+      ]
+    },
+    {
+      "id": "china",
+      "name": "China",
+      "eintraege": [
+        {
+          "datum": "2026-07-29",
+          "datum_ist_naeherung": false,
+          "titel": "The Maritime Leg of China's Naval Deterrent is Coming of Age",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/maritime-leg-chinas-naval-deterrent-coming-age",
+          "quelle_id": "rusi_commentary"
+        }
+      ]
+    },
+    {
+      "id": "suedamerika",
+      "name": "Südamerika",
+      "eintraege": [
+        {
+          "datum": "2026-07-06",
+          "datum_ist_naeherung": false,
+          "titel": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
+          "url": "https://www.bellingcat.com/news/2026/07/06/between-graves-and-uncertainty-the-management-of-the-dead-after-venezuelas-earthquake/",
+          "quelle_id": "bellingcat"
+        },
+        {
+          "datum": "2026-06-29",
+          "datum_ist_naeherung": false,
+          "titel": "Satellite Imagery Shows Scale of Venezuela Earthquake Damage",
+          "url": "https://www.bellingcat.com/news/2026/06/29/satellite-imagery-shows-scale-of-venezuela-earthquake-damage/",
+          "quelle_id": "bellingcat"
+        }
+      ]
+    },
+    {
+      "id": "sonstige_global",
+      "name": "Sonstige / global",
+      "eintraege": [
+        {
+          "datum": "2026-08-12",
+          "datum_ist_naeherung": false,
+          "titel": "Age of Optionality: The Future is Not About Replacing the US Dollar",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/age-optionality-future-not-about-replacing-us-dollar",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-08-11",
+          "datum_ist_naeherung": false,
+          "titel": "Building CBRN Crisis Ready Supply for Protection and Sustainment",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/building-cbrn-crisis-ready-supply-protection-and-sustainment",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-08-09",
+          "datum_ist_naeherung": false,
+          "titel": "Ensuring Offshore Infrastructure Protection Keeps Pace with Growth",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/ensuring-offshore-infrastructure-protection-keeps-pace-growth",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-08-04",
+          "datum_ist_naeherung": false,
+          "titel": "Uniting Nationalism and Threat Perception for Total Defence",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/uniting-nationalism-and-threat-perception-total-defence",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-08-04",
+          "datum_ist_naeherung": false,
+          "titel": "Burnham’s Opportunity to Rethink Information Resilience",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/burnhams-opportunity-rethink-information-resilience",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-08-03",
+          "datum_ist_naeherung": false,
+          "titel": "Swarming Software’s Defence Industrial Implications",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/swarming-softwares-defence-industrial-implications",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-08-02",
+          "datum_ist_naeherung": false,
+          "titel": "Can the Defence Universities Alliance Deliver Without Compromise?",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/can-defence-universities-alliance-deliver-without-compromise",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-08-01",
+          "datum_ist_naeherung": false,
+          "titel": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
+          "url": "https://www.bellingcat.com/news/2026/08/01/welcome-to-dubai-kinahan-cartels-visas-revealed/",
+          "quelle_id": "bellingcat"
+        },
+        {
+          "datum": "2026-07-30",
+          "datum_ist_naeherung": false,
+          "titel": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
+          "url": "https://www.bellingcat.com/news/2026/07/30/will-ronaldo-cry-world-cup-fans-bet-billions-through-prediction-markets/",
+          "quelle_id": "bellingcat"
+        },
+        {
+          "datum": "2026-07-30",
+          "datum_ist_naeherung": false,
+          "titel": "Credibility is the UK's Crypto Advantage",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/credibility-uks-crypto-advantage",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-07-28",
+          "datum_ist_naeherung": false,
+          "titel": "Allies Should Unite on Defence Finance",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/allies-should-unite-defence-finance",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-07-26",
+          "datum_ist_naeherung": false,
+          "titel": "Burnham’s Makerfield Test: Home Gains or Global Risks?",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/burnhams-makerfield-test-home-gains-or-global-risks",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-07-24",
+          "datum_ist_naeherung": false,
+          "titel": "Shahed-Type Drones Filmed During Mali Village Attacks",
+          "url": "https://www.bellingcat.com/news/2026/07/24/shahed-type-drones-filmed-during-attack-on-mali-villages/",
+          "quelle_id": "bellingcat"
+        },
+        {
+          "datum": "2026-07-23",
+          "datum_ist_naeherung": false,
+          "titel": "Whose Job is it to Protect the International Financial System?",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/whose-job-it-protect-international-financial-system",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-07-22",
+          "datum_ist_naeherung": false,
+          "titel": "Losing Control of the West’s Longstanding Interests in Seychelles",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/losing-control-wests-longstanding-interests-seychelles",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-07-16",
+          "datum_ist_naeherung": false,
+          "titel": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
+          "url": "https://www.bellingcat.com/news/2026/07/16/leakedbb-crypto-entrepreneur/",
+          "quelle_id": "bellingcat"
+        },
+        {
+          "datum": "2026-06-30",
+          "datum_ist_naeherung": false,
+          "titel": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage",
+          "url": "https://www.bellingcat.com/resources/how-tos/2026/06/30/burning-forests-tools-for-tracking-and-reporting-wildfire-damage/",
+          "quelle_id": "bellingcat"
+        },
+        {
+          "datum": "2026-06-27",
+          "datum_ist_naeherung": false,
+          "titel": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai",
+          "url": "https://www.bellingcat.com/news/2026/06/27/poster-boy-sanctioned-kinahan-cartel-lieutenant-found-playing-padel-in-dubai/",
+          "quelle_id": "bellingcat"
+        },
+        {
+          "datum": "2026-06-24",
+          "datum_ist_naeherung": false,
+          "titel": "Rhino Horn, Leopard Skin and Tiger Claws Sold Openly on Facebook",
+          "url": "https://www.bellingcat.com/news/2026/06/24/rhino-horn-leopard-skin-and-tiger-claws-sold-openly-on-facebook/",
+          "quelle_id": "bellingcat"
         }
       ]
     }
