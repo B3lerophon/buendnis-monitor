@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-08-13T13:46:25.488635+00:00",
+  "generiert_am": "2026-08-14T06:52:00.014015+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -38,21 +38,12 @@
       "name": "NATO 3,5%-Ziel (Gipfel Den Haag 2025)",
       "ebene": "NATO",
       "beschreibung": "Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025, Zielhorizont 2035.",
-      "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-07-15: keine klare Richtung erkennbar. Bezug erkannt an: Den Haag",
-      "letzte_aenderung_datum": "2026-07-15",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2778208-2778208",
-      "aenderung": "keine klare Richtung erkennbar",
-      "historie": [
-        {
-          "datum": "2026-07-15",
-          "datum_ist_naeherung": false,
-          "titel": "Außenminister Wadephul vor seiner Abreise nach Helsinki",
-          "url": "https://www.auswaertiges-amt.de/de/newsroom/2778208-2778208",
-          "quelle_id": "auswaertiges_amt_presse",
-          "richtung": "unklar"
-        }
-      ],
+      "ampel": "neutral",
+      "begruendung": "Keine aktuellen Funde (letzte 120 Tage, ab 2025-01-01) zu dieser Zusage.",
+      "letzte_aenderung_datum": null,
+      "quelle_url": null,
+      "aenderung": "keine_neue_information",
+      "historie": [],
       "medienberichte": []
     },
     {
