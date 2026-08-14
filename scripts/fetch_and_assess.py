@@ -367,6 +367,21 @@ def contains_any(text: str, keywords: list[str]) -> list[str]:
     return [kw for kw in keywords if normalisiere_umlaute(kw.lower()) in text_norm]
 
 
+def klassifiziere_region(text: str, regionen: list[dict]) -> str:
+    """
+    Ordnet einen OSINT-Fund der ersten passenden Region zu (Reihenfolge in
+    regionen.yaml = Priorität). Passt keine Region, landet der Fund in der
+    letzten Region der Liste (per Konvention "sonstige_global", keine
+    eigenen Keywords - das ist der Fallback).
+    """
+    for region in regionen:
+        if not region.get("keywords"):
+            continue  # Fallback-Region ohne Keywords - kommt erst am Ende dran
+        if contains_any(text, region["keywords"]):
+            return region["id"]
+    return regionen[-1]["id"]  # Fallback: letzte Region in der Liste (sonstige_global)
+
+
 def assess_item(item: dict, zusagen: list[dict]) -> list[dict]:
     """
     Regelbasierte Bewertung eines Fundes gegen jede Zusage.
@@ -515,6 +530,7 @@ def sammle_medienberichte(zusage: dict, bewertete_nachrichten: list[dict], max_e
 def main() -> None:
     zusagen_cfg = load_yaml(CONFIG_DIR / "zusagen.yaml")["zusagen"]
     quellen_cfg = load_yaml(CONFIG_DIR / "quellen.yaml")["quellen"]
+    regionen_cfg = load_yaml(CONFIG_DIR / "regionen.yaml")["regionen"]
     state = load_state()
 
     alle_funde = []
@@ -554,10 +570,15 @@ def main() -> None:
 
     print(f"[INFO] {len(alle_funde)} Funde insgesamt, {len(gefiltert)} nach Datumsfilter (>= {MIN_DATUM}).")
 
+    # OSINT-Funde laufen NICHT durch die Zusagen-Bewertung (keine Ampel-
+    # Relevanz), sondern nur durch die Regions-Klassifizierung.
+    gefiltert_zusagen = [f for f in gefiltert if f["kategorie"] != "osint"]
+    gefiltert_osint = [f for f in gefiltert if f["kategorie"] == "osint"]
+
     # Bewertung gegen Zusagen (beide Kategorien laufen durch dieselbe Logik,
     # werden aber getrennt weiterverarbeitet)
     bewertete_funde = []
-    for item in gefiltert:
+    for item in gefiltert_zusagen:
         treffer = assess_item(item, zusagen_cfg)
         for t in treffer:
             bewertete_funde.append({**item, **t})
@@ -595,11 +616,46 @@ def main() -> None:
         eintrag["medienberichte"] = sammle_medienberichte(z, bewertete_nachrichten)
         ergebnis_zusagen.append(eintrag)
 
+    # OSINT: nur Regions-Klassifizierung, kein Zusagen-/Ampel-Bezug.
+    # LOOKBACK_TAGE_FUER_AMPEL wird hier mitverwendet, damit alle Reiter das
+    # gleiche Beobachtungsfenster zeigen.
+    heute = datetime.now(timezone.utc).date()
+    osint_aktuell = [
+        f for f in gefiltert_osint
+        if (heute - date.fromisoformat(f["datum"])).days <= LOOKBACK_TAGE_FUER_AMPEL
+    ]
+    for f in osint_aktuell:
+        f["region"] = klassifiziere_region(f["text"], regionen_cfg)
+
+    MAX_OSINT_PRO_REGION = 25
+    ergebnis_osint = []
+    for region in regionen_cfg:
+        eintraege = sorted(
+            [f for f in osint_aktuell if f["region"] == region["id"]],
+            key=lambda f: f["datum"], reverse=True
+        )[:MAX_OSINT_PRO_REGION]
+        ergebnis_osint.append({
+            "id": region["id"],
+            "name": region["name"],
+            "eintraege": [
+                {
+                    "datum": f["datum"],
+                    "datum_ist_naeherung": f.get("datum_ist_naeherung", False),
+                    "titel": f["titel"],
+                    "url": f["url"],
+                    "quelle_id": f["quelle_id"],
+                }
+                for f in eintraege
+            ],
+        })
+    print(f"[INFO] {len(osint_aktuell)} OSINT-Funde im Beobachtungsfenster klassifiziert.")
+
     output = {
         "generiert_am": datetime.now(timezone.utc).isoformat(),
         "min_datum_filter": MIN_DATUM.isoformat(),
         "lookback_tage": LOOKBACK_TAGE_FUER_AMPEL,
         "zusagen": ergebnis_zusagen,
+        "osint": ergebnis_osint,
     }
 
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
