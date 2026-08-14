@@ -134,3 +134,32 @@ quellen:
     kategorie: nachrichten
     enabled: true
     url: "https://rss.sueddeutsche.de/rss/Politik"
+
+  # =========================================================================
+  # OSINT-QUELLEN (eigener "OSINT"-Reiter, nach Region gruppiert, siehe
+  # config/regionen.yaml. Rein informativ, beeinflusst KEINE Ampel.
+  # =========================================================================
+
+  - id: isw
+    type: rss
+    kategorie: osint
+    enabled: true
+    url: "https://www.understandingwar.org/rss.xml"
+
+  - id: bellingcat
+    type: rss
+    kategorie: osint
+    enabled: true
+    url: "https://www.bellingcat.com/feed/"
+
+  - id: oryx
+    type: rss
+    kategorie: osint
+    enabled: true
+    url: "https://www.oryxspioenkop.com/feeds/posts/default?alt=rss"
+
+  - id: rusi_commentary
+    type: rss
+    kategorie: osint
+    enabled: true
+    url: "https://www.rusi.org/rss/latest-commentary.xml"
