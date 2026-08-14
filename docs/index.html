@@ -108,6 +108,25 @@
   .tab:hover{color:var(--ink);}
   .tab.aktiv{color:var(--ink); border-bottom-color:var(--ink); font-weight:600;}
 
+  .region-titel{
+    font-family:var(--mono);
+    font-size:12px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin:28px 0 14px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+  .region-titel:first-child{margin-top:0;}
+  .region-titel::after{
+    content:"";
+    flex:1;
+    height:1px;
+    background:var(--rule);
+  }
+
   main{max-width:920px;margin:0 auto;padding:36px 24px 100px;}
   section.ebene{margin-bottom:44px;}
   .ebene-titel{
@@ -318,6 +337,7 @@
   <div class="tabs">
     <button class="tab aktiv" data-tab="offiziell">Politik offiziell</button>
     <button class="tab" data-tab="nachrichten">Nachrichten</button>
+    <button class="tab" data-tab="osint">OSINT</button>
   </div>
 </header>
 
@@ -328,12 +348,15 @@
 <main id="main-nachrichten" style="display:none;">
 </main>
 
+<main id="main-osint" style="display:none;">
+</main>
+
 <footer>
   Regelbasierte Ersteinschätzung (Keyword-Abgleich), keine juristische oder abschließende
   Bewertung. Die Ampel im Reiter "Politik offiziell" basiert ausschließlich auf offiziellen
-  Quellen (Regierung, Parlament, NATO, EU). Der Reiter "Nachrichten" zeigt mediale
-  Berichterstattung zu denselben Themen rein informativ — sie fließt nicht in die Ampel ein.
-  Quellcode &amp; Bewertungskriterien: siehe Repository.
+  Quellen (Regierung, Parlament, NATO, EU). Die Reiter "Nachrichten" und "OSINT" zeigen
+  mediale bzw. Open-Source-Berichterstattung zu denselben Themen rein informativ — sie
+  fließen nicht in die Ampel ein. Quellcode &amp; Bewertungskriterien: siehe Repository.
 </footer>
 
 <script>
@@ -384,7 +407,7 @@ function medienEintragHTML(m) {
       <div class="medien-inhalt">
         <p class="medien-titel"><a href="${m.url}" target="_blank" rel="noopener">${m.titel}</a></p>
         <div class="medien-meta">
-          <span class="medien-zusage-tag">${m.zusageName}</span>
+          ${m.zusageName ? `<span class="medien-zusage-tag">${m.zusageName}</span>` : ""}
           <span>${m.quelle_id}</span>
         </div>
       </div>
@@ -394,6 +417,7 @@ function medienEintragHTML(m) {
 async function laden() {
   const mainOffiziell = document.getElementById("main-offiziell");
   const mainNachrichten = document.getElementById("main-nachrichten");
+  const mainOsint = document.getElementById("main-osint");
   try {
     const resp = await fetch("data/status.json?_=" + Date.now());
     if (!resp.ok) throw new Error("status.json nicht erreichbar (" + resp.status + ")");
@@ -437,6 +461,15 @@ async function laden() {
       ? alleMedien.map(medienEintragHTML).join("")
       : '<p class="leer-hinweis">Noch keine passenden Medienberichte im Beobachtungsfenster gefunden.</p>';
 
+    // --- Reiter "OSINT" ---
+    const osintRegionen = (data.osint || []).filter(r => r.eintraege && r.eintraege.length);
+    mainOsint.innerHTML = osintRegionen.length
+      ? osintRegionen.map(r => `
+          <div class="region-titel">${r.name}</div>
+          ${r.eintraege.map(e => medienEintragHTML({ ...e, zusageName: null })).join("")}
+        `).join("")
+      : '<p class="leer-hinweis">Noch keine OSINT-Funde im Beobachtungsfenster gefunden.</p>';
+
   } catch (err) {
     mainOffiziell.innerHTML = `<div class="fehler">Fehler beim Laden der Daten: ${err.message}</div>`;
   }
@@ -449,6 +482,7 @@ document.querySelectorAll(".tab").forEach(tab => {
     const ziel = tab.dataset.tab;
     document.getElementById("main-offiziell").style.display = ziel === "offiziell" ? "" : "none";
     document.getElementById("main-nachrichten").style.display = ziel === "nachrichten" ? "" : "none";
+    document.getElementById("main-osint").style.display = ziel === "osint" ? "" : "none";
   });
 });
 
