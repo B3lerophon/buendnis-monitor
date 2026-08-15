@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-08-14T09:40:11.440773+00:00",
+  "generiert_am": "2026-08-15T07:19:13.892990+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -165,15 +165,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-08-12",
-          "datum_ist_naeherung": false,
-          "titel": "US-Präsident Trump bestätigt heimlichen Flugzeugwechsel in Ankara",
-          "url": "https://www.tagesschau.de/ausland/amerika/usa-trump-airforce-one-100.html",
-          "quelle_id": "tagesschau_ausland"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "sondervermoegen_bundeswehr",
@@ -269,11 +261,11 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-08-10",
+          "datum": "2026-08-14",
           "datum_ist_naeherung": false,
-          "titel": "IfW-Präsident wirft Pistorius falsche Investitionen in Bundeswehr vor",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/kritik-schularick-pistorius-waffen-bundeswehr-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
+          "titel": "Drohne über Lettland: Warnstufe Orange um vier Uhr morgens",
+          "url": "https://www.sueddeutsche.de/politik/lettland-drohne-abschuss-eurofighter-ukraine-russland-li.3531342",
+          "quelle_id": "sueddeutsche_politik"
         }
       ]
     },
@@ -555,13 +547,6 @@
           "quelle_id": "sueddeutsche_politik"
         },
         {
-          "datum": "2026-08-12",
-          "datum_ist_naeherung": false,
-          "titel": "Wie läuft Drohnenabwehr in anderen europäischen Ländern?",
-          "url": "https://www.tagesschau.de/ausland/europa/drohnenabwehr-europa-100.html",
-          "quelle_id": "tagesschau_ausland"
-        },
-        {
           "datum": "2026-08-11",
           "datum_ist_naeherung": false,
           "titel": "Ukraine: Wie kann Deutschland trotz \"Patriot\"-Mangel helfen?",
@@ -573,13 +558,6 @@
           "datum_ist_naeherung": false,
           "titel": "Drohnenabwehr wird ausgebaut - Bund verstärkt Schutz an Flughäfen",
           "url": "https://www.tagesschau.de/inland/innenpolitik/bundespolizei-drohnenabwehr-sicherheit-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-08-10",
-          "datum_ist_naeherung": false,
-          "titel": "Auch Bilger will Drohnenabwehr an deutschen Flughäfen verbessern",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/drohnen-abwehr-bilger-100.html",
           "quelle_id": "tagesschau_innenpolitik"
         },
         {
@@ -656,13 +634,6 @@
           "titel": "The Resource Politics of Cold Peace: Israel’s Relations with Jordan, Egypt",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/resource-politics-cold-peace-israels-relations-jordan-egypt",
           "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-07-22",
-          "datum_ist_naeherung": false,
-          "titel": "North Africa’s Flaring Problem is Europe’s Gas Opportunity",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/north-africas-flaring-problem-europes-gas-opportunity",
-          "quelle_id": "rusi_commentary"
         }
       ]
     },
@@ -703,6 +674,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": false,
+          "titel": "Private Sector Cybercrime Disruption: Compatible with Statecraft?",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/private-sector-cybercrime-disruption-compatible-statecraft",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-08-12",
           "datum_ist_naeherung": false,
