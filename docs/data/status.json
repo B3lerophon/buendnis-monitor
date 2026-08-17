@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-08-16T07:21:03.704552+00:00",
+  "generiert_am": "2026-08-17T08:07:36.456445+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -9,11 +9,19 @@
       "ebene": "NATO",
       "beschreibung": "Zusage der NATO-Mitgliedstaaten, mindestens 2% des BIP für Verteidigung auszugeben (Wales-Gipfel 2014, seither wiederholt bekräftigt).",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-07-09: keine klare Richtung erkennbar. Bezug erkannt an: defence spending",
-      "letzte_aenderung_datum": "2026-07-09",
-      "quelle_url": "https://www.nato.int/fr/news-and-events/articles/news/2026/07/06/nato-secretary-general-previews-the-ankara-summit-highlights-progress-on-defence-spending",
+      "begruendung": "Neuester relevanter Fund vom 2026-08-13 (Datum genähert, kein echtes Veröffentlichungsdatum verfügbar): keine klare Richtung erkennbar. Bezug erkannt an: Verteidigungsministertreffen",
+      "letzte_aenderung_datum": "2026-08-13",
+      "quelle_url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministertreffen-im-format-northern-group--61370",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "verteidigungsministertreffen im format northern group  61370",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministertreffen-im-format-northern-group--61370",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-07-09",
           "datum_ist_naeherung": false,
@@ -165,11 +173,43 @@
       "ebene": "Bund",
       "beschreibung": "2022 beschlossenes Sondervermögen (100 Mrd. €, seit 2025 durch Grundgesetzänderung faktisch unbegrenzte Verteidigungsausgaben außerhalb der Schuldenbremse). Tracking von Mittelabfluss und politischer Debatte darüber.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-07-09: keine klare Richtung erkennbar. Bezug erkannt an: procurement",
-      "letzte_aenderung_datum": "2026-07-09",
-      "quelle_url": "https://www.nato.int/fr/news-and-events/articles/news/2026/07/07/tens-of-billions-in-new-procurements-revealed-at-the-nato-summit-defence-industry-forum-in-ankara",
+      "begruendung": "Neuester relevanter Fund vom 2026-08-13 (Datum genähert, kein echtes Veröffentlichungsdatum verfügbar): keine klare Richtung erkennbar. Bezug erkannt an: Verteidigungsministerium",
+      "letzte_aenderung_datum": "2026-08-13",
+      "quelle_url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministerium-und-wisag-vereinbaren-eine-personalkooperation-18484",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "verteidigungsministerium und wisag vereinbaren eine personalkooperation 18484",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministerium-und-wisag-vereinbaren-eine-personalkooperation-18484",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "verteidigungsministerium ist gastgeber des 4 partnership for technology in peacekeeping symposium 24524",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministerium-ist-gastgeber-des-4-partnership-for-technology-in-peacekeeping-symposium-24524",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "gesetz ueber personelle einsatzbereitschaft 33180",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/gesetz-ueber-personelle-einsatzbereitschaft-33180",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "28 maerz 2019 girls day im verteidigungsministerium 36660",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/28-maerz-2019-girls-day-im-verteidigungsministerium-36660",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-07-09",
           "datum_ist_naeherung": false,
@@ -217,30 +257,6 @@
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/06/17/nato-secretary-general-and-the-prime-minister-of-croatia-discuss-alliance-readiness-and-regional-security",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-06-05",
-          "datum_ist_naeherung": false,
-          "titel": "nato comeds 65th plenary medical readiness an important part of national and collective security",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/05/nato-comeds-65th-plenary-medical-readiness-an-important-part-of-national-and-collective-security",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-04-29",
-          "datum_ist_naeherung": false,
-          "titel": "nato logistics directors meet to further strengthen logistics readiness",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/04/28/nato-logistics-directors-meet-to-further-strengthen-logistics-readiness",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-04-28",
-          "datum_ist_naeherung": false,
-          "titel": "nato logistics directors meet to further strengthen logistics readiness",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/04/28/nato-logistics-directors-meet-to-further-strengthen-logistics-readiness",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": []
@@ -258,13 +274,6 @@
       "historie": [],
       "medienberichte": [
         {
-          "datum": "2026-08-15",
-          "datum_ist_naeherung": false,
-          "titel": "Ukrainekrieg: Ukrainische Marschflugkörper treffen russische Raketenfabrik",
-          "url": "https://www.zeit.de/politik/ausland/2026-08/ukraine-angriffe-samara-progress-marschflugkoerper-russland",
-          "quelle_id": "zeit_politik"
-        },
-        {
           "datum": "2026-08-11",
           "datum_ist_naeherung": false,
           "titel": "Ukraine: Wie kann Deutschland trotz \"Patriot\"-Mangel helfen?",
@@ -278,12 +287,93 @@
       "name": "EU-Verteidigungsinitiative (SAFE / ReArm Europe) – deutsche Beteiligung",
       "ebene": "EU",
       "beschreibung": "EU-Programme zur gemeinsamen Verteidigungsfinanzierung/-beschaffung (SAFE-Verordnung, ReArm Europe / Readiness 2030) und die deutsche Beteiligung bzw. Positionierung dazu.",
-      "ampel": "neutral",
-      "begruendung": "Keine aktuellen Funde (letzte 120 Tage, ab 2025-01-01) zu dieser Zusage.",
-      "letzte_aenderung_datum": null,
-      "quelle_url": null,
-      "aenderung": "keine_neue_information",
-      "historie": [],
+      "ampel": "gelb",
+      "begruendung": "Neuester relevanter Fund vom 2026-08-13 (Datum genähert, kein echtes Veröffentlichungsdatum verfügbar): keine klare Richtung erkennbar. Bezug erkannt an: Ursula von der Leyen",
+      "letzte_aenderung_datum": "2026-08-13",
+      "quelle_url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/laudatio-der-bundesministerin-der-verteidigung-ursula-von-der-leyen-18982",
+      "aenderung": "keine klare Richtung erkennbar",
+      "historie": [
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "laudatio der bundesministerin der verteidigung ursula von der leyen 18982",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/laudatio-der-bundesministerin-der-verteidigung-ursula-von-der-leyen-18982",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt parlamentsmitglieder des staates israel 14674",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-parlamentsmitglieder-des-staates-israel-14674",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt die verteidigungsminister aus der schweiz und oesterreich 14680",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-die-verteidigungsminister-aus-der-schweiz-und-oesterreich-14680",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt den georgischen verteidigungsminister levan izoria 13974",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-georgischen-verteidigungsminister-levan-izoria-13974",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen verleiht zum dritten mal preis bundeswehr und gesellschaft  13978",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-verleiht-zum-dritten-mal-preis-bundeswehr-und-gesellschaft--13978",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt franzoesische verteidigungsministerin 14484",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-franzoesische-verteidigungsministerin-14484",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt ukrainischen verteidigungsminister 14486",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-ukrainischen-verteidigungsminister-14486",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen ueberreicht auszeichnung partner der reserve 2018  22666",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-ueberreicht-auszeichnung-partner-der-reserve-2018--22666",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt den oesterreichischen verteidigungsminister mario kunasek 23872",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-oesterreichischen-verteidigungsminister-mario-kunasek-23872",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt den australischen premierminister und die australische verteidigungsministerin  23884",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-australischen-premierminister-und-die-australische-verteidigungsministerin--23884",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        }
+      ],
       "medienberichte": []
     },
     {
@@ -446,13 +536,6 @@
           "datum_ist_naeherung": false,
           "titel": "Ukraine: Wie kann Deutschland trotz \"Patriot\"-Mangel helfen?",
           "url": "https://www.tagesschau.de/inland/innenpolitik/patriots-ukraine-europa-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-08-10",
-          "datum_ist_naeherung": false,
-          "titel": "Drohnenabwehr wird ausgebaut - Bund verstärkt Schutz an Flughäfen",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/bundespolizei-drohnenabwehr-sicherheit-100.html",
           "quelle_id": "tagesschau_innenpolitik"
         }
       ]
