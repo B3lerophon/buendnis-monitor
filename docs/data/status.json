@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-08-17T08:07:36.456445+00:00",
+  "generiert_am": "2026-08-18T07:58:39.361489+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -272,15 +272,7 @@
       "quelle_url": null,
       "aenderung": "keine_neue_information",
       "historie": [],
-      "medienberichte": [
-        {
-          "datum": "2026-08-11",
-          "datum_ist_naeherung": false,
-          "titel": "Ukraine: Wie kann Deutschland trotz \"Patriot\"-Mangel helfen?",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/patriots-ukraine-europa-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "eu_safe_rearm",
@@ -374,7 +366,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-08-17",
+          "datum_ist_naeherung": false,
+          "titel": "Die politischen Risse hinter der Militärparade in Warschau",
+          "url": "https://www.tagesschau.de/ausland/europa/militaerparade-polen-106.html",
+          "quelle_id": "tagesschau_ausland"
+        }
+      ]
     },
     {
       "id": "buendnisfall_bekenntnis",
@@ -530,15 +530,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-08-11",
-          "datum_ist_naeherung": false,
-          "titel": "Ukraine: Wie kann Deutschland trotz \"Patriot\"-Mangel helfen?",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/patriots-ukraine-europa-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
-        }
-      ]
+      "medienberichte": []
     }
   ],
   "osint": [
@@ -646,6 +638,13 @@
       "name": "Sonstige / global",
       "eintraege": [
         {
+          "datum": "2026-08-16",
+          "datum_ist_naeherung": false,
+          "titel": "Starmer, Burnham and Foreign Aid: A Troubling Inheritance",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/starmer-burnham-and-foreign-aid-troubling-inheritance",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-08-13",
           "datum_ist_naeherung": false,
           "titel": "Private Sector Cybercrime Disruption: Compatible with Statecraft?",
@@ -748,13 +747,6 @@
           "datum_ist_naeherung": false,
           "titel": "Whose Job is it to Protect the International Financial System?",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/whose-job-it-protect-international-financial-system",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-07-22",
-          "datum_ist_naeherung": false,
-          "titel": "Losing Control of the West’s Longstanding Interests in Seychelles",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/losing-control-wests-longstanding-interests-seychelles",
           "quelle_id": "rusi_commentary"
         },
         {
