@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-08-18T07:58:39.361489+00:00",
+  "generiert_am": "2026-08-19T07:58:31.275728+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -259,7 +259,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-08-19",
+          "datum_ist_naeherung": false,
+          "titel": "Bundesregierung: Regierungsflieger auf den Seychellen gestrandet",
+          "url": "https://www.sueddeutsche.de/politik/regierungsflieger-seychellen-zwischenlandung-li.3533575",
+          "quelle_id": "sueddeutsche_politik"
+        }
+      ]
     },
     {
       "id": "ukraine_waffenlieferungen",
@@ -530,7 +538,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-08-19",
+          "datum_ist_naeherung": false,
+          "titel": "Forschungszentrum zur Drohnenabwehr: Die Zukunft der Drohnenabwehr – made in Cochstedt?",
+          "url": "https://www.zeit.de/politik/2026-08/forschungszentrum-drohnenabwehr-sachsen-anhalt-bundesregierung-nachrichtenpodcast",
+          "quelle_id": "zeit_politik"
+        }
+      ]
     }
   ],
   "osint": [
@@ -591,6 +607,13 @@
       "id": "naher_mittlerer_osten",
       "name": "Naher- und Mittlerer Osten",
       "eintraege": [
+        {
+          "datum": "2026-08-17",
+          "datum_ist_naeherung": false,
+          "titel": "Indo-Pacific and Euro-Atlantic Security is Not Just Indivisible, it Merges",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/indo-pacific-and-euro-atlantic-security-not-just-indivisible-it-merges",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-08-05",
           "datum_ist_naeherung": false,
@@ -741,13 +764,6 @@
           "titel": "Shahed-Type Drones Filmed During Mali Village Attacks",
           "url": "https://www.bellingcat.com/news/2026/07/24/shahed-type-drones-filmed-during-attack-on-mali-villages/",
           "quelle_id": "bellingcat"
-        },
-        {
-          "datum": "2026-07-23",
-          "datum_ist_naeherung": false,
-          "titel": "Whose Job is it to Protect the International Financial System?",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/whose-job-it-protect-international-financial-system",
-          "quelle_id": "rusi_commentary"
         },
         {
           "datum": "2026-07-16",
