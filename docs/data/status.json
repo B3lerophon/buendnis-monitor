@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-08-19T07:58:31.275728+00:00",
+  "generiert_am": "2026-08-20T08:03:31.831896+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -8,12 +8,20 @@
       "name": "NATO 2%-Ziel (Verteidigungsausgaben)",
       "ebene": "NATO",
       "beschreibung": "Zusage der NATO-Mitgliedstaaten, mindestens 2% des BIP für Verteidigung auszugeben (Wales-Gipfel 2014, seither wiederholt bekräftigt).",
-      "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-08-13 (Datum genähert, kein echtes Veröffentlichungsdatum verfügbar): keine klare Richtung erkennbar. Bezug erkannt an: Verteidigungsministertreffen",
-      "letzte_aenderung_datum": "2026-08-13",
-      "quelle_url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministertreffen-im-format-northern-group--61370",
-      "aenderung": "keine klare Richtung erkennbar",
+      "ampel": "rot",
+      "begruendung": "Neuester relevanter Fund vom 2026-08-19: schwächt ab. Bezug erkannt an: Verteidigungsfähigkeit; abschwächende Formulierungen: Kritik, ausgesetzt, in Frage gestellt",
+      "letzte_aenderung_datum": "2026-08-19",
+      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2798968-2798968",
+      "aenderung": "schwächt ab",
       "historie": [
+        {
+          "datum": "2026-08-19",
+          "datum_ist_naeherung": false,
+          "titel": "Rede von Außenminister Johann Wadephul im Rahmen der Schweizer Botschafterkonferenz in Bern",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2798968-2798968",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "schwaecht_ab"
+        },
         {
           "datum": "2026-08-13",
           "datum_ist_naeherung": true,
@@ -78,12 +86,20 @@
       "name": "NATO 3,5%-Ziel (Gipfel Den Haag 2025)",
       "ebene": "NATO",
       "beschreibung": "Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025, Zielhorizont 2035.",
-      "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-08-03: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
-      "letzte_aenderung_datum": "2026-08-03",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/07/13/nato-secretary-general-attends-meeting-of-the-coalition-of-the-willing-in-paris",
-      "aenderung": "keine klare Richtung erkennbar",
+      "ampel": "rot",
+      "begruendung": "Neuester relevanter Fund vom 2026-08-19: schwächt ab. Bezug erkannt an: 5%-Ziel; abschwächende Formulierungen: Zweifel, in Frage gestellt",
+      "letzte_aenderung_datum": "2026-08-19",
+      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2798968-2798968",
+      "aenderung": "schwächt ab",
       "historie": [
+        {
+          "datum": "2026-08-19",
+          "datum_ist_naeherung": false,
+          "titel": "Rede von Außenminister Johann Wadephul im Rahmen der Schweizer Botschafterkonferenz in Bern",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2798968-2798968",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "schwaecht_ab"
+        },
         {
           "datum": "2026-08-03",
           "datum_ist_naeherung": false,
@@ -153,14 +169,6 @@
           "datum_ist_naeherung": false,
           "titel": "nato secretary general in berlin germany leads and germany delivers",
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/07/01/nato-secretary-general-in-berlin-germany-leads-and-germany-delivers",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-06-29",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general visits the united kingdom to discuss the summit of allied leaders",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/06/29/nato-secretary-general-visits-the-united-kingdom-to-discuss-the-summit-of-allied-leaders",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
@@ -259,15 +267,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-08-19",
-          "datum_ist_naeherung": false,
-          "titel": "Bundesregierung: Regierungsflieger auf den Seychellen gestrandet",
-          "url": "https://www.sueddeutsche.de/politik/regierungsflieger-seychellen-zwischenlandung-li.3533575",
-          "quelle_id": "sueddeutsche_politik"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "ukraine_waffenlieferungen",
@@ -426,22 +426,6 @@
           "url": "https://www.nato.int/en/news-and-events/articles/news/2026/05/08/nato-high-level-group-discusses-nuclear-deterrence-ahead-of-june-npg-meeting",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-04-21",
-          "datum_ist_naeherung": false,
-          "titel": "discussions begin on nato enlargement",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2006/04/27/discussions-begin-on-nato-enlargement",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-04-21",
-          "datum_ist_naeherung": false,
-          "titel": "discussions begin on nato enlargement",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2006/04/27/discussions-begin-on-nato-enlargement",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": []
@@ -451,12 +435,20 @@
       "name": "Moderne Kriegsführung (Drohnen, Cyber, hybride Bedrohungen)",
       "ebene": "NATO",
       "beschreibung": "Anpassung von NATO und Deutschland an neue Kriegsführungsformen: Drohnenkrieg, gemeinsame Luft-/Raketenabwehr (u.a. European Sky Shield Initiative), Cyber- und hybride Bedrohungen, autonome/KI-gestützte Waffensysteme. Betrifft sowohl NATO-weite Programme/Übungen als auch die konkrete Unterstützung der Ukraine in diesen Bereichen.",
-      "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-04-24: keine klare Richtung erkennbar. Bezug erkannt an: missile defence",
-      "letzte_aenderung_datum": "2026-04-24",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2009/10/23/nato-ministers-address-defence-transformation-and-missile-defence",
-      "aenderung": "keine klare Richtung erkennbar",
+      "ampel": "gruen",
+      "begruendung": "Neuester relevanter Fund vom 2026-08-19: verstärkt / bestätigt. Bezug erkannt an: Cyberangriff; bestätigende Formulierungen: Fortschritt",
+      "letzte_aenderung_datum": "2026-08-19",
+      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2798968-2798968",
+      "aenderung": "verstärkt / bestätigt",
       "historie": [
+        {
+          "datum": "2026-08-19",
+          "datum_ist_naeherung": false,
+          "titel": "Rede von Außenminister Johann Wadephul im Rahmen der Schweizer Botschafterkonferenz in Bern",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2798968-2798968",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "verstaerkt"
+        },
         {
           "datum": "2026-04-24",
           "datum_ist_naeherung": false,
@@ -528,23 +520,15 @@
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2010/04/23/nato-and-estonia-conclude-agreement-on-cyber-defence",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-04-24",
-          "datum_ist_naeherung": false,
-          "titel": "secretary general addresses natos new strategic concept missile defence southeastern europe",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2010/05/05/secretary-general-addresses-natos-new-strategic-concept-missile-defence-southeastern-europe",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": [
         {
           "datum": "2026-08-19",
           "datum_ist_naeherung": false,
-          "titel": "Forschungszentrum zur Drohnenabwehr: Die Zukunft der Drohnenabwehr – made in Cochstedt?",
-          "url": "https://www.zeit.de/politik/2026-08/forschungszentrum-drohnenabwehr-sachsen-anhalt-bundesregierung-nachrichtenpodcast",
-          "quelle_id": "zeit_politik"
+          "titel": "Cyberattacke in Berlin: „Der Angriff auf unser Landesnetz war ernst“",
+          "url": "https://www.sueddeutsche.de/politik/hackerangriff-berlin-verwaltung-li.3533570",
+          "quelle_id": "sueddeutsche_politik"
         }
       ]
     }
@@ -661,6 +645,13 @@
       "name": "Sonstige / global",
       "eintraege": [
         {
+          "datum": "2026-08-18",
+          "datum_ist_naeherung": false,
+          "titel": "Balochistan's Insurgency Is Turning Security into a Development Cost",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/balochistans-insurgency-turning-security-development-cost",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-08-16",
           "datum_ist_naeherung": false,
           "titel": "Starmer, Burnham and Foreign Aid: A Troubling Inheritance",
@@ -749,13 +740,6 @@
           "datum_ist_naeherung": false,
           "titel": "Allies Should Unite on Defence Finance",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/allies-should-unite-defence-finance",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-07-26",
-          "datum_ist_naeherung": false,
-          "titel": "Burnham’s Makerfield Test: Home Gains or Global Risks?",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/burnhams-makerfield-test-home-gains-or-global-risks",
           "quelle_id": "rusi_commentary"
         },
         {
