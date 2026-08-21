@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-08-20T08:03:31.831896+00:00",
+  "generiert_am": "2026-08-21T08:04:27.082358+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -173,7 +173,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-08-20",
+          "datum_ist_naeherung": false,
+          "titel": "Internationaler Strafgerichtshof: Vereint gegen Kriegsverbrechen und Völkermord?",
+          "url": "https://www.tagesschau.de/ausland/amerika/faq-usa-sanktionen-internationaler-strafgerichtshof-100.html",
+          "quelle_id": "tagesschau_ausland"
+        }
+      ]
     },
     {
       "id": "sondervermoegen_bundeswehr",
@@ -374,15 +382,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-08-17",
-          "datum_ist_naeherung": false,
-          "titel": "Die politischen Risse hinter der Militärparade in Warschau",
-          "url": "https://www.tagesschau.de/ausland/europa/militaerparade-polen-106.html",
-          "quelle_id": "tagesschau_ausland"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "buendnisfall_bekenntnis",
@@ -522,15 +522,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-08-19",
-          "datum_ist_naeherung": false,
-          "titel": "Cyberattacke in Berlin: „Der Angriff auf unser Landesnetz war ernst“",
-          "url": "https://www.sueddeutsche.de/politik/hackerangriff-berlin-verwaltung-li.3533570",
-          "quelle_id": "sueddeutsche_politik"
-        }
-      ]
+      "medienberichte": []
     }
   ],
   "osint": [
@@ -543,6 +535,13 @@
       "id": "russland_ukraine",
       "name": "Russland / Ukraine",
       "eintraege": [
+        {
+          "datum": "2026-08-19",
+          "datum_ist_naeherung": false,
+          "titel": "The ‘Extinct Volcanoes’ Problem: Why Unit Strength Is Not Combat Power",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/extinct-volcanoes-problem-why-unit-strength-not-combat-power",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-08-10",
           "datum_ist_naeherung": false,
@@ -569,13 +568,6 @@
           "datum_ist_naeherung": false,
           "titel": "Assessing China’s Language on its Stance on Ukraine and Belarus",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/assessing-chinas-language-its-stance-ukraine-and-belarus",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-07-27",
-          "datum_ist_naeherung": false,
-          "titel": "Four Years On: An Update on the Air War Over Ukraine",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/four-years-update-air-war-over-ukraine",
           "quelle_id": "rusi_commentary"
         },
         {
@@ -644,6 +636,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-08-20",
+          "datum_ist_naeherung": false,
+          "titel": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
+          "url": "https://www.bellingcat.com/news/us-canada/2026/08/20/satellite-imagery-documents-new-border-patrol-road-construction-in-big-bend-national-park/",
+          "quelle_id": "bellingcat"
+        },
         {
           "datum": "2026-08-18",
           "datum_ist_naeherung": false,
@@ -768,13 +767,6 @@
           "datum_ist_naeherung": false,
           "titel": "Poster Boy: Sanctioned Kinahan Cartel Lieutenant Found Playing Padel in Dubai",
           "url": "https://www.bellingcat.com/news/2026/06/27/poster-boy-sanctioned-kinahan-cartel-lieutenant-found-playing-padel-in-dubai/",
-          "quelle_id": "bellingcat"
-        },
-        {
-          "datum": "2026-06-24",
-          "datum_ist_naeherung": false,
-          "titel": "Rhino Horn, Leopard Skin and Tiger Claws Sold Openly on Facebook",
-          "url": "https://www.bellingcat.com/news/2026/06/24/rhino-horn-leopard-skin-and-tiger-claws-sold-openly-on-facebook/",
           "quelle_id": "bellingcat"
         }
       ]
