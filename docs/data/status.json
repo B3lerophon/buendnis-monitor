@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-08-24T08:26:14.930535+00:00",
+  "generiert_am": "2026-08-25T08:07:48.780507+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -79,15 +79,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-08-23",
-          "datum_ist_naeherung": false,
-          "titel": "Kasachstan: Regierungspartei siegt bei Parlamentswahl in Kasachstan",
-          "url": "https://www.zeit.de/politik/ausland/2026-08/parlamentswahl-kasachstan-adilet-qassym-schomart-tokajew-verfassungsreform",
-          "quelle_id": "zeit_politik"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "nato_3_5_prozent",
@@ -181,15 +173,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-08-20",
-          "datum_ist_naeherung": false,
-          "titel": "Internationaler Strafgerichtshof: Vereint gegen Kriegsverbrechen und Völkermord?",
-          "url": "https://www.tagesschau.de/ausland/amerika/faq-usa-sanktionen-internationaler-strafgerichtshof-100.html",
-          "quelle_id": "tagesschau_ausland"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "sondervermoegen_bundeswehr",
@@ -467,22 +451,7 @@
           "richtung": "verstaerkt"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-08-24",
-          "datum_ist_naeherung": false,
-          "titel": "Krieg gegen die Ukraine: EU-Kommission genehmigt weitere Finanzmittel für Ukraine",
-          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-08-23",
-          "datum_ist_naeherung": false,
-          "titel": "Krieg in der Ukraine: Selenskij gegen Wahlen im Krieg - warnt vor russischer Mobilmachung",
-          "url": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-wahlen-selenskij-li.3524928",
-          "quelle_id": "sueddeutsche_politik"
-        }
-      ]
+      "medienberichte": []
     }
   ],
   "osint": [
@@ -597,6 +566,13 @@
       "name": "Sonstige / global",
       "eintraege": [
         {
+          "datum": "2026-08-23",
+          "datum_ist_naeherung": false,
+          "titel": "Hybrid Navy: Building the Maritime Operating System",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/hybrid-navy-building-maritime-operating-system",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-08-20",
           "datum_ist_naeherung": false,
           "titel": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
@@ -692,13 +668,6 @@
           "datum_ist_naeherung": false,
           "titel": "Credibility is the UK's Crypto Advantage",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/credibility-uks-crypto-advantage",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-07-28",
-          "datum_ist_naeherung": false,
-          "titel": "Allies Should Unite on Defence Finance",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/allies-should-unite-defence-finance",
           "quelle_id": "rusi_commentary"
         },
         {
