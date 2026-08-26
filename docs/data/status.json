@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-08-25T08:07:48.780507+00:00",
+  "generiert_am": "2026-08-26T08:09:14.103581+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -289,7 +289,29 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-08-26",
+          "datum_ist_naeherung": false,
+          "titel": "Russlands Raketen zerstören die ukrainische Wirtschaft",
+          "url": "https://www.tagesschau.de/ausland/europa/russland-ukraine-wirtschaft-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
+          "datum": "2026-08-25",
+          "datum_ist_naeherung": false,
+          "titel": "USA und Kanada: Trotzig gegen Trump",
+          "url": "https://www.zeit.de/politik/ausland/2026-08/kanada-usa-beziehung-probleme-donald-trump",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-08-25",
+          "datum_ist_naeherung": false,
+          "titel": "Iryna Mudra: Selenskyj-Vertraute muss in Untersuchungshaft",
+          "url": "https://www.zeit.de/politik/ausland/2026-08/iryna-mudra-ukraine-geldwaesche-korruption-untersuchungshaft",
+          "quelle_id": "zeit_politik"
+        }
+      ]
     },
     {
       "id": "eu_safe_rearm",
@@ -451,7 +473,15 @@
           "richtung": "verstaerkt"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-08-26",
+          "datum_ist_naeherung": false,
+          "titel": "Russlands Raketen zerstören die ukrainische Wirtschaft",
+          "url": "https://www.tagesschau.de/ausland/europa/russland-ukraine-wirtschaft-100.html",
+          "quelle_id": "tagesschau_ausland"
+        }
+      ]
     }
   ],
   "osint": [
@@ -464,6 +494,13 @@
       "id": "russland_ukraine",
       "name": "Russland / Ukraine",
       "eintraege": [
+        {
+          "datum": "2026-08-25",
+          "datum_ist_naeherung": false,
+          "titel": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
+          "url": "https://www.bellingcat.com/news/africa/2026/08/25/patria-sanctioned-russian-vessel-russia-us-africa-cameroon-gabon-lagos-nigeria/",
+          "quelle_id": "bellingcat"
+        },
         {
           "datum": "2026-08-19",
           "datum_ist_naeherung": false,
@@ -484,20 +521,6 @@
           "titel": "Instrumentalised Migration and Russia’s ‘Disposable Agents’",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/instrumentalised-migration-and-russias-disposable-agents",
           "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-07-28",
-          "datum_ist_naeherung": false,
-          "titel": "Rosatom is a Military Supplier – Europe Must Treat It as Such",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/rosatom-military-supplier-europe-must-treat-it-such",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-06-25",
-          "datum_ist_naeherung": false,
-          "titel": "How to Use AI to Help Find Civilian Harm",
-          "url": "https://www.bellingcat.com/resources/2026/06/25/how-to-use-ai-to-help-find-civilian-harm-conflict-report-monitor-war-machine-learning-telegram/",
-          "quelle_id": "bellingcat"
         }
       ]
     },
@@ -565,6 +588,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-08-24",
+          "datum_ist_naeherung": false,
+          "titel": "Australia’s Democratic Coordination in an Age of Foreign Interference",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/australias-democratic-coordination-age-foreign-interference",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-08-23",
           "datum_ist_naeherung": false,
