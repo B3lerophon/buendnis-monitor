@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-08-29T06:03:28.171774+00:00",
+  "generiert_am": "2026-08-30T06:03:04.414122+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -79,7 +79,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-08-30",
+          "datum_ist_naeherung": false,
+          "titel": "In Island zeichnet sich eine knappe Mehrheit bei EU-Referendum ab",
+          "url": "https://www.tagesschau.de/ausland/europa/island-referendum-auszaehlung-100.html",
+          "quelle_id": "tagesschau_ausland"
+        }
+      ]
     },
     {
       "id": "nato_3_5_prozent",
@@ -269,25 +277,25 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-08-29",
+          "datum_ist_naeherung": false,
+          "titel": "USA: Trump: USA sichern sich riesige Ölvorkommen in Venezuela",
+          "url": "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-venezuela-oelreserven-benzinpreis-li.3530667",
+          "quelle_id": "sueddeutsche_politik"
+        },
+        {
+          "datum": "2026-08-29",
+          "datum_ist_naeherung": false,
+          "titel": "Bundespolitik: Bas stellt Krankschreibung ab erstem Tag infrage",
+          "url": "https://www.sueddeutsche.de/politik/bundesregierung-pistorius-oezdemir-afd-verbot-li.3529564",
+          "quelle_id": "sueddeutsche_politik"
+        },
+        {
           "datum": "2026-08-28",
           "datum_ist_naeherung": false,
           "titel": "Özdemir und Pistorius werben für Verbotsverfahren von AfD-Landesverbänden",
           "url": "https://www.tagesschau.de/inland/innenpolitik/pistorius-und-oezdemir-fuer-afd-verbotsverfahren-100.html",
           "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-08-28",
-          "datum_ist_naeherung": false,
-          "titel": "Mychajlo Fedorow: Ukrainischer Ex-Verteidigungsminister berät italienische Regierung",
-          "url": "https://www.zeit.de/politik/ausland/2026-08/mychajlo-fedorow-italien-berater-guido-crosetto-militaer",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-08-28",
-          "datum_ist_naeherung": false,
-          "titel": "Bundespolitik: Pistorius und Özdemir fordern Verbot „völkischer“ AfD-Landesverbände",
-          "url": "https://www.sueddeutsche.de/politik/bundesregierung-pistorius-oezdemir-afd-verbot-li.3529564",
-          "quelle_id": "sueddeutsche_politik"
         }
       ]
     },
@@ -312,13 +320,6 @@
         }
       ],
       "medienberichte": [
-        {
-          "datum": "2026-08-28",
-          "datum_ist_naeherung": false,
-          "titel": "Mychajlo Fedorow: Ukrainischer Ex-Verteidigungsminister berät italienische Regierung",
-          "url": "https://www.zeit.de/politik/ausland/2026-08/mychajlo-fedorow-italien-berater-guido-crosetto-militaer",
-          "quelle_id": "zeit_politik"
-        },
         {
           "datum": "2026-08-26",
           "datum_ist_naeherung": false,
@@ -611,7 +612,7 @@
       "name": "Sonstige / global",
       "eintraege": [
         {
-          "datum": "2026-09-27",
+          "datum": "2026-08-27",
           "datum_ist_naeherung": false,
           "titel": "Security Cooperation Among the Arctic NATO Allies",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/security-cooperation-among-arctic-nato-allies",
