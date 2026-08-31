@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-08-30T06:03:04.414122+00:00",
+  "generiert_am": "2026-08-31T06:03:16.720647+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -83,8 +83,8 @@
         {
           "datum": "2026-08-30",
           "datum_ist_naeherung": false,
-          "titel": "In Island zeichnet sich eine knappe Mehrheit bei EU-Referendum ab",
-          "url": "https://www.tagesschau.de/ausland/europa/island-referendum-auszaehlung-100.html",
+          "titel": "Isländer stimmen per Referendum gegen EU-Beitrittsverhandlungen",
+          "url": "https://www.tagesschau.de/ausland/island-referendum-eu-beitritt-100.html",
           "quelle_id": "tagesschau_ausland"
         }
       ]
@@ -276,20 +276,6 @@
         }
       ],
       "medienberichte": [
-        {
-          "datum": "2026-08-29",
-          "datum_ist_naeherung": false,
-          "titel": "USA: Trump: USA sichern sich riesige Ölvorkommen in Venezuela",
-          "url": "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-venezuela-oelreserven-benzinpreis-li.3530667",
-          "quelle_id": "sueddeutsche_politik"
-        },
-        {
-          "datum": "2026-08-29",
-          "datum_ist_naeherung": false,
-          "titel": "Bundespolitik: Bas stellt Krankschreibung ab erstem Tag infrage",
-          "url": "https://www.sueddeutsche.de/politik/bundesregierung-pistorius-oezdemir-afd-verbot-li.3529564",
-          "quelle_id": "sueddeutsche_politik"
-        },
         {
           "datum": "2026-08-28",
           "datum_ist_naeherung": false,
@@ -490,6 +476,13 @@
         }
       ],
       "medienberichte": [
+        {
+          "datum": "2026-08-31",
+          "datum_ist_naeherung": false,
+          "titel": "Russische Cyberangriffe: Wie Deutschland auf die russischen Cyberangriffe reagieren sollte",
+          "url": "https://www.zeit.de/politik/2026-08/russische-cyberangriffe-desinformation-nachrichtenseiten-politik-nachrichtenpodcast",
+          "quelle_id": "zeit_politik"
+        },
         {
           "datum": "2026-08-28",
           "datum_ist_naeherung": false,
