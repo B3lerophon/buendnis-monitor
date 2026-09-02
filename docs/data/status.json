@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-09-01T06:06:00.396409+00:00",
+  "generiert_am": "2026-09-02T06:06:07.334787+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -8,12 +8,20 @@
       "name": "NATO 2%-Ziel (Verteidigungsausgaben)",
       "ebene": "NATO",
       "beschreibung": "Zusage der NATO-Mitgliedstaaten, mindestens 2% des BIP für Verteidigung auszugeben (Wales-Gipfel 2014, seither wiederholt bekräftigt).",
-      "ampel": "rot",
-      "begruendung": "Neuester relevanter Fund vom 2026-08-19: schwächt ab. Bezug erkannt an: Verteidigungsfähigkeit; abschwächende Formulierungen: Kritik, ausgesetzt, in Frage gestellt",
-      "letzte_aenderung_datum": "2026-08-19",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2798968-2798968",
-      "aenderung": "schwächt ab",
+      "ampel": "gelb",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-01: keine klare Richtung erkennbar. Bezug erkannt an: Verteidigungsfähigkeit",
+      "letzte_aenderung_datum": "2026-09-01",
+      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2800598-2800598",
+      "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-09-01",
+          "datum_ist_naeherung": false,
+          "titel": "Außenminister Wadephul bei der gemeinsamen Pressekonferenz mit Innenminister Dobrindt",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2800598-2800598",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-08-19",
           "datum_ist_naeherung": false,
@@ -81,6 +89,13 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-09-02",
+          "datum_ist_naeherung": false,
+          "titel": "Verteidigung: Deutsche Marine testet erfolgreich weitreichende Rakete",
+          "url": "https://www.sueddeutsche.de/politik/marine-raketentest-russland-lora-reichweite-verteidigung-li.3540917",
+          "quelle_id": "sueddeutsche_politik"
+        },
+        {
           "datum": "2026-08-30",
           "datum_ist_naeherung": false,
           "titel": "Isländer stimmen per Referendum gegen EU-Beitrittsverhandlungen",
@@ -94,89 +109,89 @@
       "name": "NATO 3,5%-Ziel (Gipfel Den Haag 2025)",
       "ebene": "NATO",
       "beschreibung": "Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025, Zielhorizont 2035.",
-      "ampel": "rot",
-      "begruendung": "Neuester relevanter Fund vom 2026-08-19: schwächt ab. Bezug erkannt an: 5%-Ziel; abschwächende Formulierungen: Zweifel, in Frage gestellt",
-      "letzte_aenderung_datum": "2026-08-19",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2798968-2798968",
-      "aenderung": "schwächt ab",
+      "ampel": "gelb",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-01: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
+      "letzte_aenderung_datum": "2026-09-01",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2024/07/05/nato-secretary-general-our-most-urgent-task-at-the-summit-will-be-support-to-ukraine",
+      "aenderung": "keine klare Richtung erkennbar",
       "historie": [
         {
-          "datum": "2026-08-19",
+          "datum": "2026-09-01",
           "datum_ist_naeherung": false,
-          "titel": "Rede von Außenminister Johann Wadephul im Rahmen der Schweizer Botschafterkonferenz in Bern",
-          "url": "https://www.auswaertiges-amt.de/de/newsroom/2798968-2798968",
-          "quelle_id": "auswaertiges_amt_presse",
-          "richtung": "schwaecht_ab"
-        },
-        {
-          "datum": "2026-08-03",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general attends meeting of the coalition of the willing in paris",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/07/13/nato-secretary-general-attends-meeting-of-the-coalition-of-the-willing-in-paris",
+          "titel": "nato secretary general our most urgent task at the summit will be support to ukraine",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2024/07/05/nato-secretary-general-our-most-urgent-task-at-the-summit-will-be-support-to-ukraine",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
         {
-          "datum": "2026-08-03",
+          "datum": "2026-09-01",
           "datum_ist_naeherung": false,
-          "titel": "nato secretary general attends meeting of the coalition of the willing in paris",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/07/13/nato-secretary-general-attends-meeting-of-the-coalition-of-the-willing-in-paris",
+          "titel": "secretary general celebrates natos 75th anniversary with allied leaders on the eve of the washington summit",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2024/07/09/secretary-general-celebrates-natos-75th-anniversary-with-allied-leaders-on-the-eve-of-the-washington-summit",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
         {
-          "datum": "2026-07-09",
+          "datum": "2026-09-01",
           "datum_ist_naeherung": false,
-          "titel": "nato secretary general previews the ankara summit highlights progress on defence spending",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/07/06/nato-secretary-general-previews-the-ankara-summit-highlights-progress-on-defence-spending",
+          "titel": "women peace and security highlighted at the nato summit",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2024/07/09/women-peace-and-security-highlighted-at-the-nato-summit",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
         {
-          "datum": "2026-07-09",
+          "datum": "2026-09-01",
           "datum_ist_naeherung": false,
-          "titel": "tens of billions in new procurements revealed at the nato summit defence industry forum in ankara",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/07/07/tens-of-billions-in-new-procurements-revealed-at-the-nato-summit-defence-industry-forum-in-ankara",
+          "titel": "secretary general outlines washington summit priorities at nato public forum",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2024/07/10/secretary-general-outlines-washington-summit-priorities-at-nato-public-forum",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
         {
-          "datum": "2026-07-08",
+          "datum": "2026-09-01",
           "datum_ist_naeherung": false,
-          "titel": "tens of billions in new procurements revealed at the nato summit defence industry forum in ankara",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/07/07/tens-of-billions-in-new-procurements-revealed-at-the-nato-summit-defence-industry-forum-in-ankara",
+          "titel": "nato secretary general concludes landmark 75th anniversary washington summit",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2024/07/11/nato-secretary-general-concludes-landmark-75th-anniversary-washington-summit",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
         {
-          "datum": "2026-07-06",
+          "datum": "2026-09-01",
           "datum_ist_naeherung": false,
-          "titel": "nato secretary general previews the ankara summit highlights progress on defence spending",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/07/06/nato-secretary-general-previews-the-ankara-summit-highlights-progress-on-defence-spending",
+          "titel": "nato secretary general welcomes president zelenskyy to the washington summit saying ukraines future is in nato",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2024/07/11/nato-secretary-general-welcomes-president-zelenskyy-to-the-washington-summit-saying-ukraines-future-is-in-nato",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
         {
-          "datum": "2026-07-01",
+          "datum": "2026-09-01",
           "datum_ist_naeherung": false,
-          "titel": "nato secretary general visits the united kingdom to discuss the summit of allied leaders",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/29/nato-secretary-general-visits-the-united-kingdom-to-discuss-the-summit-of-allied-leaders",
+          "titel": "washington summit secretary general underlines natos deepening cooperation with indo pacific and eu partners",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2024/07/11/washington-summit-secretary-general-underlines-natos-deepening-cooperation-with-indo-pacific-and-eu-partners",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
         {
-          "datum": "2026-07-01",
+          "datum": "2026-09-01",
           "datum_ist_naeherung": false,
-          "titel": "nato secretary general in berlin germany leads and germany delivers",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/07/01/nato-secretary-general-in-berlin-germany-leads-and-germany-delivers",
+          "titel": "nato secretary general our most urgent task at the summit will be support to ukraine",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2024/07/05/nato-secretary-general-our-most-urgent-task-at-the-summit-will-be-support-to-ukraine",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
         {
-          "datum": "2026-07-01",
+          "datum": "2026-09-01",
           "datum_ist_naeherung": false,
-          "titel": "nato secretary general in berlin germany leads and germany delivers",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/07/01/nato-secretary-general-in-berlin-germany-leads-and-germany-delivers",
+          "titel": "secretary general arrives in washington ahead of nato summit meets with us secretary of defense",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2024/07/08/secretary-general-arrives-in-washington-ahead-of-nato-summit-meets-with-us-secretary-of-defense",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-01",
+          "datum_ist_naeherung": false,
+          "titel": "secretary general celebrates natos 75th anniversary with allied leaders on the eve of the washington summit",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2024/07/09/secretary-general-celebrates-natos-75th-anniversary-with-allied-leaders-on-the-eve-of-the-washington-summit",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
@@ -291,11 +306,27 @@
       "ebene": "Bund",
       "beschreibung": "Zusagen der Bundesregierung zu Waffen-/Munitionslieferungen an die Ukraine, Abgleich Ankündigung vs. tatsächliche Lieferung.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-08-21: keine klare Richtung erkennbar. Bezug erkannt an: Patriot",
-      "letzte_aenderung_datum": "2026-08-21",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/gemeinsame-deutsch-franzoesische-erklaerung-zum-urteil-gegen-chow-hang-tung-preistraegerin-des-deutsch-franzoesischen-menschenrechtspreises-2023-2799028",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-01: keine klare Richtung erkennbar. Bezug erkannt an: Zelensky",
+      "letzte_aenderung_datum": "2026-09-01",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2024/07/11/nato-secretary-general-welcomes-president-zelenskyy-to-the-washington-summit-saying-ukraines-future-is-in-nato",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-09-01",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general welcomes president zelenskyy to the washington summit saying ukraines future is in nato",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2024/07/11/nato-secretary-general-welcomes-president-zelenskyy-to-the-washington-summit-saying-ukraines-future-is-in-nato",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-01",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general welcomes president zelenskyy to the washington summit saying ukraines future is in nato",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2024/07/11/nato-secretary-general-welcomes-president-zelenskyy-to-the-washington-summit-saying-ukraines-future-is-in-nato",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-08-21",
           "datum_ist_naeherung": false,
@@ -306,6 +337,13 @@
         }
       ],
       "medienberichte": [
+        {
+          "datum": "2026-09-02",
+          "datum_ist_naeherung": false,
+          "titel": "Krieg gegen die Ukraine: Wolodymyr Selenskyj warnt Airlines vor Flügen über Russland",
+          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+          "quelle_id": "zeit_politik"
+        },
         {
           "datum": "2026-08-26",
           "datum_ist_naeherung": false,
@@ -460,12 +498,20 @@
       "name": "Moderne Kriegsführung (Drohnen, Cyber, hybride Bedrohungen)",
       "ebene": "NATO",
       "beschreibung": "Anpassung von NATO und Deutschland an neue Kriegsführungsformen: Drohnenkrieg, gemeinsame Luft-/Raketenabwehr (u.a. European Sky Shield Initiative), Cyber- und hybride Bedrohungen, autonome/KI-gestützte Waffensysteme. Betrifft sowohl NATO-weite Programme/Übungen als auch die konkrete Unterstützung der Ukraine in diesen Bereichen.",
-      "ampel": "gruen",
-      "begruendung": "Neuester relevanter Fund vom 2026-08-19: verstärkt / bestätigt. Bezug erkannt an: Cyberangriff; bestätigende Formulierungen: Fortschritt",
-      "letzte_aenderung_datum": "2026-08-19",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2798968-2798968",
-      "aenderung": "verstärkt / bestätigt",
+      "ampel": "gelb",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-01: keine klare Richtung erkennbar. Bezug erkannt an: Sabotage, sabotage",
+      "letzte_aenderung_datum": "2026-09-01",
+      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2800598-2800598",
+      "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-09-01",
+          "datum_ist_naeherung": false,
+          "titel": "Außenminister Wadephul bei der gemeinsamen Pressekonferenz mit Innenminister Dobrindt",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2800598-2800598",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-08-19",
           "datum_ist_naeherung": false,
@@ -477,11 +523,11 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-08-31",
+          "datum": "2026-09-01",
           "datum_ist_naeherung": false,
-          "titel": "Ceuta: Sanchez sieht Hinweise auf Desinformationskampagne aus Russland und Israel",
-          "url": "https://www.sueddeutsche.de/politik/ceuta-sanchez-sieht-hinweise-auf-desinformationskampagne-aus-russland-und-israel-li.3540153",
-          "quelle_id": "sueddeutsche_politik"
+          "titel": "Kurzschlüsse nahe Kohlekraftwerk: Sabotage sollte wohl Blackout auslösen",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/sabotage-umspannwerk-brandenburg-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
         },
         {
           "datum": "2026-08-28",
@@ -612,6 +658,13 @@
       "name": "Sonstige / global",
       "eintraege": [
         {
+          "datum": "2026-08-31",
+          "datum_ist_naeherung": false,
+          "titel": "From Tailored Air Group to Tailorable Maritime Aviation",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/tailored-air-group-tailorable-maritime-aviation",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-08-27",
           "datum_ist_naeherung": false,
           "titel": "Security Cooperation Among the Arctic NATO Allies",
@@ -707,13 +760,6 @@
           "datum_ist_naeherung": false,
           "titel": "Burnham’s Opportunity to Rethink Information Resilience",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/burnhams-opportunity-rethink-information-resilience",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-08-03",
-          "datum_ist_naeherung": false,
-          "titel": "Swarming Software’s Defence Industrial Implications",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/swarming-softwares-defence-industrial-implications",
           "quelle_id": "rusi_commentary"
         },
         {
