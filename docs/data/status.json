@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-09-04T06:05:22.749314+00:00",
+  "generiert_am": "2026-09-05T06:05:49.936191+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -556,10 +556,31 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-09-05",
+          "datum_ist_naeherung": false,
+          "titel": "Sabotage an Stromleitungen: Polizei stürmt Fahrzeug, Sabotageverdächtiger auf der Flucht",
+          "url": "https://www.zeit.de/politik/deutschland/2026-09/sabotage-stromleitungen-bekennerschreiben-herbert-reul-nordrhein-westfalen-brandenburg",
+          "quelle_id": "zeit_politik"
+        },
+        {
           "datum": "2026-09-04",
           "datum_ist_naeherung": false,
-          "titel": "Nordrhein-Westfalen: Umspannwerk in Dormagen: Polizei spricht von Sabotageakt",
-          "url": "https://www.sueddeutsche.de/politik/kriminalitaet-sabotage-stromversorgung-polizei-nrw-li.3542060",
+          "titel": "Sabotage an Umspannwerken - Polizei fahndet nach Verdächtigem aus NRW",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/sabotageversuche-dobrindt-reul-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
+        },
+        {
+          "datum": "2026-09-04",
+          "datum_ist_naeherung": false,
+          "titel": "Wohl Sabotageversuch in Dormagen - Vorfälle in Aachen und Ganderkesee",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/sabotage-stromnetz-dormagen-aachen-ganderkesee-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
+        },
+        {
+          "datum": "2026-09-04",
+          "datum_ist_naeherung": false,
+          "titel": "Podcast: „Auf den Punkt“: Ist VW jetzt gerettet? / Versuchte Sabotage in Deutschland",
+          "url": "https://www.sueddeutsche.de/politik/vw-sparplaene-sabotageversuche-deutschland-entwicklungen-li.3542303",
           "quelle_id": "sueddeutsche_politik"
         },
         {
@@ -577,24 +598,10 @@
           "quelle_id": "tagesschau_ausland"
         },
         {
-          "datum": "2026-09-03",
-          "datum_ist_naeherung": false,
-          "titel": "Vertraulicher BKA-Bericht: Behörden registrieren 165 mutmaßliche Sabotagefälle",
-          "url": "https://www.sueddeutsche.de/politik/sabotage-deutschland-bka-russland-infrastruktur-anschlaege-li.3541815",
-          "quelle_id": "sueddeutsche_politik"
-        },
-        {
           "datum": "2026-09-01",
           "datum_ist_naeherung": false,
           "titel": "Kurzschlüsse nahe Kohlekraftwerk: Sabotage sollte wohl Blackout auslösen",
           "url": "https://www.tagesschau.de/inland/innenpolitik/sabotage-umspannwerk-brandenburg-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-08-28",
-          "datum_ist_naeherung": false,
-          "titel": "Ostsee-Anrainer vereinbaren Taskforce gegen hybride Bedrohungen",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/treffen-ostsee-anrainer-100.html",
           "quelle_id": "tagesschau_innenpolitik"
         },
         {
@@ -636,13 +643,6 @@
           "datum_ist_naeherung": false,
           "titel": "Putin’s Political Longevity – A Framework of Considerations",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/putins-political-longevity-framework-considerations",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-08-05",
-          "datum_ist_naeherung": false,
-          "titel": "Instrumentalised Migration and Russia’s ‘Disposable Agents’",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/instrumentalised-migration-and-russias-disposable-agents",
           "quelle_id": "rusi_commentary"
         }
       ]
@@ -704,6 +704,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-09-03",
+          "datum_ist_naeherung": false,
+          "titel": "Europe Started Talking Nuclear Deterrence. Still Missing: A Plan",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/europe-started-talking-nuclear-deterrence-still-missing-plan",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-09-02",
           "datum_ist_naeherung": false,
