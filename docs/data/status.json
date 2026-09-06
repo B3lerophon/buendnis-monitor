@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-09-05T06:05:49.936191+00:00",
+  "generiert_am": "2026-09-06T06:05:21.512899+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -355,17 +355,17 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-09-05",
+          "datum_ist_naeherung": false,
+          "titel": "Flugabwehrsystem Patriot: Diese tödliche Lücke lässt der Westen in der Ukraine",
+          "url": "https://www.zeit.de/politik/ausland/2026-09/flugabwehrsystem-patriot-abwehrraketen-mangel-iran-krieg-ukraine",
+          "quelle_id": "zeit_politik"
+        },
+        {
           "datum": "2026-09-04",
           "datum_ist_naeherung": false,
           "titel": "Trump will Geld von Europa für Ukraine-Hilfen zurück",
           "url": "https://www.tagesschau.de/ausland/amerika/trump-ukraine-hilfen-forderung-europa-100.html",
-          "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-08-26",
-          "datum_ist_naeherung": false,
-          "titel": "Russlands Raketen zerstören die ukrainische Wirtschaft",
-          "url": "https://www.tagesschau.de/ausland/europa/russland-ukraine-wirtschaft-100.html",
           "quelle_id": "tagesschau_ausland"
         }
       ]
@@ -514,14 +514,6 @@
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/05/08/nato-high-level-group-discusses-nuclear-deterrence-ahead-of-june-npg-meeting",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-05-08",
-          "datum_ist_naeherung": false,
-          "titel": "nato high level group discusses nuclear deterrence ahead of june npg meeting",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/05/08/nato-high-level-group-discusses-nuclear-deterrence-ahead-of-june-npg-meeting",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": []
@@ -556,10 +548,31 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-09-06",
+          "datum_ist_naeherung": false,
+          "titel": "Wahl in Sachsen-Anhalt: Woher kommt die Wut?",
+          "url": "https://www.zeit.de/politik/2026-09/wahl-sachsen-anhalt-friedrich-merz-nachrichtenpodcast",
+          "quelle_id": "zeit_politik"
+        },
+        {
           "datum": "2026-09-05",
           "datum_ist_naeherung": false,
-          "titel": "Sabotage an Stromleitungen: Polizei stürmt Fahrzeug, Sabotageverdächtiger auf der Flucht",
-          "url": "https://www.zeit.de/politik/deutschland/2026-09/sabotage-stromleitungen-bekennerschreiben-herbert-reul-nordrhein-westfalen-brandenburg",
+          "titel": "Hybride Sabotage: Bundesinnenministerium plant nach Drohnenvorfall Schutzschirm",
+          "url": "https://www.zeit.de/politik/2026-09/hybride-sabotage-russland-alexander-dobrindt-drohnenabwehr-cyberdome",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-09-05",
+          "datum_ist_naeherung": false,
+          "titel": "Autonome Waffensysteme: UN erzielen Einigung über Definition autonomer Waffensysteme",
+          "url": "https://www.zeit.de/politik/ausland/2026-09/autonome-waffensysteme-uno-genf-tom-berendsen",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-09-05",
+          "datum_ist_naeherung": false,
+          "titel": "Flugabwehrsystem Patriot: Diese tödliche Lücke lässt der Westen in der Ukraine",
+          "url": "https://www.zeit.de/politik/ausland/2026-09/flugabwehrsystem-patriot-abwehrraketen-mangel-iran-krieg-ukraine",
           "quelle_id": "zeit_politik"
         },
         {
@@ -575,13 +588,6 @@
           "titel": "Wohl Sabotageversuch in Dormagen - Vorfälle in Aachen und Ganderkesee",
           "url": "https://www.tagesschau.de/inland/innenpolitik/sabotage-stromnetz-dormagen-aachen-ganderkesee-100.html",
           "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-09-04",
-          "datum_ist_naeherung": false,
-          "titel": "Podcast: „Auf den Punkt“: Ist VW jetzt gerettet? / Versuchte Sabotage in Deutschland",
-          "url": "https://www.sueddeutsche.de/politik/vw-sparplaene-sabotageversuche-deutschland-entwicklungen-li.3542303",
-          "quelle_id": "sueddeutsche_politik"
         },
         {
           "datum": "2026-09-03",
@@ -603,13 +609,6 @@
           "titel": "Kurzschlüsse nahe Kohlekraftwerk: Sabotage sollte wohl Blackout auslösen",
           "url": "https://www.tagesschau.de/inland/innenpolitik/sabotage-umspannwerk-brandenburg-100.html",
           "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-08-26",
-          "datum_ist_naeherung": false,
-          "titel": "Russlands Raketen zerstören die ukrainische Wirtschaft",
-          "url": "https://www.tagesschau.de/ausland/europa/russland-ukraine-wirtschaft-100.html",
-          "quelle_id": "tagesschau_ausland"
         }
       ]
     }
