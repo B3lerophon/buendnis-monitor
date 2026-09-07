@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-09-06T06:05:21.512899+00:00",
+  "generiert_am": "2026-09-07T06:06:16.394855+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -355,13 +355,6 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-09-05",
-          "datum_ist_naeherung": false,
-          "titel": "Flugabwehrsystem Patriot: Diese tödliche Lücke lässt der Westen in der Ukraine",
-          "url": "https://www.zeit.de/politik/ausland/2026-09/flugabwehrsystem-patriot-abwehrraketen-mangel-iran-krieg-ukraine",
-          "quelle_id": "zeit_politik"
-        },
-        {
           "datum": "2026-09-04",
           "datum_ist_naeherung": false,
           "titel": "Trump will Geld von Europa für Ukraine-Hilfen zurück",
@@ -550,43 +543,15 @@
         {
           "datum": "2026-09-06",
           "datum_ist_naeherung": false,
-          "titel": "Wahl in Sachsen-Anhalt: Woher kommt die Wut?",
-          "url": "https://www.zeit.de/politik/2026-09/wahl-sachsen-anhalt-friedrich-merz-nachrichtenpodcast",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-09-05",
-          "datum_ist_naeherung": false,
-          "titel": "Hybride Sabotage: Bundesinnenministerium plant nach Drohnenvorfall Schutzschirm",
-          "url": "https://www.zeit.de/politik/2026-09/hybride-sabotage-russland-alexander-dobrindt-drohnenabwehr-cyberdome",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-09-05",
-          "datum_ist_naeherung": false,
-          "titel": "Autonome Waffensysteme: UN erzielen Einigung über Definition autonomer Waffensysteme",
-          "url": "https://www.zeit.de/politik/ausland/2026-09/autonome-waffensysteme-uno-genf-tom-berendsen",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-09-05",
-          "datum_ist_naeherung": false,
-          "titel": "Flugabwehrsystem Patriot: Diese tödliche Lücke lässt der Westen in der Ukraine",
-          "url": "https://www.zeit.de/politik/ausland/2026-09/flugabwehrsystem-patriot-abwehrraketen-mangel-iran-krieg-ukraine",
-          "quelle_id": "zeit_politik"
+          "titel": "Großrazzia: Suche nach Sabotage-Verdächtigem im Hambacher Forst endet erfolglos",
+          "url": "https://www.sueddeutsche.de/politik/sabotage-stromnetz-sprengsaetze-fahndung-verdaechtiger-hambacher-forst-li.3543117",
+          "quelle_id": "sueddeutsche_politik"
         },
         {
           "datum": "2026-09-04",
           "datum_ist_naeherung": false,
           "titel": "Sabotage an Umspannwerken - Polizei fahndet nach Verdächtigem aus NRW",
           "url": "https://www.tagesschau.de/inland/innenpolitik/sabotageversuche-dobrindt-reul-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-09-04",
-          "datum_ist_naeherung": false,
-          "titel": "Wohl Sabotageversuch in Dormagen - Vorfälle in Aachen und Ganderkesee",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/sabotage-stromnetz-dormagen-aachen-ganderkesee-100.html",
           "quelle_id": "tagesschau_innenpolitik"
         },
         {
@@ -602,13 +567,6 @@
           "titel": "Iran greift erneut Ziele in Kuwait an",
           "url": "https://www.tagesschau.de/ausland/asien/iran-kuwait-angriffe-100.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-09-01",
-          "datum_ist_naeherung": false,
-          "titel": "Kurzschlüsse nahe Kohlekraftwerk: Sabotage sollte wohl Blackout auslösen",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/sabotage-umspannwerk-brandenburg-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
         }
       ]
     }
