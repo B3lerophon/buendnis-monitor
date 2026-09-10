@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-09-09T06:05:55.826678+00:00",
+  "generiert_am": "2026-09-10T06:06:08.233903+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -103,11 +103,27 @@
       "ebene": "NATO",
       "beschreibung": "Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025, Zielhorizont 2035.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-09-08: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
-      "letzte_aenderung_datum": "2026-09-08",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/08/nato-secretary-general-welcomes-new-support-for-ukraine-urges-nations-to-continue-to-step-up",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-09: keine klare Richtung erkennbar. Bezug erkannt an: NATO summit",
+      "letzte_aenderung_datum": "2026-09-09",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/12/secretary-general-concludes-historic-nato-summit-in-vilnius",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-09-09",
+          "datum_ist_naeherung": false,
+          "titel": "secretary general concludes historic nato summit in vilnius",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/12/secretary-general-concludes-historic-nato-summit-in-vilnius",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-09",
+          "datum_ist_naeherung": false,
+          "titel": "secretary general concludes historic nato summit in vilnius",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/12/secretary-general-concludes-historic-nato-summit-in-vilnius",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-09-08",
           "datum_ist_naeherung": false,
@@ -167,24 +183,8 @@
         {
           "datum": "2026-09-02",
           "datum_ist_naeherung": false,
-          "titel": "secretary general concludes historic nato summit in vilnius",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/12/secretary-general-concludes-historic-nato-summit-in-vilnius",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
           "titel": "secretary general welcomes president zelenskyy to the nato summit ahead of inaugural nato ukraine council",
           "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/12/secretary-general-welcomes-president-zelenskyy-to-the-nato-summit-ahead-of-inaugural-nato-ukraine-council",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general welcomes turkiyes decision to forward sweden accession protocols to parliament",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/10/nato-secretary-general-welcomes-turkiyes-decision-to-forward-sweden-accession-protocols-to-parliament",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
@@ -290,20 +290,6 @@
           "titel": "Pistorius verspricht mehr Waffen - Trump telefoniert mit Putin",
           "url": "https://www.tagesschau.de/ausland/europa/pistorius-waffenhilfe-ukraine-100.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-09-08",
-          "datum_ist_naeherung": false,
-          "titel": "Bundeswehr: Fast 2000 mutmaßliche Fälle sexualisierten Fehlverhaltens in der Bundeswehr",
-          "url": "https://www.sueddeutsche.de/politik/bundeswehr-gewalt-missbrauch-li.3544246",
-          "quelle_id": "sueddeutsche_politik"
-        },
-        {
-          "datum": "2026-09-08",
-          "datum_ist_naeherung": false,
-          "titel": "Newsblog zum Ukraine-Krieg: Pistorius kündigt umfangreiche Waffenlieferungen an",
-          "url": "https://www.sueddeutsche.de/politik/ukraine-krieg-raketen-pistorius-patriot-li.3524928",
-          "quelle_id": "sueddeutsche_politik"
         }
       ]
     },
@@ -383,22 +369,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-09-08",
-          "datum_ist_naeherung": false,
-          "titel": "Newsblog zum Ukraine-Krieg: Pistorius kündigt umfangreiche Waffenlieferungen an",
-          "url": "https://www.sueddeutsche.de/politik/ukraine-krieg-raketen-pistorius-patriot-li.3524928",
-          "quelle_id": "sueddeutsche_politik"
-        },
-        {
-          "datum": "2026-09-04",
-          "datum_ist_naeherung": false,
-          "titel": "Trump will Geld von Europa für Ukraine-Hilfen zurück",
-          "url": "https://www.tagesschau.de/ausland/amerika/trump-ukraine-hilfen-forderung-europa-100.html",
-          "quelle_id": "tagesschau_ausland"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "eu_safe_rearm",
@@ -686,6 +657,20 @@
       "name": "Sonstige / global",
       "eintraege": [
         {
+          "datum": "2026-09-08",
+          "datum_ist_naeherung": false,
+          "titel": "2027 Will Test New Zealand's Defence at the Speed of Relevance",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/2027-will-test-new-zealands-defence-speed-relevance-0",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-09-08",
+          "datum_ist_naeherung": false,
+          "titel": "Force Regeneration through the Veteran ID Card and Defence Gateway",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/force-regeneration-through-veteran-id-card-and-defence-gateway",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-09-07",
           "datum_ist_naeherung": false,
           "titel": "The Renaissance of the Dissident Republican Threat",
@@ -788,20 +773,6 @@
           "datum_ist_naeherung": false,
           "titel": "Private Sector Cybercrime Disruption: Compatible with Statecraft?",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/private-sector-cybercrime-disruption-compatible-statecraft",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-08-12",
-          "datum_ist_naeherung": false,
-          "titel": "Age of Optionality: The Future is Not About Replacing the US Dollar",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/age-optionality-future-not-about-replacing-us-dollar",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-08-11",
-          "datum_ist_naeherung": false,
-          "titel": "Building CBRN Crisis Ready Supply for Protection and Sustainment",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/building-cbrn-crisis-ready-supply-protection-and-sustainment",
           "quelle_id": "rusi_commentary"
         },
         {
