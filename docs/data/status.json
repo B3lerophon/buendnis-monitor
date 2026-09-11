@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-09-10T06:06:08.233903+00:00",
+  "generiert_am": "2026-09-11T06:05:40.724251+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -103,11 +103,35 @@
       "ebene": "NATO",
       "beschreibung": "Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025, Zielhorizont 2035.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-09-09: keine klare Richtung erkennbar. Bezug erkannt an: NATO summit",
-      "letzte_aenderung_datum": "2026-09-09",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/12/secretary-general-concludes-historic-nato-summit-in-vilnius",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-10: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
+      "letzte_aenderung_datum": "2026-09-10",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/10/nato-secretary-general-in-berlin-germany-and-nato-30-strengthening-europe-delivering-for-the-alliance",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-09-10",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general in berlin germany and nato 30 strengthening europe delivering for the alliance",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/10/nato-secretary-general-in-berlin-germany-and-nato-30-strengthening-europe-delivering-for-the-alliance",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-10",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general in berlin germany and nato 30 strengthening europe delivering for the alliance",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/10/nato-secretary-general-in-berlin-germany-and-nato-30-strengthening-europe-delivering-for-the-alliance",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-10",
+          "datum_ist_naeherung": false,
+          "titel": "Rede von Außenminister Wadephul zur Eröffnung des öffentlichen Abschlusspanels der Botschafterkonferenz 2026 mit NATO Generalsekretär Mark Rutte",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2801780-2801780",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "schwaecht_ab"
+        },
         {
           "datum": "2026-09-09",
           "datum_ist_naeherung": false,
@@ -161,30 +185,6 @@
           "datum_ist_naeherung": false,
           "titel": "nato secretary general vilnius summit has already made history on sweden will take key decisions on ukraine deterrence and defence",
           "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/11/nato-secretary-general-vilnius-summit-has-already-made-history-on-sweden-will-take-key-decisions-on-ukraine-deterrence-and-defence",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general no partner is closer than japan",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/12/nato-secretary-general-no-partner-is-closer-than-japan",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general we must stand together for the rules based international order",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/12/nato-secretary-general-we-must-stand-together-for-the-rules-based-international-order",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "secretary general welcomes president zelenskyy to the nato summit ahead of inaugural nato ukraine council",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/12/secretary-general-welcomes-president-zelenskyy-to-the-nato-summit-ahead-of-inaugural-nato-ukraine-council",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
@@ -525,11 +525,19 @@
       "ebene": "NATO",
       "beschreibung": "Anpassung von NATO und Deutschland an neue Kriegsführungsformen: Drohnenkrieg, gemeinsame Luft-/Raketenabwehr (u.a. European Sky Shield Initiative), Cyber- und hybride Bedrohungen, autonome/KI-gestützte Waffensysteme. Betrifft sowohl NATO-weite Programme/Übungen als auch die konkrete Unterstützung der Ukraine in diesen Bereichen.",
       "ampel": "gruen",
-      "begruendung": "Neuester relevanter Fund vom 2026-09-03: verstärkt / bestätigt. Bezug erkannt an: Cyberangriff, Sabotage, sabotage; bestätigende Formulierungen: Fortschritt",
-      "letzte_aenderung_datum": "2026-09-03",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2800738-2800738",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-10: verstärkt / bestätigt. Bezug erkannt an: Flugabwehr; bestätigende Formulierungen: investiert",
+      "letzte_aenderung_datum": "2026-09-10",
+      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2801780-2801780",
       "aenderung": "verstärkt / bestätigt",
       "historie": [
+        {
+          "datum": "2026-09-10",
+          "datum_ist_naeherung": false,
+          "titel": "Rede von Außenminister Wadephul zur Eröffnung des öffentlichen Abschlusspanels der Botschafterkonferenz 2026 mit NATO Generalsekretär Mark Rutte",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2801780-2801780",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "verstaerkt"
+        },
         {
           "datum": "2026-09-03",
           "datum_ist_naeherung": false,
@@ -545,14 +553,6 @@
           "url": "https://www.auswaertiges-amt.de/de/newsroom/2800598-2800598",
           "quelle_id": "auswaertiges_amt_presse",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-19",
-          "datum_ist_naeherung": false,
-          "titel": "Rede von Außenminister Johann Wadephul im Rahmen der Schweizer Botschafterkonferenz in Bern",
-          "url": "https://www.auswaertiges-amt.de/de/newsroom/2798968-2798968",
-          "quelle_id": "auswaertiges_amt_presse",
-          "richtung": "verstaerkt"
         }
       ],
       "medienberichte": [
@@ -570,7 +570,15 @@
     {
       "id": "inland",
       "name": "Inland",
-      "eintraege": []
+      "eintraege": [
+        {
+          "datum": "2026-09-09",
+          "datum_ist_naeherung": false,
+          "titel": "Leipzig Sabotage: Why Transport Underpins NATO and Russia’s Defences",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/leipzig-sabotage-why-transport-underpins-nato-and-russias-defences",
+          "quelle_id": "rusi_commentary"
+        }
+      ]
     },
     {
       "id": "russland_ukraine",
@@ -656,6 +664,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-09-09",
+          "datum_ist_naeherung": false,
+          "titel": "British–German Nuclear Cooperation: Joint Support, Not Financing",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/british-german-nuclear-cooperation-joint-support-not-financing",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-09-08",
           "datum_ist_naeherung": false,
@@ -759,20 +774,6 @@
           "datum_ist_naeherung": false,
           "titel": "Balochistan's Insurgency Is Turning Security into a Development Cost",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/balochistans-insurgency-turning-security-development-cost",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-08-16",
-          "datum_ist_naeherung": false,
-          "titel": "Starmer, Burnham and Foreign Aid: A Troubling Inheritance",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/starmer-burnham-and-foreign-aid-troubling-inheritance",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": false,
-          "titel": "Private Sector Cybercrime Disruption: Compatible with Statecraft?",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/private-sector-cybercrime-disruption-compatible-statecraft",
           "quelle_id": "rusi_commentary"
         },
         {
