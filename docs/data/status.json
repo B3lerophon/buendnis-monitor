@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-09-12T06:05:15.206816+00:00",
+  "generiert_am": "2026-09-13T06:07:32.178581+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -285,13 +285,6 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-09-12",
-          "datum_ist_naeherung": false,
-          "titel": "Infrastrukturmodernisierung: 500 Milliarden – und dann das",
-          "url": "https://www.zeit.de/politik/deutschland/2026-09/sondervermoegen-infrastruktur-wahlkampf-spd-kommunikation",
-          "quelle_id": "zeit_politik"
-        },
-        {
           "datum": "2026-09-08",
           "datum_ist_naeherung": false,
           "titel": "Pistorius verspricht mehr Waffen - Trump telefoniert mit Putin",
@@ -571,6 +564,20 @@
         }
       ],
       "medienberichte": [
+        {
+          "datum": "2026-09-12",
+          "datum_ist_naeherung": false,
+          "titel": "Gefahr durch Russland: Was macht Europa gegen hybride Bedrohungen?",
+          "url": "https://www.tagesschau.de/ausland/europa/abwehr-hybride-bedrohung-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
+          "datum": "2026-09-12",
+          "datum_ist_naeherung": false,
+          "titel": "Zug entgleist in Frankreich: Ermittler gehen Sabotage-Verdacht nach",
+          "url": "https://www.tagesschau.de/ausland/europa/frankreich-zug-entgleist-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
         {
           "datum": "2026-09-03",
           "datum_ist_naeherung": false,
