@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-09-13T06:07:32.178581+00:00",
+  "generiert_am": "2026-09-14T11:17:36.995041+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -95,7 +95,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-09-14",
+          "datum_ist_naeherung": false,
+          "titel": "Kommunalwahlen: Die CDU bleibt stärkste Kraft in Niedersachsen",
+          "url": "https://www.sueddeutsche.de/politik/kommunalwahl-niedersachsen-2026-cdu-spd-afd-li.3546890",
+          "quelle_id": "sueddeutsche_politik"
+        }
+      ]
     },
     {
       "id": "nato_3_5_prozent",
@@ -359,14 +367,6 @@
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2024/07/11/nato-secretary-general-welcomes-president-zelenskyy-to-the-washington-summit-saying-ukraines-future-is-in-nato",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-21",
-          "datum_ist_naeherung": false,
-          "titel": "Gemeinsame Erklärung der Sprecherinnen der Außenministerien Deutschlands und Frankreichs zum Urteil gegen Chow Hang-tung, Preisträgerin des Deutsch-Französischen Menschenrechtspreises 2023",
-          "url": "https://www.auswaertiges-amt.de/de/newsroom/gemeinsame-deutsch-franzoesische-erklaerung-zum-urteil-gegen-chow-hang-tung-preistraegerin-des-deutsch-franzoesischen-menschenrechtspreises-2023-2799028",
-          "quelle_id": "auswaertiges_amt_presse",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": []
@@ -532,12 +532,20 @@
       "name": "Moderne Kriegsführung (Drohnen, Cyber, hybride Bedrohungen)",
       "ebene": "NATO",
       "beschreibung": "Anpassung von NATO und Deutschland an neue Kriegsführungsformen: Drohnenkrieg, gemeinsame Luft-/Raketenabwehr (u.a. European Sky Shield Initiative), Cyber- und hybride Bedrohungen, autonome/KI-gestützte Waffensysteme. Betrifft sowohl NATO-weite Programme/Übungen als auch die konkrete Unterstützung der Ukraine in diesen Bereichen.",
-      "ampel": "gruen",
-      "begruendung": "Neuester relevanter Fund vom 2026-09-10: verstärkt / bestätigt. Bezug erkannt an: Flugabwehr; bestätigende Formulierungen: investiert",
-      "letzte_aenderung_datum": "2026-09-10",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2801780-2801780",
-      "aenderung": "verstärkt / bestätigt",
+      "ampel": "gelb",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-14: keine klare Richtung erkennbar. Bezug erkannt an: Sabotage, sabotage",
+      "letzte_aenderung_datum": "2026-09-14",
+      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2802134-2802134",
+      "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-09-14",
+          "datum_ist_naeherung": false,
+          "titel": "Außenminister Wadephul vor seiner Abreise nach Ungarn",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2802134-2802134",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-09-10",
           "datum_ist_naeherung": false,
