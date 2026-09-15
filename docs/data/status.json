@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-09-14T11:17:36.995041+00:00",
+  "generiert_am": "2026-09-15T10:43:15.261783+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -95,15 +95,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-09-14",
-          "datum_ist_naeherung": false,
-          "titel": "Kommunalwahlen: Die CDU bleibt stärkste Kraft in Niedersachsen",
-          "url": "https://www.sueddeutsche.de/politik/kommunalwahl-niedersachsen-2026-cdu-spd-afd-li.3546890",
-          "quelle_id": "sueddeutsche_politik"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "nato_3_5_prozent",
@@ -293,6 +285,55 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-09-15",
+          "datum_ist_naeherung": false,
+          "titel": "Russische Fregatte feuert Leuchtraketen auf dänischen Helikopter",
+          "url": "https://www.tagesschau.de/ausland/europa/daenemark-leuchtkugeln-russische-fregatte-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
+          "datum": "2026-09-15",
+          "datum_ist_naeherung": false,
+          "titel": "Rüstungsindustrie: Pistorius will Rüstungskooperationen mit den USA weiter ausbauen",
+          "url": "https://www.zeit.de/politik/ausland/2026-09/boris-pistorius-usa-deutschland-ruestungskooperation-f-35-patriot-tomahawk-gxe",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-09-15",
+          "datum_ist_naeherung": false,
+          "titel": "Aggression durch Russland: Russisches Kriegsschiff feuert Leuchtkugeln auf dänischen Hubschrauber",
+          "url": "https://www.zeit.de/politik/ausland/2026-09/russische-fregatte-daenemark-hubschrauber-leuchtkugel-nato-gxe",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-09-15",
+          "datum_ist_naeherung": false,
+          "titel": "Irankrieg: US-Kontrollbehörde beziffert bisherige Folgen des Irankriegs",
+          "url": "https://www.zeit.de/politik/ausland/2026-09/iran-krieg-us-soldaten-pentagon-berichte-militaer-gxe",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-09-15",
+          "datum_ist_naeherung": false,
+          "titel": "USA-Newsblog: USA heben Emissionsvorschriften für Kohle- und Gaskraftwerke auf",
+          "url": "https://www.sueddeutsche.de/politik/usa-news-liveblog-trump-pistorius-ruestung-verteidigung-li.3530667",
+          "quelle_id": "sueddeutsche_politik"
+        },
+        {
+          "datum": "2026-09-14",
+          "datum_ist_naeherung": false,
+          "titel": "Pistorius will Soldaten zum Dienst in Litauen auch verpflichten",
+          "url": "https://www.tagesschau.de/ausland/europa/litauen-brigade-verpflichtung-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
+          "datum": "2026-09-14",
+          "datum_ist_naeherung": false,
+          "titel": "Newsblog zur Bundespolitik: Pistorius: Truppe ist weiter als viele denken",
+          "url": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-bundeswehr-pistorius-li.3529564",
+          "quelle_id": "sueddeutsche_politik"
+        },
+        {
           "datum": "2026-09-08",
           "datum_ist_naeherung": false,
           "titel": "Pistorius verspricht mehr Waffen - Trump telefoniert mit Putin",
@@ -306,12 +347,20 @@
       "name": "Rüstungslieferungen an die Ukraine",
       "ebene": "Bund",
       "beschreibung": "Zusagen der Bundesregierung zu Waffen-/Munitionslieferungen an die Ukraine, Abgleich Ankündigung vs. tatsächliche Lieferung.",
-      "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-09-03: keine klare Richtung erkennbar. Bezug erkannt an: Sicherheitsgarantien; bestätigende Formulierungen: zusätzlich; abschwächende Formulierungen: ausgesetzt",
-      "letzte_aenderung_datum": "2026-09-03",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2800738-2800738",
-      "aenderung": "keine klare Richtung erkennbar",
+      "ampel": "gruen",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-14: verstärkt / bestätigt. Bezug erkannt an: Waffenstillstand; bestätigende Formulierungen: zusätzlich",
+      "letzte_aenderung_datum": "2026-09-14",
+      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2802168-2802168",
+      "aenderung": "verstärkt / bestätigt",
       "historie": [
+        {
+          "datum": "2026-09-14",
+          "datum_ist_naeherung": false,
+          "titel": "Gemeinsame Erklärung von Dr. Anita Orbán, stellvertretende Ministerpräsidentin und Außenministerin von Ungarn, und Dr. Johann Wadephul, Bundesminister des Auswärtigen der Bundesrepublik Deutschland",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2802168-2802168",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "verstaerkt"
+        },
         {
           "datum": "2026-09-03",
           "datum_ist_naeherung": false,
@@ -573,25 +622,25 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-09-12",
+          "datum": "2026-09-15",
           "datum_ist_naeherung": false,
-          "titel": "Gefahr durch Russland: Was macht Europa gegen hybride Bedrohungen?",
-          "url": "https://www.tagesschau.de/ausland/europa/abwehr-hybride-bedrohung-100.html",
+          "titel": "Mutmaßliche Saboteure behindern Zugverkehr in den Niederlanden",
+          "url": "https://www.tagesschau.de/ausland/europa/sabotage-bahn-niederlande-100.html",
           "quelle_id": "tagesschau_ausland"
         },
         {
-          "datum": "2026-09-12",
+          "datum": "2026-09-15",
           "datum_ist_naeherung": false,
-          "titel": "Zug entgleist in Frankreich: Ermittler gehen Sabotage-Verdacht nach",
-          "url": "https://www.tagesschau.de/ausland/europa/frankreich-zug-entgleist-100.html",
+          "titel": "Litauen: NATO-Kampfjets schießen Drohne ab",
+          "url": "https://www.tagesschau.de/ausland/europa/drohne-litauen-102.html",
           "quelle_id": "tagesschau_ausland"
         },
         {
-          "datum": "2026-09-03",
+          "datum": "2026-09-15",
           "datum_ist_naeherung": false,
-          "titel": "Iran greift erneut Ziele in Kuwait an",
-          "url": "https://www.tagesschau.de/ausland/asien/iran-kuwait-angriffe-100.html",
-          "quelle_id": "tagesschau_ausland"
+          "titel": "Luftraum über Litauen: Kampfflugzeuge schießen Drohne über Litauen ab",
+          "url": "https://www.zeit.de/politik/ausland/2026-09/drohne-litauen-nato-luftraum-russland-ukraine",
+          "quelle_id": "zeit_politik"
         }
       ]
     }
@@ -627,13 +676,6 @@
           "titel": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
           "url": "https://www.bellingcat.com/news/africa/2026/08/25/patria-sanctioned-russian-vessel-russia-us-africa-cameroon-gabon-lagos-nigeria/",
           "quelle_id": "bellingcat"
-        },
-        {
-          "datum": "2026-08-19",
-          "datum_ist_naeherung": false,
-          "titel": "The ‘Extinct Volcanoes’ Problem: Why Unit Strength Is Not Combat Power",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/extinct-volcanoes-problem-why-unit-strength-not-combat-power",
-          "quelle_id": "rusi_commentary"
         }
       ]
     },
@@ -672,13 +714,6 @@
           "titel": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
           "url": "https://www.bellingcat.com/news/2026/07/06/between-graves-and-uncertainty-the-management-of-the-dead-after-venezuelas-earthquake/",
           "quelle_id": "bellingcat"
-        },
-        {
-          "datum": "2026-06-29",
-          "datum_ist_naeherung": false,
-          "titel": "Satellite Imagery Shows Scale of Venezuela Earthquake Damage",
-          "url": "https://www.bellingcat.com/news/2026/06/29/satellite-imagery-shows-scale-of-venezuela-earthquake-damage/",
-          "quelle_id": "bellingcat"
         }
       ]
     },
@@ -686,6 +721,27 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-09-14",
+          "datum_ist_naeherung": false,
+          "titel": "Bellingcat Official Merch Design Contest",
+          "url": "https://www.bellingcat.com/uncategorized/2026/09/14/bellingcat-official-merch-design-contest/",
+          "quelle_id": "bellingcat"
+        },
+        {
+          "datum": "2026-09-14",
+          "datum_ist_naeherung": false,
+          "titel": "Britain’s Defence Industrial Strategy Has a University-Shaped Gap",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/britains-defence-industrial-strategy-has-university-shaped-gap",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-09-13",
+          "datum_ist_naeherung": false,
+          "titel": "‘No Good Answer’: Who Would Defend a United Ireland?",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/no-good-answer-who-would-defend-united-ireland",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-09-10",
           "datum_ist_naeherung": false,
@@ -797,13 +853,6 @@
           "titel": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
           "url": "https://www.bellingcat.com/news/us-canada/2026/08/20/satellite-imagery-documents-new-border-patrol-road-construction-in-big-bend-national-park/",
           "quelle_id": "bellingcat"
-        },
-        {
-          "datum": "2026-08-18",
-          "datum_ist_naeherung": false,
-          "titel": "Balochistan's Insurgency Is Turning Security into a Development Cost",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/balochistans-insurgency-turning-security-development-cost",
-          "quelle_id": "rusi_commentary"
         },
         {
           "datum": "2026-08-01",
