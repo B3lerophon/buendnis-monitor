@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-09-16T10:31:28.020262+00:00",
+  "generiert_am": "2026-09-17T10:41:30.017113+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -8,12 +8,28 @@
       "name": "NATO 2%-Ziel (Verteidigungsausgaben)",
       "ebene": "NATO",
       "beschreibung": "Zusage der NATO-Mitgliedstaaten, mindestens 2% des BIP für Verteidigung auszugeben (Wales-Gipfel 2014, seither wiederholt bekräftigt).",
-      "ampel": "rot",
-      "begruendung": "Neuester relevanter Fund vom 2026-09-03: schwächt ab. Bezug erkannt an: Abschreckung; abschwächende Formulierungen: ausgesetzt",
-      "letzte_aenderung_datum": "2026-09-03",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2800738-2800738",
-      "aenderung": "schwächt ab",
+      "ampel": "gelb",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-16: keine klare Richtung erkennbar. Bezug erkannt an: defence spending",
+      "letzte_aenderung_datum": "2026-09-16",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/16/bucharest-conference-brings-together-international-audit-community-to-discuss-transparency-and-accountability-in-defence-spending",
+      "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-09-16",
+          "datum_ist_naeherung": false,
+          "titel": "bucharest conference brings together international audit community to discuss transparency and accountability in defence spending",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/16/bucharest-conference-brings-together-international-audit-community-to-discuss-transparency-and-accountability-in-defence-spending",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-16",
+          "datum_ist_naeherung": false,
+          "titel": "bucharest conference brings together international audit community to discuss transparency and accountability in defence spending",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/16/bucharest-conference-brings-together-international-audit-community-to-discuss-transparency-and-accountability-in-defence-spending",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-09-03",
           "datum_ist_naeherung": false,
@@ -77,22 +93,6 @@
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/11/nato-agrees-strong-package-for-ukraine-boosts-deterrence-and-defence",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general vilnius summit has already made history on sweden will take key decisions on ukraine deterrence and defence",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/11/nato-secretary-general-vilnius-summit-has-already-made-history-on-sweden-will-take-key-decisions-on-ukraine-deterrence-and-defence",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "nato vilnius summit officially underway",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/11/nato-vilnius-summit-officially-underway",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": []
@@ -103,11 +103,75 @@
       "ebene": "NATO",
       "beschreibung": "Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025, Zielhorizont 2035.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-09-15: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
-      "letzte_aenderung_datum": "2026-09-15",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2019/12/03/nato-secretary-general-meets-president-trump-ahead-of-leaders-meeting",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-16: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
+      "letzte_aenderung_datum": "2026-09-16",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/05/12/nato-secretary-general-visits-montenegro-and-praises-its-contributions-to-nato-and-stability-in-the-western-balkans",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-09-16",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general visits montenegro and praises its contributions to nato and stability in the western balkans",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/05/12/nato-secretary-general-visits-montenegro-and-praises-its-contributions-to-nato-and-stability-in-the-western-balkans",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-16",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general and the prime minister of croatia discuss alliance readiness and regional security",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/17/nato-secretary-general-and-the-prime-minister-of-croatia-discuss-alliance-readiness-and-regional-security",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-16",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general visits the united kingdom",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/16/nato-secretary-general-visits-the-united-kingdom",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-16",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general welcomes prime minister of the republic o",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2025/09/08/nato-secretary-general-welcomes-prime-minister-of-the-republic-o",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-16",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general welcomes prime minister of the republic o",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2025/09/08/nato-secretary-general-welcomes-prime-minister-of-the-republic-o",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-16",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general visits montenegro and praises its contributions to nato and stability in the western balkans",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/05/12/nato-secretary-general-visits-montenegro-and-praises-its-contributions-to-nato-and-stability-in-the-western-balkans",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-16",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general and the prime minister of croatia discuss alliance readiness and regional security",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/06/17/nato-secretary-general-and-the-prime-minister-of-croatia-discuss-alliance-readiness-and-regional-security",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-16",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general visits the united kingdom",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/16/nato-secretary-general-visits-the-united-kingdom",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-09-15",
           "datum_ist_naeherung": false,
@@ -123,93 +187,22 @@
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2019/12/03/nato-secretary-general-meets-president-trump-ahead-of-leaders-meeting",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-11",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general welcomes new support for ukraine urges nations to continue to step up",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/08/nato-secretary-general-welcomes-new-support-for-ukraine-urges-nations-to-continue-to-step-up",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-11",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general welcomes new support for ukraine urges nations to continue to step up",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/08/nato-secretary-general-welcomes-new-support-for-ukraine-urges-nations-to-continue-to-step-up",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-10",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general in berlin germany and nato 30 strengthening europe delivering for the alliance",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/10/nato-secretary-general-in-berlin-germany-and-nato-30-strengthening-europe-delivering-for-the-alliance",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-10",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general in berlin germany and nato 30 strengthening europe delivering for the alliance",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/10/nato-secretary-general-in-berlin-germany-and-nato-30-strengthening-europe-delivering-for-the-alliance",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-10",
-          "datum_ist_naeherung": false,
-          "titel": "Rede von Außenminister Wadephul zur Eröffnung des öffentlichen Abschlusspanels der Botschafterkonferenz 2026 mit NATO Generalsekretär Mark Rutte",
-          "url": "https://www.auswaertiges-amt.de/de/newsroom/2801780-2801780",
-          "quelle_id": "auswaertiges_amt_presse",
-          "richtung": "schwaecht_ab"
-        },
-        {
-          "datum": "2026-09-09",
-          "datum_ist_naeherung": false,
-          "titel": "secretary general concludes historic nato summit in vilnius",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/12/secretary-general-concludes-historic-nato-summit-in-vilnius",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-09",
-          "datum_ist_naeherung": false,
-          "titel": "secretary general concludes historic nato summit in vilnius",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/12/secretary-general-concludes-historic-nato-summit-in-vilnius",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general welcomes turkiyes decision to forward sweden accession protocols to parliament",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/10/nato-secretary-general-welcomes-turkiyes-decision-to-forward-sweden-accession-protocols-to-parliament",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": [
         {
           "datum": "2026-09-16",
           "datum_ist_naeherung": false,
-          "titel": "Prozess gegen Thaci: Wird Kosovos Ex-Präsident verurteilt?",
-          "url": "https://www.tagesschau.de/ausland/europa/kosovo-sondergericht-urteil-thaci-100.html",
+          "titel": "25 Jahre Haft für Kosovos Ex-Präsident Thaci wegen Kriegsverbrechen",
+          "url": "https://www.tagesschau.de/ausland/europa/verurteilung-thaci-100.html",
           "quelle_id": "tagesschau_ausland"
         },
         {
           "datum": "2026-09-16",
           "datum_ist_naeherung": false,
-          "titel": "Sondertribunal in Den Haag: Kosovos Ex-Präsident Hashim Thaçi zu 25 Jahren Haft verurteilt",
-          "url": "https://www.zeit.de/politik/ausland/2026-09/25-jahre-haft-wegen-kriegsverbrechen-fuer-kosovos-ex-praesidenten-thaci",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-09-16",
-          "datum_ist_naeherung": false,
-          "titel": "Kriegsverbrechen: 25 Jahre Haft für Kosovos Ex-Präsident",
-          "url": "https://www.sueddeutsche.de/politik/kosovos-ex-praesident-hashim-thaci-haft-urteil-kriegsverbrechen-li.3548414",
-          "quelle_id": "sueddeutsche_politik"
+          "titel": "Prozess gegen Thaci: Wird Kosovos Ex-Präsident verurteilt?",
+          "url": "https://www.tagesschau.de/ausland/europa/kosovo-sondergericht-urteil-thaci-100.html",
+          "quelle_id": "tagesschau_ausland"
         }
       ]
     },
@@ -218,12 +211,28 @@
       "name": "Sondervermögen Bundeswehr / Zeitenwende",
       "ebene": "Bund",
       "beschreibung": "2022 beschlossenes Sondervermögen (100 Mrd. €, seit 2025 durch Grundgesetzänderung faktisch unbegrenzte Verteidigungsausgaben außerhalb der Schuldenbremse). Tracking von Mittelabfluss und politischer Debatte darüber.",
-      "ampel": "rot",
-      "begruendung": "Neuester relevanter Fund vom 2026-09-03: schwächt ab. Bezug erkannt an: Verteidigungsindustrie; abschwächende Formulierungen: Bürokratie",
-      "letzte_aenderung_datum": "2026-09-03",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2800738-2800738",
-      "aenderung": "schwächt ab",
+      "ampel": "gelb",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-16: keine klare Richtung erkennbar. Bezug erkannt an: readiness",
+      "letzte_aenderung_datum": "2026-09-16",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/17/nato-secretary-general-and-the-prime-minister-of-croatia-discuss-alliance-readiness-and-regional-security",
+      "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-09-16",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general and the prime minister of croatia discuss alliance readiness and regional security",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/17/nato-secretary-general-and-the-prime-minister-of-croatia-discuss-alliance-readiness-and-regional-security",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-16",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general and the prime minister of croatia discuss alliance readiness and regional security",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/06/17/nato-secretary-general-and-the-prime-minister-of-croatia-discuss-alliance-readiness-and-regional-security",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-09-03",
           "datum_ist_naeherung": false,
@@ -287,22 +296,6 @@
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/06/25/natos-largest-medical-exercise-strengthens-allied-medical-readiness",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-06-25",
-          "datum_ist_naeherung": false,
-          "titel": "natos largest medical exercise strengthens allied medical readiness",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/25/natos-largest-medical-exercise-strengthens-allied-medical-readiness",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-06-17",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general and the prime minister of croatia discuss alliance readiness and regional security",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/17/nato-secretary-general-and-the-prime-minister-of-croatia-discuss-alliance-readiness-and-regional-security",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": [
@@ -325,34 +318,6 @@
           "datum_ist_naeherung": false,
           "titel": "Deutschland und USA wollen bei Rüstung mehr zusammenarbeiten",
           "url": "https://www.tagesschau.de/ausland/pistorius-hegseth-102.html",
-          "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-09-16",
-          "datum_ist_naeherung": false,
-          "titel": "Rüstungskooperation: 16 Minuten und 33 Sekunden lang Begeisterung",
-          "url": "https://www.zeit.de/politik/ausland/2026-09/boris-pistorius-pete-hegseth-ruestung-kooperation-usa-waffen",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-09-15",
-          "datum_ist_naeherung": false,
-          "titel": "Russische Fregatte feuert Leuchtraketen auf dänischen Helikopter",
-          "url": "https://www.tagesschau.de/ausland/europa/daenemark-leuchtkugeln-russische-fregatte-100.html",
-          "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-09-15",
-          "datum_ist_naeherung": false,
-          "titel": "Nato-Jets im Einsatz: Über Litauen abgeschossene Drohne trug Sprengsatz",
-          "url": "https://www.sueddeutsche.de/politik/nato-kampfflugzeuge-drohne-litauen-bundeswehr-li.3547655",
-          "quelle_id": "sueddeutsche_politik"
-        },
-        {
-          "datum": "2026-09-14",
-          "datum_ist_naeherung": false,
-          "titel": "Pistorius will Soldaten zum Dienst in Litauen auch verpflichten",
-          "url": "https://www.tagesschau.de/ausland/europa/litauen-brigade-verpflichtung-100.html",
           "quelle_id": "tagesschau_ausland"
         },
         {
@@ -536,24 +501,10 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-09-16",
+          "datum": "2026-09-17",
           "datum_ist_naeherung": false,
-          "titel": "Assoziierte EU-Mitgliedschaft: EU-Kommissionschefin erwägt »assoziierte« Mitgliedschaft für Kanada",
-          "url": "https://www.zeit.de/politik/ausland/2026-09/assoziierte-eu-mitgliedschaft-kanada-ursula-von-der-leyen-mark-carney-gxe",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-09-16",
-          "datum_ist_naeherung": false,
-          "titel": "Rede zur Lage der Union: Von der Leyen würdigt Stärke der EU und warnt vor Abhängigkeiten",
-          "url": "https://www.zeit.de/politik/ausland/2026-09/lage-der-union-ursula-von-der-leyen-eu-rede-gxe",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-09-16",
-          "datum_ist_naeherung": false,
-          "titel": "EU-Parlament: Live: Von der Leyen hält Rede zur Lage der Union",
-          "url": "https://www.zeit.de/politik/2026-09/von-der-leyen-live",
+          "titel": "Europäische Union: Mark Carney offen für Idee einer EU-Sondermitgliedschaft Kanadas",
+          "url": "https://www.zeit.de/politik/ausland/2026-09/kanada-ist-offen-fuer-idee-einer-eu-sondermitgliedschaft",
           "quelle_id": "zeit_politik"
         }
       ]
@@ -658,24 +609,17 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-09-16",
+          "datum": "2026-09-17",
           "datum_ist_naeherung": false,
-          "titel": "Newsblog zum Ukraine-Krieg: Kiew meldet erfolgreichen Test neuer Drohnenabwehr-Waffe",
-          "url": "https://www.sueddeutsche.de/politik/ukraine-krieg-news-russland-drohnen-abwehr-selenskij-shahed-donbass-li.3524928",
-          "quelle_id": "sueddeutsche_politik"
+          "titel": "Kämpfe im Jemen: Heftige Kämpfe zwischen Huthi-Miliz und Regierungstruppen im Jemen",
+          "url": "https://www.zeit.de/politik/ausland/2026-09/jemen-huthi-provinz-tais-bab-al-mandab-saudi-arabien",
+          "quelle_id": "zeit_politik"
         },
         {
           "datum": "2026-09-15",
           "datum_ist_naeherung": false,
           "titel": "Mutmaßliche Saboteure behindern Zugverkehr in den Niederlanden",
           "url": "https://www.tagesschau.de/ausland/europa/sabotage-bahn-niederlande-100.html",
-          "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-09-15",
-          "datum_ist_naeherung": false,
-          "titel": "Litauen: NATO-Kampfjets schießen Drohne ab",
-          "url": "https://www.tagesschau.de/ausland/europa/drohne-litauen-102.html",
           "quelle_id": "tagesschau_ausland"
         }
       ]
@@ -699,6 +643,13 @@
       "id": "russland_ukraine",
       "name": "Russland / Ukraine",
       "eintraege": [
+        {
+          "datum": "2026-09-16",
+          "datum_ist_naeherung": false,
+          "titel": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
+          "url": "https://www.bellingcat.com/news/2026/09/16/drone-strike-civilians-killed-aes-sahel-mali-russia-africa-corps-guilt-by-location-jeune-afrique/",
+          "quelle_id": "bellingcat"
+        },
         {
           "datum": "2026-09-15",
           "datum_ist_naeherung": false,
@@ -757,6 +708,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-09-15",
+          "datum_ist_naeherung": false,
+          "titel": "Illicit Finance in a Fragmenting World: Can the Global System Keep Pace?",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/illicit-finance-fragmenting-world-can-global-system-keep-pace",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-09-14",
           "datum_ist_naeherung": false,
@@ -877,13 +835,6 @@
           "quelle_id": "rusi_commentary"
         },
         {
-          "datum": "2026-08-23",
-          "datum_ist_naeherung": false,
-          "titel": "Hybrid Navy: Building the Maritime Operating System",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/hybrid-navy-building-maritime-operating-system",
-          "quelle_id": "rusi_commentary"
-        },
-        {
           "datum": "2026-08-20",
           "datum_ist_naeherung": false,
           "titel": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
@@ -916,13 +867,6 @@
           "datum_ist_naeherung": false,
           "titel": "Identifying the Crypto Entrepreneur Linked to Popular Forum Trading in ‘Leaked’ Nudes of Women",
           "url": "https://www.bellingcat.com/news/2026/07/16/leakedbb-crypto-entrepreneur/",
-          "quelle_id": "bellingcat"
-        },
-        {
-          "datum": "2026-06-30",
-          "datum_ist_naeherung": false,
-          "titel": "Burning Forests: Tools for Tracking and Reporting Wildfire Damage",
-          "url": "https://www.bellingcat.com/resources/how-tos/2026/06/30/burning-forests-tools-for-tracking-and-reporting-wildfire-damage/",
           "quelle_id": "bellingcat"
         }
       ]
