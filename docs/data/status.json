@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-09-17T10:41:30.017113+00:00",
+  "generiert_am": "2026-09-18T10:17:02.957467+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -103,11 +103,27 @@
       "ebene": "NATO",
       "beschreibung": "Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025, Zielhorizont 2035.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-09-16: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
-      "letzte_aenderung_datum": "2026-09-16",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/05/12/nato-secretary-general-visits-montenegro-and-praises-its-contributions-to-nato-and-stability-in-the-western-balkans",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-17: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
+      "letzte_aenderung_datum": "2026-09-17",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/16/nato-secretary-general-visits-the-united-kingdom",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-09-17",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general visits the united kingdom",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/16/nato-secretary-general-visits-the-united-kingdom",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-17",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general visits the united kingdom",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/16/nato-secretary-general-visits-the-united-kingdom",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-09-16",
           "datum_ist_naeherung": false,
@@ -121,14 +137,6 @@
           "datum_ist_naeherung": false,
           "titel": "nato secretary general and the prime minister of croatia discuss alliance readiness and regional security",
           "url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/17/nato-secretary-general-and-the-prime-minister-of-croatia-discuss-alliance-readiness-and-regional-security",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-16",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general visits the united kingdom",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/16/nato-secretary-general-visits-the-united-kingdom",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
@@ -165,14 +173,6 @@
           "richtung": "unklar"
         },
         {
-          "datum": "2026-09-16",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general visits the united kingdom",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/16/nato-secretary-general-visits-the-united-kingdom",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
           "datum": "2026-09-15",
           "datum_ist_naeherung": false,
           "titel": "nato secretary general meets president trump ahead of leaders meeting",
@@ -195,13 +195,6 @@
           "datum_ist_naeherung": false,
           "titel": "25 Jahre Haft für Kosovos Ex-Präsident Thaci wegen Kriegsverbrechen",
           "url": "https://www.tagesschau.de/ausland/europa/verurteilung-thaci-100.html",
-          "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-09-16",
-          "datum_ist_naeherung": false,
-          "titel": "Prozess gegen Thaci: Wird Kosovos Ex-Präsident verurteilt?",
-          "url": "https://www.tagesschau.de/ausland/europa/kosovo-sondergericht-urteil-thaci-100.html",
           "quelle_id": "tagesschau_ausland"
         }
       ]
@@ -299,13 +292,6 @@
         }
       ],
       "medienberichte": [
-        {
-          "datum": "2026-09-16",
-          "datum_ist_naeherung": false,
-          "titel": "Russland und Dänemark beschuldigen sich nach Leuchtraketen -Beschuss",
-          "url": "https://www.tagesschau.de/ausland/europa/daenemark-russland-fregatte-100.html",
-          "quelle_id": "tagesschau_ausland"
-        },
         {
           "datum": "2026-09-16",
           "datum_ist_naeherung": false,
@@ -499,15 +485,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-09-17",
-          "datum_ist_naeherung": false,
-          "titel": "Europäische Union: Mark Carney offen für Idee einer EU-Sondermitgliedschaft Kanadas",
-          "url": "https://www.zeit.de/politik/ausland/2026-09/kanada-ist-offen-fuer-idee-einer-eu-sondermitgliedschaft",
-          "quelle_id": "zeit_politik"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "buendnisfall_bekenntnis",
@@ -597,32 +575,9 @@
           "url": "https://www.auswaertiges-amt.de/de/newsroom/2800738-2800738",
           "quelle_id": "auswaertiges_amt_presse",
           "richtung": "verstaerkt"
-        },
-        {
-          "datum": "2026-09-01",
-          "datum_ist_naeherung": false,
-          "titel": "Außenminister Wadephul zu russischer Urheberschaft bei Anschlagsversuch in Leipzig bei der gemeinsamen Pressekonferenz mit Innenminister Dobrindt",
-          "url": "https://www.auswaertiges-amt.de/de/newsroom/2800598-2800598",
-          "quelle_id": "auswaertiges_amt_presse",
-          "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-09-17",
-          "datum_ist_naeherung": false,
-          "titel": "Kämpfe im Jemen: Heftige Kämpfe zwischen Huthi-Miliz und Regierungstruppen im Jemen",
-          "url": "https://www.zeit.de/politik/ausland/2026-09/jemen-huthi-provinz-tais-bab-al-mandab-saudi-arabien",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-09-15",
-          "datum_ist_naeherung": false,
-          "titel": "Mutmaßliche Saboteure behindern Zugverkehr in den Niederlanden",
-          "url": "https://www.tagesschau.de/ausland/europa/sabotage-bahn-niederlande-100.html",
-          "quelle_id": "tagesschau_ausland"
-        }
-      ]
+      "medienberichte": []
     }
   ],
   "osint": [
@@ -649,6 +604,13 @@
           "titel": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
           "url": "https://www.bellingcat.com/news/2026/09/16/drone-strike-civilians-killed-aes-sahel-mali-russia-africa-corps-guilt-by-location-jeune-afrique/",
           "quelle_id": "bellingcat"
+        },
+        {
+          "datum": "2026-09-16",
+          "datum_ist_naeherung": false,
+          "titel": "Moscow’s Other Front: Why Ukraine’s Churches Are a Security Issue",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/moscows-other-front-why-ukraines-churches-are-security-issue",
+          "quelle_id": "rusi_commentary"
         },
         {
           "datum": "2026-09-15",
@@ -825,13 +787,6 @@
           "datum_ist_naeherung": false,
           "titel": "The Overstretch Facing the US Navy",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/overstretch-facing-us-navy",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-08-24",
-          "datum_ist_naeherung": false,
-          "titel": "Australia’s Democratic Coordination in an Age of Foreign Interference",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/australias-democratic-coordination-age-foreign-interference",
           "quelle_id": "rusi_commentary"
         },
         {
