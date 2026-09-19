@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-09-18T10:17:02.957467+00:00",
+  "generiert_am": "2026-09-19T09:59:01.659034+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -293,25 +293,25 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-09-16",
+          "datum": "2026-09-19",
           "datum_ist_naeherung": false,
-          "titel": "Pistorius in Washington: Lob und engere Verteidigungskooperation",
-          "url": "https://www.tagesschau.de/ausland/amerika/pistorius-hegseth-106.html",
+          "titel": "USA-Reise von Pistorius: Es ist etwas in Bewegung gekommen",
+          "url": "https://www.tagesschau.de/ausland/amerika/pistorius-usa-110.html",
           "quelle_id": "tagesschau_ausland"
         },
         {
-          "datum": "2026-09-16",
+          "datum": "2026-09-19",
           "datum_ist_naeherung": false,
-          "titel": "Deutschland und USA wollen bei Rüstung mehr zusammenarbeiten",
-          "url": "https://www.tagesschau.de/ausland/pistorius-hegseth-102.html",
-          "quelle_id": "tagesschau_ausland"
+          "titel": "F-35 für die Bundeswehr: Mit einer Überdosis Pathos",
+          "url": "https://www.zeit.de/politik/2026-09/f-35-bundeswehr-verteidigung-boris-pistorius-texas-usa",
+          "quelle_id": "zeit_politik"
         },
         {
-          "datum": "2026-09-08",
+          "datum": "2026-09-18",
           "datum_ist_naeherung": false,
-          "titel": "Pistorius verspricht mehr Waffen - Trump telefoniert mit Putin",
-          "url": "https://www.tagesschau.de/ausland/europa/pistorius-waffenhilfe-ukraine-100.html",
-          "quelle_id": "tagesschau_ausland"
+          "titel": "Pistorius nimmt in Texas ersten F-35A-Jet für Bundeswehr entgegen",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/pistorius-texas-f-35-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
         }
       ]
     },
@@ -320,12 +320,20 @@
       "name": "Rüstungslieferungen an die Ukraine",
       "ebene": "Bund",
       "beschreibung": "Zusagen der Bundesregierung zu Waffen-/Munitionslieferungen an die Ukraine, Abgleich Ankündigung vs. tatsächliche Lieferung.",
-      "ampel": "gruen",
-      "begruendung": "Neuester relevanter Fund vom 2026-09-14: verstärkt / bestätigt. Bezug erkannt an: Waffenstillstand; bestätigende Formulierungen: zusätzlich",
-      "letzte_aenderung_datum": "2026-09-14",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2802168-2802168",
-      "aenderung": "verstärkt / bestätigt",
+      "ampel": "gelb",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-18: keine klare Richtung erkennbar. Bezug erkannt an: Contact Group",
+      "letzte_aenderung_datum": "2026-09-18",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/18/nato-hosts-international-contact-group-on-civilian-harm-mitigation-and-response",
+      "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-09-18",
+          "datum_ist_naeherung": false,
+          "titel": "nato hosts international contact group on civilian harm mitigation and response",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/18/nato-hosts-international-contact-group-on-civilian-harm-mitigation-and-response",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-09-14",
           "datum_ist_naeherung": false,
@@ -577,7 +585,15 @@
           "richtung": "verstaerkt"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-09-18",
+          "datum_ist_naeherung": false,
+          "titel": "Pistorius nimmt in Texas ersten F-35A-Jet für Bundeswehr entgegen",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/pistorius-texas-f-35-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
+        }
+      ]
     }
   ],
   "osint": [
@@ -670,6 +686,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-09-17",
+          "datum_ist_naeherung": false,
+          "titel": "Responding to the Risks of Open-Weight AI Models",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/responding-risks-open-weight-ai-models",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-09-15",
           "datum_ist_naeherung": false,
@@ -780,13 +803,6 @@
           "datum_ist_naeherung": false,
           "titel": "Beyond the Hype: AI, Ransomware and Business Models",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/beyond-hype-ai-ransomware-and-business-models",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-08-25",
-          "datum_ist_naeherung": false,
-          "titel": "The Overstretch Facing the US Navy",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/overstretch-facing-us-navy",
           "quelle_id": "rusi_commentary"
         },
         {
