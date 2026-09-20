@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-09-19T09:59:01.659034+00:00",
+  "generiert_am": "2026-09-20T10:19:31.038008+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -95,7 +95,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-09-19",
+          "datum_ist_naeherung": false,
+          "titel": "Generalinspekteur der Bundeswehr: Carsten Breuer wird Chef des Nato-Militärausschusses",
+          "url": "https://www.sueddeutsche.de/politik/carsten-breuer-nato-bundeswehr-general-li.3550607",
+          "quelle_id": "sueddeutsche_politik"
+        }
+      ]
     },
     {
       "id": "nato_3_5_prozent",
@@ -293,18 +301,18 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-09-20",
+          "datum_ist_naeherung": false,
+          "titel": "Sondervermögen: Kommunen verlangen deutlich mehr Geld für Infrastruktur",
+          "url": "https://www.zeit.de/politik/deutschland/2026-09/sondervermoegen-finanzen-kommunen-infrastruktur-bundesregierung-klimawandel-gxe",
+          "quelle_id": "zeit_politik"
+        },
+        {
           "datum": "2026-09-19",
           "datum_ist_naeherung": false,
           "titel": "USA-Reise von Pistorius: Es ist etwas in Bewegung gekommen",
           "url": "https://www.tagesschau.de/ausland/amerika/pistorius-usa-110.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-09-19",
-          "datum_ist_naeherung": false,
-          "titel": "F-35 für die Bundeswehr: Mit einer Überdosis Pathos",
-          "url": "https://www.zeit.de/politik/2026-09/f-35-bundeswehr-verteidigung-boris-pistorius-texas-usa",
-          "quelle_id": "zeit_politik"
         },
         {
           "datum": "2026-09-18",
@@ -672,20 +680,19 @@
     {
       "id": "suedamerika",
       "name": "Südamerika",
-      "eintraege": [
-        {
-          "datum": "2026-07-06",
-          "datum_ist_naeherung": false,
-          "titel": "Between Graves and Uncertainty: The Management of the Dead After Venezuela’s Earthquake",
-          "url": "https://www.bellingcat.com/news/2026/07/06/between-graves-and-uncertainty-the-management-of-the-dead-after-venezuelas-earthquake/",
-          "quelle_id": "bellingcat"
-        }
-      ]
+      "eintraege": []
     },
     {
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-09-19",
+          "datum_ist_naeherung": false,
+          "titel": "Christy Kinahan’s UAE Residence Visa Cancelled",
+          "url": "https://www.bellingcat.com/news/2026/09/19/christy-kinahans-uae-residence-visa-cancelled/",
+          "quelle_id": "bellingcat"
+        },
         {
           "datum": "2026-09-17",
           "datum_ist_naeherung": false,
