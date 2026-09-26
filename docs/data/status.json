@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-09-25T10:51:48.301268+00:00",
+  "generiert_am": "2026-09-26T10:32:17.198975+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -95,15 +95,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-09-25",
-          "datum_ist_naeherung": false,
-          "titel": "Wohnen: Zahl der Empfänger von Wohngeld steigt auf Höchststand",
-          "url": "https://www.zeit.de/politik/deutschland/2026-09/wohngeld-deutschland-haushalte-rekord-ausgaben-rentner-mecklenburg-vorpommern-bayern-gxe",
-          "quelle_id": "zeit_politik"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "nato_3_5_prozent",
@@ -111,11 +103,27 @@
       "ebene": "NATO",
       "beschreibung": "Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025, Zielhorizont 2035.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-09-24: keine klare Richtung erkennbar. Bezug erkannt an: NATO summit",
-      "letzte_aenderung_datum": "2026-09-24",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2025/06/24/nato-summit-defence-industry-forum-2025-time-to-unite-innovate--deliver",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-25: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
+      "letzte_aenderung_datum": "2026-09-25",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/25/nato-secretary-general-joins-world-leaders-in-new-york-during-unga-commemorates-25th-anniversary-of-911-attacks",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-09-25",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general joins world leaders in new york during unga commemorates 25th anniversary of 911 attacks",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/25/nato-secretary-general-joins-world-leaders-in-new-york-during-unga-commemorates-25th-anniversary-of-911-attacks",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-25",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general joins world leaders in new york during unga commemorates 25th anniversary of 911 attacks",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/25/nato-secretary-general-joins-world-leaders-in-new-york-during-unga-commemorates-25th-anniversary-of-911-attacks",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-09-24",
           "datum_ist_naeherung": false,
@@ -179,22 +187,6 @@
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/16/nato-secretary-general-visits-the-united-kingdom",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-16",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general visits montenegro and praises its contributions to nato and stability in the western balkans",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/05/12/nato-secretary-general-visits-montenegro-and-praises-its-contributions-to-nato-and-stability-in-the-western-balkans",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-16",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general and the prime minister of croatia discuss alliance readiness and regional security",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/17/nato-secretary-general-and-the-prime-minister-of-croatia-discuss-alliance-readiness-and-regional-security",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": []
@@ -227,38 +219,6 @@
           "richtung": "unklar"
         },
         {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "verteidigungsministerium und wisag vereinbaren eine personalkooperation 18484",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministerium-und-wisag-vereinbaren-eine-personalkooperation-18484",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "verteidigungsministerium ist gastgeber des 4 partnership for technology in peacekeeping symposium 24524",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministerium-ist-gastgeber-des-4-partnership-for-technology-in-peacekeeping-symposium-24524",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "gesetz ueber personelle einsatzbereitschaft 33180",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/gesetz-ueber-personelle-einsatzbereitschaft-33180",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "28 maerz 2019 girls day im verteidigungsministerium 36660",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/28-maerz-2019-girls-day-im-verteidigungsministerium-36660",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
           "datum": "2026-07-09",
           "datum_ist_naeherung": false,
           "titel": "tens of billions in new procurements revealed at the nato summit defence industry forum in ankara",
@@ -287,6 +247,14 @@
           "datum_ist_naeherung": false,
           "titel": "natos largest medical exercise strengthens allied medical readiness",
           "url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/25/natos-largest-medical-exercise-strengthens-allied-medical-readiness",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-06-05",
+          "datum_ist_naeherung": false,
+          "titel": "nato comeds 65th plenary medical readiness an important part of national and collective security",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/05/nato-comeds-65th-plenary-medical-readiness-an-important-part-of-national-and-collective-security",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
@@ -379,10 +347,10 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-09-25",
+          "datum": "2026-09-26",
           "datum_ist_naeherung": false,
-          "titel": "Krieg gegen die Ukraine: Ukraine erhält wohl Lizenz zur Herstellung von Patriot-Abwehrraketen",
-          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+          "titel": "US-Waffenlieferungen an Taiwan: Taiwan hofft auf Waffenlieferung der USA",
+          "url": "https://www.zeit.de/politik/ausland/2026-09/usa-taiwan-waffenlieferungen-china-donald-trump-xi-jinping-gxe",
           "quelle_id": "zeit_politik"
         }
       ]
@@ -392,93 +360,12 @@
       "name": "EU-Verteidigungsinitiative (SAFE / ReArm Europe) – deutsche Beteiligung",
       "ebene": "EU",
       "beschreibung": "EU-Programme zur gemeinsamen Verteidigungsfinanzierung/-beschaffung (SAFE-Verordnung, ReArm Europe / Readiness 2030) und die deutsche Beteiligung bzw. Positionierung dazu.",
-      "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-08-13 (Datum genähert, kein echtes Veröffentlichungsdatum verfügbar): keine klare Richtung erkennbar. Bezug erkannt an: Ursula von der Leyen",
-      "letzte_aenderung_datum": "2026-08-13",
-      "quelle_url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/laudatio-der-bundesministerin-der-verteidigung-ursula-von-der-leyen-18982",
-      "aenderung": "keine klare Richtung erkennbar",
-      "historie": [
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "laudatio der bundesministerin der verteidigung ursula von der leyen 18982",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/laudatio-der-bundesministerin-der-verteidigung-ursula-von-der-leyen-18982",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt parlamentsmitglieder des staates israel 14674",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-parlamentsmitglieder-des-staates-israel-14674",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt die verteidigungsminister aus der schweiz und oesterreich 14680",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-die-verteidigungsminister-aus-der-schweiz-und-oesterreich-14680",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt den georgischen verteidigungsminister levan izoria 13974",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-georgischen-verteidigungsminister-levan-izoria-13974",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen verleiht zum dritten mal preis bundeswehr und gesellschaft  13978",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-verleiht-zum-dritten-mal-preis-bundeswehr-und-gesellschaft--13978",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt franzoesische verteidigungsministerin 14484",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-franzoesische-verteidigungsministerin-14484",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt ukrainischen verteidigungsminister 14486",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-ukrainischen-verteidigungsminister-14486",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen ueberreicht auszeichnung partner der reserve 2018  22666",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-ueberreicht-auszeichnung-partner-der-reserve-2018--22666",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt den oesterreichischen verteidigungsminister mario kunasek 23872",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-oesterreichischen-verteidigungsminister-mario-kunasek-23872",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt den australischen premierminister und die australische verteidigungsministerin  23884",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-australischen-premierminister-und-die-australische-verteidigungsministerin--23884",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        }
-      ],
+      "ampel": "neutral",
+      "begruendung": "Keine aktuellen Funde (letzte 120 Tage, ab 2025-01-01) zu dieser Zusage.",
+      "letzte_aenderung_datum": null,
+      "quelle_url": null,
+      "aenderung": "keine_neue_information",
+      "historie": [],
       "medienberichte": []
     },
     {
@@ -576,6 +463,13 @@
       "id": "russland_ukraine",
       "name": "Russland / Ukraine",
       "eintraege": [
+        {
+          "datum": "2026-09-24",
+          "datum_ist_naeherung": false,
+          "titel": "Europe’s Diesel Vulnerability to US Export Restrictions",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/europes-diesel-vulnerability-us-export-restrictions",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-09-22",
           "datum_ist_naeherung": false,
@@ -758,13 +652,6 @@
           "datum_ist_naeherung": false,
           "titel": "Europe Started Talking Nuclear Deterrence. Still Missing: A Plan",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/europe-started-talking-nuclear-deterrence-still-missing-plan",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "Unfinished Business: Effective UK Anti-Money Laundering Supervision",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/unfinished-business-effective-uk-anti-money-laundering-supervision",
           "quelle_id": "rusi_commentary"
         },
         {
