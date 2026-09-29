@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-09-28T12:25:00.753500+00:00",
+  "generiert_am": "2026-09-29T11:50:27.237637+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -8,12 +8,28 @@
       "name": "NATO 2%-Ziel (Verteidigungsausgaben)",
       "ebene": "NATO",
       "beschreibung": "Zusage der NATO-Mitgliedstaaten, mindestens 2% des BIP für Verteidigung auszugeben (Wales-Gipfel 2014, seither wiederholt bekräftigt).",
-      "ampel": "rot",
-      "begruendung": "Neuester relevanter Fund vom 2026-09-28: schwächt ab. Bezug erkannt an: Verteidigungsfähigkeit; abschwächende Formulierungen: infrage gestellt",
+      "ampel": "gelb",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-28: keine klare Richtung erkennbar. Bezug erkannt an: Vilnius summit, deterrence",
       "letzte_aenderung_datum": "2026-09-28",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2804128-2804128",
-      "aenderung": "schwächt ab",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/07/secretary-general-vilnius-summit-will-make-ukraine-stronger-reinforce-natos-deterrence-and-defence",
+      "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-09-28",
+          "datum_ist_naeherung": false,
+          "titel": "secretary general vilnius summit will make ukraine stronger reinforce natos deterrence and defence",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/07/secretary-general-vilnius-summit-will-make-ukraine-stronger-reinforce-natos-deterrence-and-defence",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-28",
+          "datum_ist_naeherung": false,
+          "titel": "secretary general vilnius summit will make ukraine stronger reinforce natos deterrence and defence",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/07/secretary-general-vilnius-summit-will-make-ukraine-stronger-reinforce-natos-deterrence-and-defence",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-09-28",
           "datum_ist_naeherung": false,
@@ -35,14 +51,6 @@
           "datum_ist_naeherung": false,
           "titel": "bucharest conference brings together international audit community to discuss transparency and accountability in defence spending",
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/16/bucharest-conference-brings-together-international-audit-community-to-discuss-transparency-and-accountability-in-defence-spending",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "secretary general vilnius summit will make ukraine stronger reinforce natos deterrence and defence",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/07/secretary-general-vilnius-summit-will-make-ukraine-stronger-reinforce-natos-deterrence-and-defence",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
@@ -81,14 +89,6 @@
         {
           "datum": "2026-09-02",
           "datum_ist_naeherung": false,
-          "titel": "secretary general vilnius summit will make ukraine stronger reinforce natos deterrence and defence",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/07/secretary-general-vilnius-summit-will-make-ukraine-stronger-reinforce-natos-deterrence-and-defence",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
           "titel": "nato agrees strong package for ukraine boosts deterrence and defence",
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/11/nato-agrees-strong-package-for-ukraine-boosts-deterrence-and-defence",
           "quelle_id": "nato_newsroom",
@@ -102,38 +102,22 @@
       "name": "NATO 3,5%-Ziel (Gipfel Den Haag 2025)",
       "ebene": "NATO",
       "beschreibung": "Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025, Zielhorizont 2035.",
-      "ampel": "rot",
-      "begruendung": "Neuester relevanter Fund vom 2026-09-28: schwächt ab. Bezug erkannt an: Den Haag; abschwächende Formulierungen: infrage gestellt",
-      "letzte_aenderung_datum": "2026-09-28",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2804128-2804128",
-      "aenderung": "schwächt ab",
+      "ampel": "gruen",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-29: verstärkt / bestätigt. Bezug erkannt an: 5%-Ziel, Den Haag; bestätigende Formulierungen: beschlossen",
+      "letzte_aenderung_datum": "2026-09-29",
+      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2804178-2804178",
+      "aenderung": "verstärkt / bestätigt",
       "historie": [
         {
-          "datum": "2026-09-28",
+          "datum": "2026-09-29",
           "datum_ist_naeherung": false,
-          "titel": "Außenminister Wadephul vor seiner Abreise nach Den Haag, Bratislava und Straßburg",
-          "url": "https://www.auswaertiges-amt.de/de/newsroom/2804128-2804128",
+          "titel": "Gemeinsame Erklärung des Ministers für Auswärtige und Europäische Angelegenheiten der Slowakischen Republik und des Bundesministers des Auswärtigen der Bundesrepublik Deutschland über die Fortsetzung des vertieften Dialogs",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2804178-2804178",
           "quelle_id": "auswaertiges_amt_presse",
-          "richtung": "schwaecht_ab"
+          "richtung": "verstaerkt"
         },
         {
-          "datum": "2026-09-25",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general joins world leaders in new york during unga commemorates 25th anniversary of 911 attacks",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/25/nato-secretary-general-joins-world-leaders-in-new-york-during-unga-commemorates-25th-anniversary-of-911-attacks",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-25",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general joins world leaders in new york during unga commemorates 25th anniversary of 911 attacks",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/25/nato-secretary-general-joins-world-leaders-in-new-york-during-unga-commemorates-25th-anniversary-of-911-attacks",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-24",
+          "datum": "2026-09-28",
           "datum_ist_naeherung": false,
           "titel": "nato summit defence industry forum 2025 time to unite innovate  deliver",
           "url": "https://www.nato.int/en/news-and-events/articles/news/2025/06/24/nato-summit-defence-industry-forum-2025-time-to-unite-innovate--deliver",
@@ -141,7 +125,7 @@
           "richtung": "unklar"
         },
         {
-          "datum": "2026-09-24",
+          "datum": "2026-09-28",
           "datum_ist_naeherung": false,
           "titel": "nato secretary general outlines expectations ahead of historic summit",
           "url": "https://www.nato.int/en/news-and-events/articles/news/2025/06/23/nato-secretary-general-outlines-expectations-ahead-of-historic-summit",
@@ -149,42 +133,58 @@
           "richtung": "unklar"
         },
         {
-          "datum": "2026-09-24",
+          "datum": "2026-09-28",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general we must stand together for the rules based international order",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/12/nato-secretary-general-we-must-stand-together-for-the-rules-based-international-order",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-28",
+          "datum_ist_naeherung": false,
+          "titel": "secretary general welcomes president zelenskyy to the nato summit ahead of inaugural nato ukraine council",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/12/secretary-general-welcomes-president-zelenskyy-to-the-nato-summit-ahead-of-inaugural-nato-ukraine-council",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-28",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general meets latvian prime minister welcomes allies significant contributions to ukraine",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/09/27/nato-secretary-general-meets-latvian-prime-minister-welcomes-allies-significant-contributions-to-ukraine",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-28",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general we must stand together for the rules based international order",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/12/nato-secretary-general-we-must-stand-together-for-the-rules-based-international-order",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-28",
+          "datum_ist_naeherung": false,
+          "titel": "secretary general welcomes president zelenskyy to the nato summit ahead of inaugural nato ukraine council",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/12/secretary-general-welcomes-president-zelenskyy-to-the-nato-summit-ahead-of-inaugural-nato-ukraine-council",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-28",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general meets latvian prime minister welcomes allies significant contributions to ukraine",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/09/27/nato-secretary-general-meets-latvian-prime-minister-welcomes-allies-significant-contributions-to-ukraine",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-28",
           "datum_ist_naeherung": false,
           "titel": "nato summit defence industry forum 2025 time to unite innovate  deliver",
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2025/06/24/nato-summit-defence-industry-forum-2025-time-to-unite-innovate--deliver",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-24",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general outlines expectations ahead of historic summit",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2025/06/23/nato-secretary-general-outlines-expectations-ahead-of-historic-summit",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-23",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general visits iowa meets national guard",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/23/nato-secretary-general-visits-iowa-meets-national-guard",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-23",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general visits iowa meets national guard",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/23/nato-secretary-general-visits-iowa-meets-national-guard",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-17",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general visits the united kingdom",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/16/nato-secretary-general-visits-the-united-kingdom",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
@@ -197,11 +197,19 @@
       "ebene": "Bund",
       "beschreibung": "2022 beschlossenes Sondervermögen (100 Mrd. €, seit 2025 durch Grundgesetzänderung faktisch unbegrenzte Verteidigungsausgaben außerhalb der Schuldenbremse). Tracking von Mittelabfluss und politischer Debatte darüber.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-09-16: keine klare Richtung erkennbar. Bezug erkannt an: readiness",
-      "letzte_aenderung_datum": "2026-09-16",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/17/nato-secretary-general-and-the-prime-minister-of-croatia-discuss-alliance-readiness-and-regional-security",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-29: keine klare Richtung erkennbar. Bezug erkannt an: Verteidigungsindustrie",
+      "letzte_aenderung_datum": "2026-09-29",
+      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2804178-2804178",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-09-29",
+          "datum_ist_naeherung": false,
+          "titel": "Gemeinsame Erklärung des Ministers für Auswärtige und Europäische Angelegenheiten der Slowakischen Republik und des Bundesministers des Auswärtigen der Bundesrepublik Deutschland über die Fortsetzung des vertieften Dialogs",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2804178-2804178",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-09-16",
           "datum_ist_naeherung": false,
@@ -273,17 +281,31 @@
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/06/25/natos-largest-medical-exercise-strengthens-allied-medical-readiness",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-06-25",
-          "datum_ist_naeherung": false,
-          "titel": "natos largest medical exercise strengthens allied medical readiness",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/06/25/natos-largest-medical-exercise-strengthens-allied-medical-readiness",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-09-29",
+          "datum_ist_naeherung": false,
+          "titel": "Transportflugzeug Airbus A400M: Bundeswehr will 16 neue Transportflugzeuge kaufen",
+          "url": "https://www.zeit.de/politik/deutschland/2026-09/airbus-a400m-bundeswehr-transportflugzeug-wunstorf-boris-pistorius",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-09-29",
+          "datum_ist_naeherung": false,
+          "titel": "Deutschland: Deutsche Staatsschulden erneut gestiegen",
+          "url": "https://www.zeit.de/politik/deutschland/2026-09/staatsschulden-deutschland-bund-laender-sondervermoegen-gxe",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-09-29",
+          "datum_ist_naeherung": false,
+          "titel": "Russland und die Nato: Eine Frage der Nerven",
+          "url": "https://www.sueddeutsche.de/politik/nato-russland-pistorius-hybrider-krieg-ungarn-li.3555018",
+          "quelle_id": "sueddeutsche_politik"
+        }
+      ]
     },
     {
       "id": "ukraine_waffenlieferungen",
@@ -291,11 +313,59 @@
       "ebene": "Bund",
       "beschreibung": "Zusagen der Bundesregierung zu Waffen-/Munitionslieferungen an die Ukraine, Abgleich Ankündigung vs. tatsächliche Lieferung.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-09-23: keine klare Richtung erkennbar. Bezug erkannt an: Waffenstillstand",
-      "letzte_aenderung_datum": "2026-09-23",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2803800-2803800",
+      "begruendung": "Neuester relevanter Fund vom 2026-09-29: keine klare Richtung erkennbar. Bezug erkannt an: Contact Group",
+      "letzte_aenderung_datum": "2026-09-29",
+      "quelle_url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/18/nato-hosts-international-contact-group-on-civilian-harm-mitigation-and-response",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-09-29",
+          "datum_ist_naeherung": false,
+          "titel": "nato hosts international contact group on civilian harm mitigation and response",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/18/nato-hosts-international-contact-group-on-civilian-harm-mitigation-and-response",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-29",
+          "datum_ist_naeherung": false,
+          "titel": "Gemeinsame Erklärung des Ministers für Auswärtige und Europäische Angelegenheiten der Slowakischen Republik und des Bundesministers des Auswärtigen der Bundesrepublik Deutschland über die Fortsetzung des vertieften Dialogs",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2804178-2804178",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-28",
+          "datum_ist_naeherung": false,
+          "titel": "nato leaders president zelenskyy meet for first nato ukraine council",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/12/nato-leaders-president-zelenskyy-meet-for-first-nato-ukraine-council",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-28",
+          "datum_ist_naeherung": false,
+          "titel": "secretary general welcomes president zelenskyy to the nato summit ahead of inaugural nato ukraine council",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/12/secretary-general-welcomes-president-zelenskyy-to-the-nato-summit-ahead-of-inaugural-nato-ukraine-council",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-28",
+          "datum_ist_naeherung": false,
+          "titel": "nato leaders president zelenskyy meet for first nato ukraine council",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/12/nato-leaders-president-zelenskyy-meet-for-first-nato-ukraine-council",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-28",
+          "datum_ist_naeherung": false,
+          "titel": "secretary general welcomes president zelenskyy to the nato summit ahead of inaugural nato ukraine council",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/12/secretary-general-welcomes-president-zelenskyy-to-the-nato-summit-ahead-of-inaugural-nato-ukraine-council",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-09-23",
           "datum_ist_naeherung": false,
@@ -305,50 +375,10 @@
           "richtung": "unklar"
         },
         {
-          "datum": "2026-09-21",
-          "datum_ist_naeherung": false,
-          "titel": "Erklärung der Hohen Vertreterin im Namen der EU zu den vom 18. bis zum 20. September 2026 abgehaltenen Wahlen zur russischen Staatsduma und ihrer Unzulässigkeit in ukrainischem Hoheitsgebiet",
-          "url": "https://www.auswaertiges-amt.de/de/newsroom/2803328-2803328",
-          "quelle_id": "auswaertiges_amt_presse",
-          "richtung": "schwaecht_ab"
-        },
-        {
           "datum": "2026-09-18",
           "datum_ist_naeherung": false,
           "titel": "nato hosts international contact group on civilian harm mitigation and response",
           "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/18/nato-hosts-international-contact-group-on-civilian-harm-mitigation-and-response",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "nato leaders president zelenskyy meet for first nato ukraine council",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/12/nato-leaders-president-zelenskyy-meet-for-first-nato-ukraine-council",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "secretary general welcomes president zelenskyy to the nato summit ahead of inaugural nato ukraine council",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/12/secretary-general-welcomes-president-zelenskyy-to-the-nato-summit-ahead-of-inaugural-nato-ukraine-council",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "nato leaders president zelenskyy meet for first nato ukraine council",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/12/nato-leaders-president-zelenskyy-meet-for-first-nato-ukraine-council",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "secretary general welcomes president zelenskyy to the nato summit ahead of inaugural nato ukraine council",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/12/secretary-general-welcomes-president-zelenskyy-to-the-nato-summit-ahead-of-inaugural-nato-ukraine-council",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
@@ -369,7 +399,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-09-29",
+          "datum_ist_naeherung": false,
+          "titel": "Landminen im Grenzgebiet: Südkorea wirft Nordkorea Verletzung des Waffenstillstands vor",
+          "url": "https://www.zeit.de/politik/ausland/2026-09/landmine-nordkorea-suedkorea-grenze-waffenstillstandsabkommen-gxe",
+          "quelle_id": "zeit_politik"
+        }
+      ]
     },
     {
       "id": "eu_safe_rearm",
@@ -533,18 +571,25 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-09-29",
+          "datum_ist_naeherung": false,
+          "titel": "Sabotage: Estland sieht russische Geheimdienste hinter Brand bei Rüstungsfirma",
+          "url": "https://www.zeit.de/politik/ausland/2026-09/estland-brandanschlag-milrem-robotics-russland-tallinn-gxe",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-09-28",
+          "datum_ist_naeherung": false,
+          "titel": "Polen investiert massiv in die Drohnenabwehr an der Ostgrenze",
+          "url": "https://www.tagesschau.de/ausland/europa/polen-drohnen-abwehr-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
           "datum": "2026-09-28",
           "datum_ist_naeherung": false,
           "titel": "Kallas: Bericht offenbart Lücken bei EU-Verteidigungsbereitschaft",
           "url": "https://www.tagesschau.de/ausland/europa/eu-verteidigung-kallas-100.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-09-24",
-          "datum_ist_naeherung": false,
-          "titel": "Reform der Nachrichtendienste - Revolution oder Tabubruch?",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/nachrichtendienste-reform-bundestag-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
         }
       ]
     }
@@ -567,6 +612,13 @@
       "id": "russland_ukraine",
       "name": "Russland / Ukraine",
       "eintraege": [
+        {
+          "datum": "2026-09-28",
+          "datum_ist_naeherung": false,
+          "titel": "Russia Has Not Avoided Mobilisation: It Has Normalised It",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/russia-has-not-avoided-mobilisation-it-has-normalised-it",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-09-24",
           "datum_ist_naeherung": false,
@@ -607,13 +659,6 @@
           "datum_ist_naeherung": false,
           "titel": "A Russian Oligarch Speaks Out, But Not Against Russia's War",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/russian-oligarch-speaks-out-not-against-russias-war",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-09-06",
-          "datum_ist_naeherung": false,
-          "titel": "Russia’s Most Dangerous Military Adaptation Is Recovery",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/russias-most-dangerous-military-adaptation-recovery",
           "quelle_id": "rusi_commentary"
         },
         {
