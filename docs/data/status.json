@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-02T11:37:42.421478+00:00",
+  "generiert_am": "2026-10-03T10:50:43.417967+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -290,13 +290,6 @@
           "titel": "Gestopptes Fregatten-Projekt: Werft will 4,7 Milliarden Euro von Deutschland",
           "url": "https://www.tagesschau.de/inland/innenpolitik/werft-milliardenforderung-fregatte-bundeswehr-100.html",
           "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-10-02",
-          "datum_ist_naeherung": false,
-          "titel": "Fregattenprojekt F126: Werft fordert im Fregattenstreit 4,7 Milliarden Euro",
-          "url": "https://www.zeit.de/politik/deutschland/2026-10/fregatte-f126-damen-werft-boris-pistorius-gxe",
-          "quelle_id": "zeit_politik"
         },
         {
           "datum": "2026-10-01",
