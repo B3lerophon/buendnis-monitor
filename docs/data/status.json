@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-10T11:37:15.977993+00:00",
+  "generiert_am": "2026-10-11T11:50:41.179900+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -189,15 +189,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-10-09",
-          "datum_ist_naeherung": false,
-          "titel": "Neue US-Sanktionen gegen Internationalen Strafgerichtshof",
-          "url": "https://www.tagesschau.de/ausland/amerika/usa-sanktionen-istgh-100.html",
-          "quelle_id": "tagesschau_ausland"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "sondervermoegen_bundeswehr",
@@ -375,20 +367,6 @@
           "datum_ist_naeherung": false,
           "titel": "Ukraine: Viele Tote bei russischen Angriffen",
           "url": "https://www.tagesschau.de/ausland/europa/russland-greift-kiew-an-100.html",
-          "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-10-04",
-          "datum_ist_naeherung": false,
-          "titel": "Merz: Ukraine-Hilfen \"notwendig für die Stabilität Europas\"",
-          "url": "https://www.tagesschau.de/ausland/europa/merz-kiew-ukraine-russland-100.html",
-          "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-10-04",
-          "datum_ist_naeherung": false,
-          "titel": "Merz-Besuch in Kiew: Eine Milliarde Militärhilfe für die Ukraine",
-          "url": "https://www.tagesschau.de/ausland/europa/merz-kiew-106.html",
           "quelle_id": "tagesschau_ausland"
         }
       ]
