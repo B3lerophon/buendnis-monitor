@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-11T11:50:41.179900+00:00",
+  "generiert_am": "2026-10-12T13:56:51.342652+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -9,11 +9,19 @@
       "ebene": "NATO",
       "beschreibung": "Zusage der NATO-Mitgliedstaaten, mindestens 2% des BIP für Verteidigung auszugeben (Wales-Gipfel 2014, seither wiederholt bekräftigt).",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-10-08: keine klare Richtung erkennbar. Bezug erkannt an: 2 Prozent",
-      "letzte_aenderung_datum": "2026-10-08",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2805586-2805586",
+      "begruendung": "Neuester relevanter Fund vom 2026-10-10: keine klare Richtung erkennbar. Bezug erkannt an: Abschreckung",
+      "letzte_aenderung_datum": "2026-10-10",
+      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2805732-2805732",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-10-10",
+          "datum_ist_naeherung": false,
+          "titel": "Der Beauftragte der Bundesregierung für Menschenrechtspolitik und humanitäre Hilfe Dr. Lars Castellucci zum Welttag gegen die Todesstrafe",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2805732-2805732",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-10-08",
           "datum_ist_naeherung": false,
@@ -83,14 +91,6 @@
           "datum_ist_naeherung": false,
           "titel": "secretary general previews vilnius summit at the nato public forum",
           "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/11/secretary-general-previews-vilnius-summit-at-the-nato-public-forum",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "nato agrees strong package for ukraine boosts deterrence and defence",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/11/nato-agrees-strong-package-for-ukraine-boosts-deterrence-and-defence",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
@@ -537,6 +537,13 @@
       "name": "Russland / Ukraine",
       "eintraege": [
         {
+          "datum": "2026-10-11",
+          "datum_ist_naeherung": false,
+          "titel": "Talk of Russian Regime Change Could Inspire a New European Peace Strategy",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/talk-russian-regime-change-could-inspire-new-european-peace-strategy",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-10-07",
           "datum_ist_naeherung": false,
           "titel": "In Helping Ukraine, We Protect Ourselves",
@@ -604,13 +611,6 @@
           "datum_ist_naeherung": false,
           "titel": "Moscow’s Other Front: Why Ukraine’s Churches Are a Security Issue",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/moscows-other-front-why-ukraines-churches-are-security-issue",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-09-15",
-          "datum_ist_naeherung": false,
-          "titel": "A Russian Oligarch Speaks Out, But Not Against Russia's War",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/russian-oligarch-speaks-out-not-against-russias-war",
           "quelle_id": "rusi_commentary"
         },
         {
