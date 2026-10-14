@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-13T13:13:16.056717+00:00",
+  "generiert_am": "2026-10-14T10:53:09.168081+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -287,16 +287,9 @@
         {
           "datum": "2026-10-13",
           "datum_ist_naeherung": false,
-          "titel": "SPD-Vorsitz: Pistorius schließt Kandidatur als SPD-Chef aus",
-          "url": "https://www.zeit.de/politik/deutschland/2026-10/spd-vorsitz-boris-pistorius-lars-klingbeil-baerbel-bas",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-10-13",
-          "datum_ist_naeherung": false,
-          "titel": "Bundesverteidigungsminister: Pistorius will nicht SPD-Chef werden",
-          "url": "https://www.sueddeutsche.de/politik/bundesverteidigungsminister-pistorius-will-nicht-spd-chef-werden-li.3562990",
-          "quelle_id": "sueddeutsche_politik"
+          "titel": "Nach Rücktritt von Bas: SPD sucht neue Vorsitzende",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/spd-debatte-vorsitz-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
         }
       ]
     },
@@ -530,7 +523,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-10-13",
+          "datum_ist_naeherung": false,
+          "titel": "Cyberattacken auf Hunderte französische Supermärkte",
+          "url": "https://www.tagesschau.de/ausland/europa/frankreich-cyberattacken-supermaerkte-100.html",
+          "quelle_id": "tagesschau_ausland"
+        }
+      ]
     }
   ],
   "osint": [
