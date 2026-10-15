@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-14T10:53:09.168081+00:00",
+  "generiert_am": "2026-10-15T10:35:23.055452+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -103,11 +103,27 @@
       "ebene": "NATO",
       "beschreibung": "Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025, Zielhorizont 2035.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-10-12: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
-      "letzte_aenderung_datum": "2026-10-12",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2019/12/03/nato-secretary-general-meets-president-trump-ahead-of-leaders-meeting",
+      "begruendung": "Neuester relevanter Fund vom 2026-10-15: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
+      "letzte_aenderung_datum": "2026-10-15",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/10/14/nato-secretary-general-meets-estonian-leaders-and-visits-amari-air-base",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-10-15",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general meets estonian leaders and visits amari air base",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/10/14/nato-secretary-general-meets-estonian-leaders-and-visits-amari-air-base",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-10-15",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general meets estonian leaders and visits amari air base",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/10/14/nato-secretary-general-meets-estonian-leaders-and-visits-amari-air-base",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-10-12",
           "datum_ist_naeherung": false,
@@ -169,22 +185,6 @@
           "datum_ist_naeherung": false,
           "titel": "nato secretary general welcomes spain offer to host next nato summit",
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2021/06/14/nato-secretary-general-welcomes-spain-offer-to-host-next-nato-summit",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-10-05",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general welcomes prime minister of canada to nato summit",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2021/06/14/nato-secretary-general-welcomes-prime-minister-of-canada-to-nato-summit",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-10-02",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general in munster keep calm carry on and continue support for ukraine",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/10/01/nato-secretary-general-in-munster-keep-calm-carry-on-and-continue-support-for-ukraine",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
@@ -369,7 +369,36 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-10-15",
+          "datum_ist_naeherung": false,
+          "titel": "Krieg gegen die Ukraine: Wolodymyr Selenskyj kündigt neue Angriffe auf russische Raffinerien an",
+          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-10-15",
+          "datum_ist_naeherung": false,
+          "titel": "Raketentest: Nordkorea meldet Test von zwei Marschflugkörpern",
+          "url": "https://www.zeit.de/politik/ausland/2026-10/nordkorea-marschflugkoerper-test-u-boot-suedkorea",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-10-15",
+          "datum_ist_naeherung": false,
+          "titel": "Nordkorea: Marschflugkörper vom U-Boot aus getestet",
+          "url": "https://www.sueddeutsche.de/politik/raketen-tests-suedkorea-japan-li.3563834",
+          "quelle_id": "sueddeutsche_politik"
+        },
+        {
+          "datum": "2026-10-14",
+          "datum_ist_naeherung": false,
+          "titel": "Schutz vor Spionage - Bundeswehr darf Netzwerferdrohnen kaufen",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/ruestungsvorhaben-genehmigt-bundestag-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
+        }
+      ]
     },
     {
       "id": "eu_safe_rearm",
@@ -525,6 +554,13 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-10-14",
+          "datum_ist_naeherung": false,
+          "titel": "Schutz vor Spionage - Bundeswehr darf Netzwerferdrohnen kaufen",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/ruestungsvorhaben-genehmigt-bundestag-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
+        },
+        {
           "datum": "2026-10-13",
           "datum_ist_naeherung": false,
           "titel": "Cyberattacken auf Hunderte französische Supermärkte",
@@ -615,13 +651,6 @@
           "quelle_id": "bellingcat"
         },
         {
-          "datum": "2026-09-16",
-          "datum_ist_naeherung": false,
-          "titel": "Moscow’s Other Front: Why Ukraine’s Churches Are a Security Issue",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/moscows-other-front-why-ukraines-churches-are-security-issue",
-          "quelle_id": "rusi_commentary"
-        },
-        {
           "datum": "2026-08-25",
           "datum_ist_naeherung": false,
           "titel": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
@@ -661,6 +690,13 @@
       "id": "china",
       "name": "China",
       "eintraege": [
+        {
+          "datum": "2026-10-13",
+          "datum_ist_naeherung": false,
+          "titel": "What Do Brazil’s Elections Mean for its Foreign Policy?",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/what-do-brazils-elections-mean-its-foreign-policy",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-10-08",
           "datum_ist_naeherung": false,
