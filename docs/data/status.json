@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-15T10:35:23.055452+00:00",
+  "generiert_am": "2026-10-16T10:22:25.420957+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -8,12 +8,28 @@
       "name": "NATO 2%-Ziel (Verteidigungsausgaben)",
       "ebene": "NATO",
       "beschreibung": "Zusage der NATO-Mitgliedstaaten, mindestens 2% des BIP für Verteidigung auszugeben (Wales-Gipfel 2014, seither wiederholt bekräftigt).",
-      "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-10-13: keine klare Richtung erkennbar. Bezug erkannt an: Verteidigungsfähigkeit",
-      "letzte_aenderung_datum": "2026-10-13",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2805804-2805804",
-      "aenderung": "keine klare Richtung erkennbar",
+      "ampel": "gruen",
+      "begruendung": "Neuester relevanter Fund vom 2026-10-15: verstärkt / bestätigt. Bezug erkannt an: defence spending; bestätigende Formulierungen: increased",
+      "letzte_aenderung_datum": "2026-10-15",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2019/11/29/nato-secretary-general-announces-increased-defence-spending-by-allies",
+      "aenderung": "verstärkt / bestätigt",
       "historie": [
+        {
+          "datum": "2026-10-15",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general announces increased defence spending by allies",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2019/11/29/nato-secretary-general-announces-increased-defence-spending-by-allies",
+          "quelle_id": "nato_newsroom",
+          "richtung": "verstaerkt"
+        },
+        {
+          "datum": "2026-10-15",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general announces increased defence spending by allies",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2019/11/29/nato-secretary-general-announces-increased-defence-spending-by-allies",
+          "quelle_id": "nato_newsroom",
+          "richtung": "verstaerkt"
+        },
         {
           "datum": "2026-10-13",
           "datum_ist_naeherung": false,
@@ -77,22 +93,6 @@
           "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/11/nato-agrees-strong-package-for-ukraine-boosts-deterrence-and-defence",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general vilnius summit has already made history on sweden will take key decisions on ukraine deterrence and defence",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/11/nato-secretary-general-vilnius-summit-has-already-made-history-on-sweden-will-take-key-decisions-on-ukraine-deterrence-and-defence",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "nato vilnius summit officially underway",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/11/nato-vilnius-summit-officially-underway",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": []
@@ -119,13 +119,13 @@
         {
           "datum": "2026-10-15",
           "datum_ist_naeherung": false,
-          "titel": "nato secretary general meets estonian leaders and visits amari air base",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/10/14/nato-secretary-general-meets-estonian-leaders-and-visits-amari-air-base",
+          "titel": "nato secretary general announces increased defence spending by allies",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2019/11/29/nato-secretary-general-announces-increased-defence-spending-by-allies",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
         {
-          "datum": "2026-10-12",
+          "datum": "2026-10-15",
           "datum_ist_naeherung": false,
           "titel": "nato secretary general meets president trump ahead of leaders meeting",
           "url": "https://www.nato.int/en/news-and-events/articles/news/2019/12/03/nato-secretary-general-meets-president-trump-ahead-of-leaders-meeting",
@@ -133,10 +133,26 @@
           "richtung": "unklar"
         },
         {
-          "datum": "2026-10-12",
+          "datum": "2026-10-15",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general announces increased defence spending by allies",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2019/11/29/nato-secretary-general-announces-increased-defence-spending-by-allies",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-10-15",
           "datum_ist_naeherung": false,
           "titel": "nato secretary general meets president trump ahead of leaders meeting",
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2019/12/03/nato-secretary-general-meets-president-trump-ahead-of-leaders-meeting",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-10-15",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general meets estonian leaders and visits amari air base",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/10/14/nato-secretary-general-meets-estonian-leaders-and-visits-amari-air-base",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
@@ -169,22 +185,6 @@
           "datum_ist_naeherung": false,
           "titel": "nato secretary general welcomes prime minister of canada to nato summit",
           "url": "https://www.nato.int/en/news-and-events/articles/news/2021/06/14/nato-secretary-general-welcomes-prime-minister-of-canada-to-nato-summit",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-10-05",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general summit will be pivotal moment",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2021/06/11/nato-secretary-general-summit-will-be-pivotal-moment",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-10-05",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general welcomes spain offer to host next nato summit",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2021/06/14/nato-secretary-general-welcomes-spain-offer-to-host-next-nato-summit",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
@@ -285,6 +285,13 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-10-15",
+          "datum_ist_naeherung": false,
+          "titel": "Bundeswehr: Pistorius will Reservedienst verpflichtend machen",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/bundeswehr-reservestaerkungsgesetz-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
+        },
+        {
           "datum": "2026-10-13",
           "datum_ist_naeherung": false,
           "titel": "Nach Rücktritt von Bas: SPD sucht neue Vorsitzende",
@@ -370,27 +377,6 @@
         }
       ],
       "medienberichte": [
-        {
-          "datum": "2026-10-15",
-          "datum_ist_naeherung": false,
-          "titel": "Krieg gegen die Ukraine: Wolodymyr Selenskyj kündigt neue Angriffe auf russische Raffinerien an",
-          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-10-15",
-          "datum_ist_naeherung": false,
-          "titel": "Raketentest: Nordkorea meldet Test von zwei Marschflugkörpern",
-          "url": "https://www.zeit.de/politik/ausland/2026-10/nordkorea-marschflugkoerper-test-u-boot-suedkorea",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-10-15",
-          "datum_ist_naeherung": false,
-          "titel": "Nordkorea: Marschflugkörper vom U-Boot aus getestet",
-          "url": "https://www.sueddeutsche.de/politik/raketen-tests-suedkorea-japan-li.3563834",
-          "quelle_id": "sueddeutsche_politik"
-        },
         {
           "datum": "2026-10-14",
           "datum_ist_naeherung": false,
@@ -554,6 +540,13 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-10-16",
+          "datum_ist_naeherung": false,
+          "titel": "Flugverkehr über Italien gestört - Sabotage bislang ausgeschlossen",
+          "url": "https://www.tagesschau.de/ausland/europa/flugverkehr-italien-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
           "datum": "2026-10-14",
           "datum_ist_naeherung": false,
           "titel": "Schutz vor Spionage - Bundeswehr darf Netzwerferdrohnen kaufen",
@@ -580,6 +573,13 @@
       "id": "russland_ukraine",
       "name": "Russland / Ukraine",
       "eintraege": [
+        {
+          "datum": "2026-10-14",
+          "datum_ist_naeherung": false,
+          "titel": "Ukraine Has Imposed a Kerosene Shortage on Russia",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/ukraine-has-imposed-kerosene-shortage-russia",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-10-11",
           "datum_ist_naeherung": false,
@@ -723,6 +723,13 @@
       "name": "Sonstige / global",
       "eintraege": [
         {
+          "datum": "2026-10-15",
+          "datum_ist_naeherung": false,
+          "titel": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
+          "url": "https://www.bellingcat.com/news/us-canada/2026/10/15/satellite-images-show-extent-of-trump-admins-tree-felling-at-dc-golf-course/",
+          "quelle_id": "bellingcat"
+        },
+        {
           "datum": "2026-10-12",
           "datum_ist_naeherung": false,
           "titel": "The Role of Beneficial Ownership Transparency in the Hard Power Era",
@@ -779,13 +786,6 @@
           "quelle_id": "bellingcat"
         },
         {
-          "datum": "2026-09-17",
-          "datum_ist_naeherung": false,
-          "titel": "Responding to the Risks of Open-Weight AI Models",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/responding-risks-open-weight-ai-models",
-          "quelle_id": "rusi_commentary"
-        },
-        {
           "datum": "2026-09-14",
           "datum_ist_naeherung": false,
           "titel": "Bellingcat Official Merch Design Contest",
@@ -804,13 +804,6 @@
           "datum_ist_naeherung": false,
           "titel": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
           "url": "https://www.bellingcat.com/news/2026/08/01/welcome-to-dubai-kinahan-cartels-visas-revealed/",
-          "quelle_id": "bellingcat"
-        },
-        {
-          "datum": "2026-07-30",
-          "datum_ist_naeherung": false,
-          "titel": "Will Ronaldo Cry​? World Cup Fans Bet Billions Through Prediction Markets",
-          "url": "https://www.bellingcat.com/news/2026/07/30/will-ronaldo-cry-world-cup-fans-bet-billions-through-prediction-markets/",
           "quelle_id": "bellingcat"
         }
       ]
