@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-16T10:22:25.420957+00:00",
+  "generiert_am": "2026-10-17T09:55:09.857541+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -290,13 +290,6 @@
           "titel": "Bundeswehr: Pistorius will Reservedienst verpflichtend machen",
           "url": "https://www.tagesschau.de/inland/innenpolitik/bundeswehr-reservestaerkungsgesetz-100.html",
           "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-10-13",
-          "datum_ist_naeherung": false,
-          "titel": "Nach Rücktritt von Bas: SPD sucht neue Vorsitzende",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/spd-debatte-vorsitz-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
         }
       ]
     },
@@ -377,6 +370,13 @@
         }
       ],
       "medienberichte": [
+        {
+          "datum": "2026-10-16",
+          "datum_ist_naeherung": false,
+          "titel": "Papst bittet Putin um Waffenruhe in Oleschky",
+          "url": "https://www.tagesschau.de/ausland/europa/papst-telefonat-putin-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
         {
           "datum": "2026-10-14",
           "datum_ist_naeherung": false,
@@ -542,7 +542,7 @@
         {
           "datum": "2026-10-16",
           "datum_ist_naeherung": false,
-          "titel": "Flugverkehr über Italien gestört - Sabotage bislang ausgeschlossen",
+          "titel": "Technische Panne legt Flugverkehr in Italien teilweise lahm",
           "url": "https://www.tagesschau.de/ausland/europa/flugverkehr-italien-100.html",
           "quelle_id": "tagesschau_ausland"
         },
@@ -552,13 +552,6 @@
           "titel": "Schutz vor Spionage - Bundeswehr darf Netzwerferdrohnen kaufen",
           "url": "https://www.tagesschau.de/inland/innenpolitik/ruestungsvorhaben-genehmigt-bundestag-100.html",
           "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-10-13",
-          "datum_ist_naeherung": false,
-          "titel": "Cyberattacken auf Hunderte französische Supermärkte",
-          "url": "https://www.tagesschau.de/ausland/europa/frankreich-cyberattacken-supermaerkte-100.html",
-          "quelle_id": "tagesschau_ausland"
         }
       ]
     }
@@ -676,13 +669,6 @@
           "titel": "Why Serbia’s Election Matters to Israel’s Arsenal",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/why-serbias-election-matters-israels-arsenal",
           "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-09-20",
-          "datum_ist_naeherung": false,
-          "titel": "The Battle for Bab Al-Mandeb is Becoming a Contest for Regional Power",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/battle-bab-al-mandeb-becoming-contest-regional-power",
-          "quelle_id": "rusi_commentary"
         }
       ]
     },
@@ -728,6 +714,13 @@
           "titel": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
           "url": "https://www.bellingcat.com/news/us-canada/2026/10/15/satellite-images-show-extent-of-trump-admins-tree-felling-at-dc-golf-course/",
           "quelle_id": "bellingcat"
+        },
+        {
+          "datum": "2026-10-15",
+          "datum_ist_naeherung": false,
+          "titel": "Fentanyl in Italy and the European Opioid Market",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/fentanyl-italy-and-european-opioid-market",
+          "quelle_id": "rusi_commentary"
         },
         {
           "datum": "2026-10-12",
