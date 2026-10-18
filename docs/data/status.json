@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-17T09:55:09.857541+00:00",
+  "generiert_am": "2026-10-18T10:07:12.699022+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -370,6 +370,13 @@
         }
       ],
       "medienberichte": [
+        {
+          "datum": "2026-10-18",
+          "datum_ist_naeherung": false,
+          "titel": "Krieg in Nahost: Saudi-Arabien fängt ballistische Raketen und Drohnen aus Jemen ab",
+          "url": "https://www.sueddeutsche.de/politik/liveblog-nahost-news-huthi-saudi-arabien-drohnen-raketen-li.3560260",
+          "quelle_id": "sueddeutsche_politik"
+        },
         {
           "datum": "2026-10-16",
           "datum_ist_naeherung": false,
