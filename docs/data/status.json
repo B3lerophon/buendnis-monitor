@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-18T10:07:12.699022+00:00",
+  "generiert_am": "2026-10-19T11:37:34.800509+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -285,6 +285,13 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-10-19",
+          "datum_ist_naeherung": false,
+          "titel": "Berlin: Pistorius kritisiert mögliches Ende von Kooperation mit Bundeswehr",
+          "url": "https://www.zeit.de/politik/deutschland/2026-10/kooperation-bundeswehr-schulen-berlin-boris-pistorius",
+          "quelle_id": "zeit_politik"
+        },
+        {
           "datum": "2026-10-15",
           "datum_ist_naeherung": false,
           "titel": "Bundeswehr: Pistorius will Reservedienst verpflichtend machen",
@@ -370,13 +377,6 @@
         }
       ],
       "medienberichte": [
-        {
-          "datum": "2026-10-18",
-          "datum_ist_naeherung": false,
-          "titel": "Krieg in Nahost: Saudi-Arabien fängt ballistische Raketen und Drohnen aus Jemen ab",
-          "url": "https://www.sueddeutsche.de/politik/liveblog-nahost-news-huthi-saudi-arabien-drohnen-raketen-li.3560260",
-          "quelle_id": "sueddeutsche_politik"
-        },
         {
           "datum": "2026-10-16",
           "datum_ist_naeherung": false,
@@ -547,10 +547,10 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-10-16",
+          "datum": "2026-10-18",
           "datum_ist_naeherung": false,
-          "titel": "Technische Panne legt Flugverkehr in Italien teilweise lahm",
-          "url": "https://www.tagesschau.de/ausland/europa/flugverkehr-italien-100.html",
+          "titel": "Drohne in Litauens Luftraum eingedrungen und abgestürzt",
+          "url": "https://www.tagesschau.de/ausland/europa/litauen-drohne-absturz-ukraine-100.html",
           "quelle_id": "tagesschau_ausland"
         },
         {
@@ -637,13 +637,6 @@
           "quelle_id": "rusi_commentary"
         },
         {
-          "datum": "2026-09-21",
-          "datum_ist_naeherung": false,
-          "titel": "Putin’s Predictable Victory, Russia’s Uncertain Future",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/putins-predictable-victory-russias-uncertain-future",
-          "quelle_id": "rusi_commentary"
-        },
-        {
           "datum": "2026-09-16",
           "datum_ist_naeherung": false,
           "titel": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
@@ -715,6 +708,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-10-18",
+          "datum_ist_naeherung": false,
+          "titel": "FATF Has Declared War on Fraud. Not All Its Allies Can Afford to Fight",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/fatf-has-declared-war-fraud-not-all-its-allies-can-afford-fight",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-10-15",
           "datum_ist_naeherung": false,
