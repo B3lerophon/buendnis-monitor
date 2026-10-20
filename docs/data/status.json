@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-19T11:37:34.800509+00:00",
+  "generiert_am": "2026-10-20T10:41:27.027803+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -95,7 +95,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-10-19",
+          "datum_ist_naeherung": false,
+          "titel": "Podcast: „Auf den Punkt“: Will die Union die Brandmauer zur AfD einreißen?",
+          "url": "https://www.sueddeutsche.de/politik/podcast-nachrichten-auf-den-punkt-junge-union-markus-soeder-brandmauer-li.3565971",
+          "quelle_id": "sueddeutsche_politik"
+        }
+      ]
     },
     {
       "id": "nato_3_5_prozent",
@@ -285,13 +293,6 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-10-19",
-          "datum_ist_naeherung": false,
-          "titel": "Berlin: Pistorius kritisiert mögliches Ende von Kooperation mit Bundeswehr",
-          "url": "https://www.zeit.de/politik/deutschland/2026-10/kooperation-bundeswehr-schulen-berlin-boris-pistorius",
-          "quelle_id": "zeit_politik"
-        },
-        {
           "datum": "2026-10-15",
           "datum_ist_naeherung": false,
           "titel": "Bundeswehr: Pistorius will Reservedienst verpflichtend machen",
@@ -378,18 +379,25 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-10-20",
+          "datum_ist_naeherung": false,
+          "titel": "Verbaler Schlagabtausch: Neue Spannungen zwischen Trump und Selenskyj",
+          "url": "https://www.tagesschau.de/ausland/europa/ukraine-usa-spannungen-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
+          "datum": "2026-10-20",
+          "datum_ist_naeherung": false,
+          "titel": "Ukraine-Überblick: Spannungen zwischen Trump und Selenskyj – Raketenlieferungen im Fokus",
+          "url": "https://www.zeit.de/politik/ausland/2026-10/donald-trump-wolodymyr-selenskyj-ukraine-usa-pete-hegseth-gxe",
+          "quelle_id": "zeit_politik"
+        },
+        {
           "datum": "2026-10-16",
           "datum_ist_naeherung": false,
           "titel": "Papst bittet Putin um Waffenruhe in Oleschky",
           "url": "https://www.tagesschau.de/ausland/europa/papst-telefonat-putin-100.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-10-14",
-          "datum_ist_naeherung": false,
-          "titel": "Schutz vor Spionage - Bundeswehr darf Netzwerferdrohnen kaufen",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/ruestungsvorhaben-genehmigt-bundestag-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
         }
       ]
     },
@@ -535,30 +543,22 @@
           "url": "https://www.auswaertiges-amt.de/de/newsroom/2805182-2805182",
           "quelle_id": "auswaertiges_amt_presse",
           "richtung": "verstaerkt"
-        },
-        {
-          "datum": "2026-10-07",
-          "datum_ist_naeherung": false,
-          "titel": "Rede von Außenminister Wadephul zur deutsch-ukrainischen Partnerschaftskonferenz: „Freunde stehen zusammen“",
-          "url": "https://www.auswaertiges-amt.de/de/newsroom/2805352-2805352",
-          "quelle_id": "auswaertiges_amt_presse",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": [
+        {
+          "datum": "2026-10-19",
+          "datum_ist_naeherung": false,
+          "titel": "Starlink: Litauen stärkt nach Starlink-Anschlag Schutz kritischer Infrastruktur",
+          "url": "https://www.zeit.de/politik/ausland/2026-10/litauen-starlink-brandanschlag-vilnius-russland-infrastruktur-gxe",
+          "quelle_id": "zeit_politik"
+        },
         {
           "datum": "2026-10-18",
           "datum_ist_naeherung": false,
           "titel": "Drohne in Litauens Luftraum eingedrungen und abgestürzt",
           "url": "https://www.tagesschau.de/ausland/europa/litauen-drohne-absturz-ukraine-100.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-10-14",
-          "datum_ist_naeherung": false,
-          "titel": "Schutz vor Spionage - Bundeswehr darf Netzwerferdrohnen kaufen",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/ruestungsvorhaben-genehmigt-bundestag-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
         }
       ]
     }
@@ -709,6 +709,13 @@
       "name": "Sonstige / global",
       "eintraege": [
         {
+          "datum": "2026-10-19",
+          "datum_ist_naeherung": false,
+          "titel": "Nature Credits: Europe’s Next Financial Crime Blind Spot",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/nature-credits-europes-next-financial-crime-blind-spot",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-10-18",
           "datum_ist_naeherung": false,
           "titel": "FATF Has Declared War on Fraud. Not All Its Allies Can Afford to Fight",
@@ -769,13 +776,6 @@
           "datum_ist_naeherung": false,
           "titel": "Development Aid as Security Policy?",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/development-aid-security-policy",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-09-22",
-          "datum_ist_naeherung": false,
-          "titel": "Somali Piracy in 2026 is Not Just a Resurgence of a Past Problem",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/somali-piracy-2026-not-just-resurgence-past-problem",
           "quelle_id": "rusi_commentary"
         },
         {
