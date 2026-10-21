@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-20T10:41:27.027803+00:00",
+  "generiert_am": "2026-10-21T10:52:05.850854+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -95,15 +95,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-10-19",
-          "datum_ist_naeherung": false,
-          "titel": "Podcast: „Auf den Punkt“: Will die Union die Brandmauer zur AfD einreißen?",
-          "url": "https://www.sueddeutsche.de/politik/podcast-nachrichten-auf-den-punkt-junge-union-markus-soeder-brandmauer-li.3565971",
-          "quelle_id": "sueddeutsche_politik"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "nato_3_5_prozent",
@@ -291,15 +283,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-10-15",
-          "datum_ist_naeherung": false,
-          "titel": "Bundeswehr: Pistorius will Reservedienst verpflichtend machen",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/bundeswehr-reservestaerkungsgesetz-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "ukraine_waffenlieferungen",
@@ -383,20 +367,6 @@
           "datum_ist_naeherung": false,
           "titel": "Verbaler Schlagabtausch: Neue Spannungen zwischen Trump und Selenskyj",
           "url": "https://www.tagesschau.de/ausland/europa/ukraine-usa-spannungen-100.html",
-          "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-10-20",
-          "datum_ist_naeherung": false,
-          "titel": "Ukraine-Überblick: Spannungen zwischen Trump und Selenskyj – Raketenlieferungen im Fokus",
-          "url": "https://www.zeit.de/politik/ausland/2026-10/donald-trump-wolodymyr-selenskyj-ukraine-usa-pete-hegseth-gxe",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-10-16",
-          "datum_ist_naeherung": false,
-          "titel": "Papst bittet Putin um Waffenruhe in Oleschky",
-          "url": "https://www.tagesschau.de/ausland/europa/papst-telefonat-putin-100.html",
           "quelle_id": "tagesschau_ausland"
         }
       ]
@@ -547,11 +517,11 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-10-19",
+          "datum": "2026-10-21",
           "datum_ist_naeherung": false,
-          "titel": "Starlink: Litauen stärkt nach Starlink-Anschlag Schutz kritischer Infrastruktur",
-          "url": "https://www.zeit.de/politik/ausland/2026-10/litauen-starlink-brandanschlag-vilnius-russland-infrastruktur-gxe",
-          "quelle_id": "zeit_politik"
+          "titel": "Verteidigungspolitik: Zielscheibe Bundeswehr",
+          "url": "https://www.sueddeutsche.de/politik/russland-deutschland-angriff-bundeswehr-sabotage-gefahr-li.3566249",
+          "quelle_id": "sueddeutsche_politik"
         },
         {
           "datum": "2026-10-18",
