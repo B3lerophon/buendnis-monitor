@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-21T10:52:05.850854+00:00",
+  "generiert_am": "2026-10-22T10:52:58.533670+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -515,22 +515,7 @@
           "richtung": "verstaerkt"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-10-21",
-          "datum_ist_naeherung": false,
-          "titel": "Verteidigungspolitik: Zielscheibe Bundeswehr",
-          "url": "https://www.sueddeutsche.de/politik/russland-deutschland-angriff-bundeswehr-sabotage-gefahr-li.3566249",
-          "quelle_id": "sueddeutsche_politik"
-        },
-        {
-          "datum": "2026-10-18",
-          "datum_ist_naeherung": false,
-          "titel": "Drohne in Litauens Luftraum eingedrungen und abgestürzt",
-          "url": "https://www.tagesschau.de/ausland/europa/litauen-drohne-absturz-ukraine-100.html",
-          "quelle_id": "tagesschau_ausland"
-        }
-      ]
+      "medienberichte": []
     }
   ],
   "osint": [
@@ -543,6 +528,13 @@
       "id": "russland_ukraine",
       "name": "Russland / Ukraine",
       "eintraege": [
+        {
+          "datum": "2026-10-20",
+          "datum_ist_naeherung": false,
+          "titel": "The Missing Pillar of European Resilience",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/missing-pillar-european-resilience",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-10-14",
           "datum_ist_naeherung": false,
@@ -597,13 +589,6 @@
           "datum_ist_naeherung": false,
           "titel": "Europe’s Diesel Vulnerability to US Export Restrictions",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/europes-diesel-vulnerability-us-export-restrictions",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-09-22",
-          "datum_ist_naeherung": false,
-          "titel": "Options for a NATO Multinational Drone-Interception Squadron",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/options-nato-multinational-drone-interception-squadron",
           "quelle_id": "rusi_commentary"
         },
         {
