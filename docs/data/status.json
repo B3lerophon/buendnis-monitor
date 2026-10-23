@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-22T10:52:58.533670+00:00",
+  "generiert_am": "2026-10-23T10:44:17.081654+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -283,7 +283,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-10-22",
+          "datum_ist_naeherung": false,
+          "titel": "Steuererleichterung: Die Schuldenbremse stoppt Merz",
+          "url": "https://www.sueddeutsche.de/politik/schuldenbremse-stromsteuer-friedrich-merz-lars-klingbeil-steuerschaetzung-li.3567301",
+          "quelle_id": "sueddeutsche_politik"
+        }
+      ]
     },
     {
       "id": "ukraine_waffenlieferungen",
@@ -500,22 +508,21 @@
       "name": "Moderne Kriegsführung (Drohnen, Cyber, hybride Bedrohungen)",
       "ebene": "NATO",
       "beschreibung": "Anpassung von NATO und Deutschland an neue Kriegsführungsformen: Drohnenkrieg, gemeinsame Luft-/Raketenabwehr (u.a. European Sky Shield Initiative), Cyber- und hybride Bedrohungen, autonome/KI-gestützte Waffensysteme. Betrifft sowohl NATO-weite Programme/Übungen als auch die konkrete Unterstützung der Ukraine in diesen Bereichen.",
-      "ampel": "gruen",
-      "begruendung": "Neuester relevanter Fund vom 2026-10-08: verstärkt / bestätigt. Bezug erkannt an: Desinformationskampagne; bestätigende Formulierungen: investiert",
-      "letzte_aenderung_datum": "2026-10-08",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2805182-2805182",
-      "aenderung": "verstärkt / bestätigt",
-      "historie": [
+      "ampel": "neutral",
+      "begruendung": "Keine aktuellen Funde (letzte 120 Tage, ab 2025-01-01) zu dieser Zusage.",
+      "letzte_aenderung_datum": null,
+      "quelle_url": null,
+      "aenderung": "keine_neue_information",
+      "historie": [],
+      "medienberichte": [
         {
-          "datum": "2026-10-08",
+          "datum": "2026-10-23",
           "datum_ist_naeherung": false,
-          "titel": "Eröffnungsrede von Außenminister Wadephul beim Berlin Peace Dialogue 2026",
-          "url": "https://www.auswaertiges-amt.de/de/newsroom/2805182-2805182",
-          "quelle_id": "auswaertiges_amt_presse",
-          "richtung": "verstaerkt"
+          "titel": "Hybride Kriegsführung: Mutmaßlicher Russlandspion kommt in Untersuchungshaft",
+          "url": "https://www.zeit.de/politik/deutschland/2026-10/spionage-brandenburg-festnahme-untersuchungshaft-bundesgerichtshof-bundesanwaltschaft",
+          "quelle_id": "zeit_politik"
         }
-      ],
-      "medienberichte": []
+      ]
     }
   ],
   "osint": [
@@ -632,6 +639,13 @@
       "name": "China",
       "eintraege": [
         {
+          "datum": "2026-10-21",
+          "datum_ist_naeherung": false,
+          "titel": "Why Kazakhstan Joined Both the American and Chinese AI Initiatives",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/why-kazakhstan-joined-both-american-and-chinese-ai-initiatives",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-10-13",
           "datum_ist_naeherung": false,
           "titel": "What Do Brazil’s Elections Mean for its Foreign Policy?",
@@ -663,6 +677,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-10-22",
+          "datum_ist_naeherung": false,
+          "titel": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key",
+          "url": "https://www.bellingcat.com/resources/2026/10/22/can-llms-supercharge-geolocations-our-tests-show-big-improvements-but-humans-remain-key/",
+          "quelle_id": "bellingcat"
+        },
         {
           "datum": "2026-10-19",
           "datum_ist_naeherung": false,
@@ -727,13 +748,6 @@
           "quelle_id": "rusi_commentary"
         },
         {
-          "datum": "2026-09-23",
-          "datum_ist_naeherung": false,
-          "titel": "Development Aid as Security Policy?",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/development-aid-security-policy",
-          "quelle_id": "rusi_commentary"
-        },
-        {
           "datum": "2026-09-19",
           "datum_ist_naeherung": false,
           "titel": "Christy Kinahan’s UAE Residence Visa Cancelled",
@@ -752,13 +766,6 @@
           "datum_ist_naeherung": false,
           "titel": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
           "url": "https://www.bellingcat.com/news/us-canada/2026/08/20/satellite-imagery-documents-new-border-patrol-road-construction-in-big-bend-national-park/",
-          "quelle_id": "bellingcat"
-        },
-        {
-          "datum": "2026-08-01",
-          "datum_ist_naeherung": false,
-          "titel": "Welcome to Dubai: Kinahan Cartel’s Visas Revealed",
-          "url": "https://www.bellingcat.com/news/2026/08/01/welcome-to-dubai-kinahan-cartels-visas-revealed/",
           "quelle_id": "bellingcat"
         }
       ]
