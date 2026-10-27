@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-26T11:54:53.448997+00:00",
+  "generiert_am": "2026-10-27T11:17:43.618560+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -8,12 +8,20 @@
       "name": "NATO 2%-Ziel (Verteidigungsausgaben)",
       "ebene": "NATO",
       "beschreibung": "Zusage der NATO-Mitgliedstaaten, mindestens 2% des BIP für Verteidigung auszugeben (Wales-Gipfel 2014, seither wiederholt bekräftigt).",
-      "ampel": "gruen",
-      "begruendung": "Neuester relevanter Fund vom 2026-10-15: verstärkt / bestätigt. Bezug erkannt an: defence spending; bestätigende Formulierungen: increased",
-      "letzte_aenderung_datum": "2026-10-15",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2019/11/29/nato-secretary-general-announces-increased-defence-spending-by-allies",
-      "aenderung": "verstärkt / bestätigt",
+      "ampel": "gelb",
+      "begruendung": "Neuester relevanter Fund vom 2026-10-26: keine klare Richtung erkennbar. Bezug erkannt an: Verteidigungsfähigkeit",
+      "letzte_aenderung_datum": "2026-10-26",
+      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2807502-2807502",
+      "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-10-26",
+          "datum_ist_naeherung": false,
+          "titel": "Gemeinsame Erklärung der für Europaangelegenheiten zuständigen Staatssekretäre beziehungsweise Staatsminister Ignacy Niemczycki, Benjamin Haddad und Gunther Krichbaum, Giżycko, 25.–26. Oktober 2026",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2807502-2807502",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-10-15",
           "datum_ist_naeherung": false,
@@ -35,14 +43,6 @@
           "datum_ist_naeherung": false,
           "titel": "Außenminister Wadephul vor seiner Abreise nach Warschau",
           "url": "https://www.auswaertiges-amt.de/de/newsroom/2805804-2805804",
-          "quelle_id": "auswaertiges_amt_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-10-10",
-          "datum_ist_naeherung": false,
-          "titel": "Der Beauftragte der Bundesregierung für Menschenrechtspolitik und humanitäre Hilfe Dr. Lars Castellucci zum Welttag gegen die Todesstrafe",
-          "url": "https://www.auswaertiges-amt.de/de/newsroom/2805732-2805732",
           "quelle_id": "auswaertiges_amt_presse",
           "richtung": "unklar"
         },
@@ -219,38 +219,6 @@
           "richtung": "unklar"
         },
         {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "verteidigungsministerium und wisag vereinbaren eine personalkooperation 18484",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministerium-und-wisag-vereinbaren-eine-personalkooperation-18484",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "verteidigungsministerium ist gastgeber des 4 partnership for technology in peacekeeping symposium 24524",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministerium-ist-gastgeber-des-4-partnership-for-technology-in-peacekeeping-symposium-24524",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "gesetz ueber personelle einsatzbereitschaft 33180",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/gesetz-ueber-personelle-einsatzbereitschaft-33180",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "28 maerz 2019 girls day im verteidigungsministerium 36660",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/28-maerz-2019-girls-day-im-verteidigungsministerium-36660",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
           "datum": "2026-07-09",
           "datum_ist_naeherung": false,
           "titel": "tens of billions in new procurements revealed at the nato summit defence industry forum in ankara",
@@ -353,22 +321,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-10-26",
-          "datum_ist_naeherung": false,
-          "titel": "Japan und die Ukraine: Treuer Helfer vom anderen Ende der Welt",
-          "url": "https://www.zeit.de/politik/ausland/2026-10/japan-ukraine-krieg-finanzhilfe-sanktionen-russland",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-10-25",
-          "datum_ist_naeherung": false,
-          "titel": "Krieg in der Ukraine: Berichte: Ukraine greift russische Raketenfabrik an",
-          "url": "https://www.sueddeutsche.de/politik/ukraine-krieg-russland-raketenfabrik-iskander-li.3563283",
-          "quelle_id": "sueddeutsche_politik"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "eu_safe_rearm",
@@ -376,89 +329,17 @@
       "ebene": "EU",
       "beschreibung": "EU-Programme zur gemeinsamen Verteidigungsfinanzierung/-beschaffung (SAFE-Verordnung, ReArm Europe / Readiness 2030) und die deutsche Beteiligung bzw. Positionierung dazu.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-08-13 (Datum genähert, kein echtes Veröffentlichungsdatum verfügbar): keine klare Richtung erkennbar. Bezug erkannt an: Ursula von der Leyen",
-      "letzte_aenderung_datum": "2026-08-13",
-      "quelle_url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/laudatio-der-bundesministerin-der-verteidigung-ursula-von-der-leyen-18982",
+      "begruendung": "Neuester relevanter Fund vom 2026-10-26: keine klare Richtung erkennbar. Bezug erkannt an: EDIP",
+      "letzte_aenderung_datum": "2026-10-26",
+      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2807502-2807502",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
         {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "laudatio der bundesministerin der verteidigung ursula von der leyen 18982",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/laudatio-der-bundesministerin-der-verteidigung-ursula-von-der-leyen-18982",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt parlamentsmitglieder des staates israel 14674",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-parlamentsmitglieder-des-staates-israel-14674",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt die verteidigungsminister aus der schweiz und oesterreich 14680",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-die-verteidigungsminister-aus-der-schweiz-und-oesterreich-14680",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt den georgischen verteidigungsminister levan izoria 13974",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-georgischen-verteidigungsminister-levan-izoria-13974",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen verleiht zum dritten mal preis bundeswehr und gesellschaft  13978",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-verleiht-zum-dritten-mal-preis-bundeswehr-und-gesellschaft--13978",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt franzoesische verteidigungsministerin 14484",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-franzoesische-verteidigungsministerin-14484",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt ukrainischen verteidigungsminister 14486",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-ukrainischen-verteidigungsminister-14486",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen ueberreicht auszeichnung partner der reserve 2018  22666",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-ueberreicht-auszeichnung-partner-der-reserve-2018--22666",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt den oesterreichischen verteidigungsminister mario kunasek 23872",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-oesterreichischen-verteidigungsminister-mario-kunasek-23872",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt den australischen premierminister und die australische verteidigungsministerin  23884",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-australischen-premierminister-und-die-australische-verteidigungsministerin--23884",
-          "quelle_id": "bmvg_presse",
+          "datum": "2026-10-26",
+          "datum_ist_naeherung": false,
+          "titel": "Gemeinsame Erklärung der für Europaangelegenheiten zuständigen Staatssekretäre beziehungsweise Staatsminister Ignacy Niemczycki, Benjamin Haddad und Gunther Krichbaum, Giżycko, 25.–26. Oktober 2026",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2807502-2807502",
+          "quelle_id": "auswaertiges_amt_presse",
           "richtung": "unklar"
         }
       ],
@@ -575,13 +456,6 @@
           "quelle_id": "rusi_commentary"
         },
         {
-          "datum": "2026-09-24",
-          "datum_ist_naeherung": false,
-          "titel": "Europe’s Diesel Vulnerability to US Export Restrictions",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/europes-diesel-vulnerability-us-export-restrictions",
-          "quelle_id": "rusi_commentary"
-        },
-        {
           "datum": "2026-09-16",
           "datum_ist_naeherung": false,
           "titel": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
@@ -660,6 +534,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-10-26",
+          "datum_ist_naeherung": false,
+          "titel": "Defence Spending: Challenges for the Budget and Beyond",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/defence-spending-challenges-budget-and-beyond",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-10-22",
           "datum_ist_naeherung": false,
