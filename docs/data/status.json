@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-27T11:17:43.618560+00:00",
+  "generiert_am": "2026-10-28T11:51:53.527139+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -189,7 +189,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-10-27",
+          "datum_ist_naeherung": false,
+          "titel": "Atommüll-Endlager: In weiteren Bundesländern soll nicht mehr gesucht werden",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/endlagersuche-atommuell-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
+        }
+      ]
     },
     {
       "id": "sondervermoegen_bundeswehr",
@@ -219,6 +227,38 @@
           "richtung": "unklar"
         },
         {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "verteidigungsministerium und wisag vereinbaren eine personalkooperation 18484",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministerium-und-wisag-vereinbaren-eine-personalkooperation-18484",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "verteidigungsministerium ist gastgeber des 4 partnership for technology in peacekeeping symposium 24524",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministerium-ist-gastgeber-des-4-partnership-for-technology-in-peacekeeping-symposium-24524",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "gesetz ueber personelle einsatzbereitschaft 33180",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/gesetz-ueber-personelle-einsatzbereitschaft-33180",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "28 maerz 2019 girls day im verteidigungsministerium 36660",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/28-maerz-2019-girls-day-im-verteidigungsministerium-36660",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
           "datum": "2026-07-09",
           "datum_ist_naeherung": false,
           "titel": "tens of billions in new procurements revealed at the nato summit defence industry forum in ankara",
@@ -231,14 +271,6 @@
           "datum_ist_naeherung": false,
           "titel": "tens of billions in new procurements revealed at the nato summit defence industry forum in ankara",
           "url": "https://www.nato.int/en/news-and-events/articles/news/2026/07/07/tens-of-billions-in-new-procurements-revealed-at-the-nato-summit-defence-industry-forum-in-ankara",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-06-29",
-          "datum_ist_naeherung": false,
-          "titel": "natos largest medical exercise strengthens allied medical readiness",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/06/25/natos-largest-medical-exercise-strengthens-allied-medical-readiness",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
@@ -340,6 +372,78 @@
           "titel": "Gemeinsame Erklärung der für Europaangelegenheiten zuständigen Staatssekretäre beziehungsweise Staatsminister Ignacy Niemczycki, Benjamin Haddad und Gunther Krichbaum, Giżycko, 25.–26. Oktober 2026",
           "url": "https://www.auswaertiges-amt.de/de/newsroom/2807502-2807502",
           "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "laudatio der bundesministerin der verteidigung ursula von der leyen 18982",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/laudatio-der-bundesministerin-der-verteidigung-ursula-von-der-leyen-18982",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt parlamentsmitglieder des staates israel 14674",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-parlamentsmitglieder-des-staates-israel-14674",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt die verteidigungsminister aus der schweiz und oesterreich 14680",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-die-verteidigungsminister-aus-der-schweiz-und-oesterreich-14680",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt den georgischen verteidigungsminister levan izoria 13974",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-georgischen-verteidigungsminister-levan-izoria-13974",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen verleiht zum dritten mal preis bundeswehr und gesellschaft  13978",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-verleiht-zum-dritten-mal-preis-bundeswehr-und-gesellschaft--13978",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt franzoesische verteidigungsministerin 14484",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-franzoesische-verteidigungsministerin-14484",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt ukrainischen verteidigungsminister 14486",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-ukrainischen-verteidigungsminister-14486",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen ueberreicht auszeichnung partner der reserve 2018  22666",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-ueberreicht-auszeichnung-partner-der-reserve-2018--22666",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt den oesterreichischen verteidigungsminister mario kunasek 23872",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-oesterreichischen-verteidigungsminister-mario-kunasek-23872",
+          "quelle_id": "bmvg_presse",
           "richtung": "unklar"
         }
       ],
@@ -496,6 +600,13 @@
       "name": "China",
       "eintraege": [
         {
+          "datum": "2026-10-27",
+          "datum_ist_naeherung": false,
+          "titel": "Why the Netherlands Must Hold the Line on ASML",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/why-netherlands-must-hold-line-asml",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-10-21",
           "datum_ist_naeherung": false,
           "titel": "Why Kazakhstan Joined Both the American and Chinese AI Initiatives",
@@ -602,13 +713,6 @@
           "datum_ist_naeherung": false,
           "titel": "Could Stablecoins be the Future of Payments and Financial Integrity?",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/could-stablecoins-be-future-payments-and-financial-integrity",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-09-27",
-          "datum_ist_naeherung": false,
-          "titel": "Under Burnham, Investment Screening Remains Hard to Predict",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/under-burnham-investment-screening-remains-hard-predict",
           "quelle_id": "rusi_commentary"
         },
         {
