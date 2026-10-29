@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-28T11:51:53.527139+00:00",
+  "generiert_am": "2026-10-29T11:59:31.912097+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -37,14 +37,6 @@
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2019/11/29/nato-secretary-general-announces-increased-defence-spending-by-allies",
           "quelle_id": "nato_newsroom",
           "richtung": "verstaerkt"
-        },
-        {
-          "datum": "2026-10-13",
-          "datum_ist_naeherung": false,
-          "titel": "Außenminister Wadephul vor seiner Abreise nach Warschau",
-          "url": "https://www.auswaertiges-amt.de/de/newsroom/2805804-2805804",
-          "quelle_id": "auswaertiges_amt_presse",
-          "richtung": "unklar"
         },
         {
           "datum": "2026-09-28",
@@ -91,6 +83,14 @@
           "datum_ist_naeherung": false,
           "titel": "nato secretary general vilnius summit has already made history on sweden will take key decisions on ukraine deterrence and defence",
           "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/11/nato-secretary-general-vilnius-summit-has-already-made-history-on-sweden-will-take-key-decisions-on-ukraine-deterrence-and-defence",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-09-02",
+          "datum_ist_naeherung": false,
+          "titel": "nato vilnius summit officially underway",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/11/nato-vilnius-summit-officially-underway",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
@@ -490,7 +490,15 @@
       "quelle_url": null,
       "aenderung": "keine_neue_information",
       "historie": [],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-10-28",
+          "datum_ist_naeherung": false,
+          "titel": "Kritische Infrastruktur: Mehr Prüfungen auf Sabotagerisiko",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/kritische-infrastruktur-sabotage-schutz-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
+        }
+      ]
     }
   ],
   "osint": [
@@ -553,13 +561,6 @@
           "quelle_id": "rusi_commentary"
         },
         {
-          "datum": "2026-09-28",
-          "datum_ist_naeherung": false,
-          "titel": "Russia Has Not Avoided Mobilisation: It Has Normalised It",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/russia-has-not-avoided-mobilisation-it-has-normalised-it",
-          "quelle_id": "rusi_commentary"
-        },
-        {
           "datum": "2026-09-16",
           "datum_ist_naeherung": false,
           "titel": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
@@ -579,6 +580,13 @@
       "id": "naher_mittlerer_osten",
       "name": "Naher- und Mittlerer Osten",
       "eintraege": [
+        {
+          "datum": "2026-10-28",
+          "datum_ist_naeherung": false,
+          "titel": "Middle Powers and the Illusion of a Post-America Middle East",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/middle-powers-and-illusion-post-america-middle-east-0",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-10-01",
           "datum_ist_naeherung": false,
