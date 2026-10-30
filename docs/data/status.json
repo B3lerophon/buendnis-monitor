@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-10-29T11:59:31.912097+00:00",
+  "generiert_am": "2026-10-30T11:54:30.925619+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -512,6 +512,13 @@
       "name": "Russland / Ukraine",
       "eintraege": [
         {
+          "datum": "2026-10-29",
+          "datum_ist_naeherung": false,
+          "titel": "From Human Proxies to Autonomous Adaptation: The Next Phase of Russia's Hybrid Activity",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/human-proxies-autonomous-adaptation-next-phase-russias-hybrid-activity",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-10-20",
           "datum_ist_naeherung": false,
           "titel": "The Missing Pillar of European Resilience",
@@ -580,6 +587,13 @@
       "id": "naher_mittlerer_osten",
       "name": "Naher- und Mittlerer Osten",
       "eintraege": [
+        {
+          "datum": "2026-10-29",
+          "datum_ist_naeherung": false,
+          "titel": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours",
+          "url": "https://www.bellingcat.com/news/2026/10/29/eu-satellite-imagery-delayed-over-gaza-and-parts-of-west-bank-by-24-hours/",
+          "quelle_id": "bellingcat"
+        },
         {
           "datum": "2026-10-28",
           "datum_ist_naeherung": false,
@@ -717,13 +731,6 @@
           "quelle_id": "rusi_commentary"
         },
         {
-          "datum": "2026-09-29",
-          "datum_ist_naeherung": false,
-          "titel": "Could Stablecoins be the Future of Payments and Financial Integrity?",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/could-stablecoins-be-future-payments-and-financial-integrity",
-          "quelle_id": "rusi_commentary"
-        },
-        {
           "datum": "2026-09-19",
           "datum_ist_naeherung": false,
           "titel": "Christy Kinahan’s UAE Residence Visa Cancelled",
@@ -735,13 +742,6 @@
           "datum_ist_naeherung": false,
           "titel": "Bellingcat Official Merch Design Contest",
           "url": "https://www.bellingcat.com/uncategorized/2026/09/14/bellingcat-official-merch-design-contest/",
-          "quelle_id": "bellingcat"
-        },
-        {
-          "datum": "2026-08-20",
-          "datum_ist_naeherung": false,
-          "titel": "Satellite Imagery Documents New Border Patrol Road Construction in Big Bend National Park",
-          "url": "https://www.bellingcat.com/news/us-canada/2026/08/20/satellite-imagery-documents-new-border-patrol-road-construction-in-big-bend-national-park/",
           "quelle_id": "bellingcat"
         }
       ]
