@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-01T12:21:45.557515+00:00",
+  "generiert_am": "2026-11-02T14:16:24.646811+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -283,7 +283,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-11-02",
+          "datum_ist_naeherung": false,
+          "titel": "Berlin: Warum sich Boris Pistorius gegen Rot-Grün-Rot stellt",
+          "url": "https://www.sueddeutsche.de/politik/boris-pistorius-spd-rot-gruen-rot-berlin-koalitionsverhandlungen-li.3572758",
+          "quelle_id": "sueddeutsche_politik"
+        }
+      ]
     },
     {
       "id": "ukraine_waffenlieferungen",
@@ -361,15 +369,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-10-31",
-          "datum_ist_naeherung": false,
-          "titel": "US-Regierung genehmigt \"Patriot\"-Lieferungen an Ukraine",
-          "url": "https://www.tagesschau.de/ausland/amerika/usa-ukraine-patriot-100.html",
-          "quelle_id": "tagesschau_ausland"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "eu_safe_rearm",
@@ -508,6 +508,27 @@
       "historie": [],
       "medienberichte": [
         {
+          "datum": "2026-11-02",
+          "datum_ist_naeherung": false,
+          "titel": "Massive Cyberattacke auf Linken-Abgeordnete in Berlin",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/cyberattacke-linkspartei-mail-postfaecher-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
+        },
+        {
+          "datum": "2026-11-02",
+          "datum_ist_naeherung": false,
+          "titel": "Ukraine: Feuerpause in Oleschky ausgelaufen",
+          "url": "https://www.tagesschau.de/ausland/europa/ukraine-waffenruhe-cherson-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
+          "datum": "2026-11-02",
+          "datum_ist_naeherung": false,
+          "titel": "Cyberangriff: »Spam-Bombing-Angriff« legt Postfächer von Linke-Abgeordneten lahm",
+          "url": "https://www.zeit.de/politik/deutschland/2026-11/cyberangriff-abgeordnete-die-linke-spam-bombing-bundestag-e-mail",
+          "quelle_id": "zeit_politik"
+        },
+        {
           "datum": "2026-10-28",
           "datum_ist_naeherung": false,
           "titel": "Kritische Infrastruktur: Mehr Prüfungen auf Sabotagerisiko",
@@ -597,6 +618,13 @@
       "name": "Naher- und Mittlerer Osten",
       "eintraege": [
         {
+          "datum": "2026-11-02",
+          "datum_ist_naeherung": false,
+          "titel": "Bibi and the Blockchain: When a Prime Minister Plans for Sanctions Evasion",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/bibi-and-blockchain-when-prime-minister-plans-sanctions-evasion",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-10-29",
           "datum_ist_naeherung": false,
           "titel": "EU Satellite Imagery Delayed Over Gaza and Parts of West Bank by 24-hours",
@@ -616,13 +644,6 @@
           "titel": "Viral Google Maps Images Shared Widely This Week Show Gaza Ruins. We Obtained More Recent Satellite Imagery",
           "url": "https://www.bellingcat.com/news/middle-east/2026/10/01/viral-google-maps-images-shared-widely-this-week-show-gaza-ruins-we-obtained-more-recent-satellite-imagery/",
           "quelle_id": "bellingcat"
-        },
-        {
-          "datum": "2026-09-30",
-          "datum_ist_naeherung": false,
-          "titel": "Why Serbia’s Election Matters to Israel’s Arsenal",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/why-serbias-election-matters-israels-arsenal",
-          "quelle_id": "rusi_commentary"
         }
       ]
     },
