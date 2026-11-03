@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-02T14:16:24.646811+00:00",
+  "generiert_am": "2026-11-03T13:18:39.471637+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -287,9 +287,9 @@
         {
           "datum": "2026-11-02",
           "datum_ist_naeherung": false,
-          "titel": "Berlin: Warum sich Boris Pistorius gegen Rot-Grün-Rot stellt",
-          "url": "https://www.sueddeutsche.de/politik/boris-pistorius-spd-rot-gruen-rot-berlin-koalitionsverhandlungen-li.3572758",
-          "quelle_id": "sueddeutsche_politik"
+          "titel": "Koalitionsverhandlungen in Berlin: Das Rumoren in der SPD",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/spd-rot-gruen-rot-linke-berlin-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
         }
       ]
     },
@@ -369,7 +369,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-11-03",
+          "datum_ist_naeherung": false,
+          "titel": "Selenskyj in Berlin: Friedrich Merz begrüßt Wolodymyr Selenskyj im Kanzleramt",
+          "url": "https://www.zeit.de/politik/ausland/2026-11/wolodymyr-selenskyj-friedrich-merz-berlin-ukraine-luftabwehr-unterstuetzung-gxe",
+          "quelle_id": "zeit_politik"
+        }
+      ]
     },
     {
       "id": "eu_safe_rearm",
@@ -508,6 +516,20 @@
       "historie": [],
       "medienberichte": [
         {
+          "datum": "2026-11-03",
+          "datum_ist_naeherung": false,
+          "titel": "Selenskyj in Berlin: Friedrich Merz begrüßt Wolodymyr Selenskyj im Kanzleramt",
+          "url": "https://www.zeit.de/politik/ausland/2026-11/wolodymyr-selenskyj-friedrich-merz-berlin-ukraine-luftabwehr-unterstuetzung-gxe",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-11-03",
+          "datum_ist_naeherung": false,
+          "titel": "Krieg in der Ukraine: Selenskij: Hacken russischer Warn-App war Gegenangriff",
+          "url": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-selenskij-hackerangriff-warnapp-russland-li.3571967",
+          "quelle_id": "sueddeutsche_politik"
+        },
+        {
           "datum": "2026-11-02",
           "datum_ist_naeherung": false,
           "titel": "Massive Cyberattacke auf Linken-Abgeordnete in Berlin",
@@ -520,13 +542,6 @@
           "titel": "Ukraine: Feuerpause in Oleschky ausgelaufen",
           "url": "https://www.tagesschau.de/ausland/europa/ukraine-waffenruhe-cherson-100.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-11-02",
-          "datum_ist_naeherung": false,
-          "titel": "Cyberangriff: »Spam-Bombing-Angriff« legt Postfächer von Linke-Abgeordneten lahm",
-          "url": "https://www.zeit.de/politik/deutschland/2026-11/cyberangriff-abgeordnete-die-linke-spam-bombing-bundestag-e-mail",
-          "quelle_id": "zeit_politik"
         },
         {
           "datum": "2026-10-28",
@@ -602,13 +617,6 @@
           "datum_ist_naeherung": false,
           "titel": "“A Recurring Pattern”: Civilians Paying the Price in Mali’s Drone Campaign",
           "url": "https://www.bellingcat.com/news/2026/09/16/drone-strike-civilians-killed-aes-sahel-mali-russia-africa-corps-guilt-by-location-jeune-afrique/",
-          "quelle_id": "bellingcat"
-        },
-        {
-          "datum": "2026-08-25",
-          "datum_ist_naeherung": false,
-          "titel": "Tracking a Sanctioned Russian Vessel’s West African Odyssey",
-          "url": "https://www.bellingcat.com/news/africa/2026/08/25/patria-sanctioned-russian-vessel-russia-us-africa-cameroon-gabon-lagos-nigeria/",
           "quelle_id": "bellingcat"
         }
       ]
@@ -697,6 +705,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-11-02",
+          "datum_ist_naeherung": false,
+          "titel": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs",
+          "url": "https://www.bellingcat.com/news/2026/11/02/ai-super-pacs-political-advertising/",
+          "quelle_id": "bellingcat"
+        },
         {
           "datum": "2026-10-30",
           "datum_ist_naeherung": false,
