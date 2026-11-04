@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-03T13:18:39.471637+00:00",
+  "generiert_am": "2026-11-04T13:29:52.590421+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -95,15 +95,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-10-30",
-          "datum_ist_naeherung": false,
-          "titel": "Proteste gegen Meloni: Hunderttausende demonstrieren in Italien",
-          "url": "https://www.tagesschau.de/ausland/europa/italien-protest-meloni-100.html",
-          "quelle_id": "tagesschau_ausland"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "nato_3_5_prozent",
@@ -197,15 +189,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-10-27",
-          "datum_ist_naeherung": false,
-          "titel": "Atommüll-Endlager: In weiteren Bundesländern soll nicht mehr gesucht werden",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/endlagersuche-atommuell-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "sondervermoegen_bundeswehr",
@@ -235,38 +219,6 @@
           "richtung": "unklar"
         },
         {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "verteidigungsministerium und wisag vereinbaren eine personalkooperation 18484",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministerium-und-wisag-vereinbaren-eine-personalkooperation-18484",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "verteidigungsministerium ist gastgeber des 4 partnership for technology in peacekeeping symposium 24524",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministerium-ist-gastgeber-des-4-partnership-for-technology-in-peacekeeping-symposium-24524",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "gesetz ueber personelle einsatzbereitschaft 33180",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/gesetz-ueber-personelle-einsatzbereitschaft-33180",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "28 maerz 2019 girls day im verteidigungsministerium 36660",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/28-maerz-2019-girls-day-im-verteidigungsministerium-36660",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
           "datum": "2026-07-09",
           "datum_ist_naeherung": false,
           "titel": "tens of billions in new procurements revealed at the nato summit defence industry forum in ankara",
@@ -284,6 +236,13 @@
         }
       ],
       "medienberichte": [
+        {
+          "datum": "2026-11-04",
+          "datum_ist_naeherung": false,
+          "titel": "Newsblog zur Bundespolitik: Erste Reaktionen auf US-Midterms: „Ein Morgen der Zuversicht“",
+          "url": "https://www.sueddeutsche.de/politik/bundesregierung-deutschland-newsblog-midterms-reaktionen-pistorius-prien-gabriel-li.3568524",
+          "quelle_id": "sueddeutsche_politik"
+        },
         {
           "datum": "2026-11-02",
           "datum_ist_naeherung": false,
@@ -369,15 +328,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-11-03",
-          "datum_ist_naeherung": false,
-          "titel": "Selenskyj in Berlin: Friedrich Merz begrüßt Wolodymyr Selenskyj im Kanzleramt",
-          "url": "https://www.zeit.de/politik/ausland/2026-11/wolodymyr-selenskyj-friedrich-merz-berlin-ukraine-luftabwehr-unterstuetzung-gxe",
-          "quelle_id": "zeit_politik"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "eu_safe_rearm",
@@ -396,78 +347,6 @@
           "titel": "Gemeinsame Erklärung der für Europaangelegenheiten zuständigen Staatssekretäre beziehungsweise Staatsminister Ignacy Niemczycki, Benjamin Haddad und Gunther Krichbaum, Giżycko, 25.–26. Oktober 2026",
           "url": "https://www.auswaertiges-amt.de/de/newsroom/2807502-2807502",
           "quelle_id": "auswaertiges_amt_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "laudatio der bundesministerin der verteidigung ursula von der leyen 18982",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/laudatio-der-bundesministerin-der-verteidigung-ursula-von-der-leyen-18982",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt parlamentsmitglieder des staates israel 14674",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-parlamentsmitglieder-des-staates-israel-14674",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt die verteidigungsminister aus der schweiz und oesterreich 14680",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-die-verteidigungsminister-aus-der-schweiz-und-oesterreich-14680",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt den georgischen verteidigungsminister levan izoria 13974",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-georgischen-verteidigungsminister-levan-izoria-13974",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen verleiht zum dritten mal preis bundeswehr und gesellschaft  13978",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-verleiht-zum-dritten-mal-preis-bundeswehr-und-gesellschaft--13978",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt franzoesische verteidigungsministerin 14484",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-franzoesische-verteidigungsministerin-14484",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt ukrainischen verteidigungsminister 14486",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-ukrainischen-verteidigungsminister-14486",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen ueberreicht auszeichnung partner der reserve 2018  22666",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-ueberreicht-auszeichnung-partner-der-reserve-2018--22666",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "ursula von der leyen empfaengt den oesterreichischen verteidigungsminister mario kunasek 23872",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-oesterreichischen-verteidigungsminister-mario-kunasek-23872",
-          "quelle_id": "bmvg_presse",
           "richtung": "unklar"
         }
       ],
@@ -515,20 +394,6 @@
       "aenderung": "keine_neue_information",
       "historie": [],
       "medienberichte": [
-        {
-          "datum": "2026-11-03",
-          "datum_ist_naeherung": false,
-          "titel": "Selenskyj in Berlin: Friedrich Merz begrüßt Wolodymyr Selenskyj im Kanzleramt",
-          "url": "https://www.zeit.de/politik/ausland/2026-11/wolodymyr-selenskyj-friedrich-merz-berlin-ukraine-luftabwehr-unterstuetzung-gxe",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-11-03",
-          "datum_ist_naeherung": false,
-          "titel": "Krieg in der Ukraine: Selenskij: Hacken russischer Warn-App war Gegenangriff",
-          "url": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-selenskij-hackerangriff-warnapp-russland-li.3571967",
-          "quelle_id": "sueddeutsche_politik"
-        },
         {
           "datum": "2026-11-02",
           "datum_ist_naeherung": false,
@@ -603,13 +468,6 @@
           "datum_ist_naeherung": false,
           "titel": "The Putin Tax and the Cost of Russian Hostility to Britain",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/putin-tax-and-cost-russian-hostility-britain",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-10-05",
-          "datum_ist_naeherung": false,
-          "titel": "Development Aid will be Critical to Securing Ukraine",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/development-aid-will-be-critical-securing-ukraine",
           "quelle_id": "rusi_commentary"
         },
         {
@@ -706,6 +564,20 @@
       "name": "Sonstige / global",
       "eintraege": [
         {
+          "datum": "2026-11-04",
+          "datum_ist_naeherung": false,
+          "titel": "Who Polices the Blockchain? The Binance Heist and the New Gatekeepers",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/who-polices-blockchain-binance-heist-and-new-gatekeepers",
+          "quelle_id": "rusi_commentary"
+        },
+        {
+          "datum": "2026-11-03",
+          "datum_ist_naeherung": false,
+          "titel": "Spain's Defence Industry at the Ballot Box",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/spains-defence-industry-ballot-box",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-11-02",
           "datum_ist_naeherung": false,
           "titel": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs",
@@ -774,13 +646,6 @@
           "titel": "Groups Associated With India’s Far-Right Receive Millions Through US Donor-Advised Funds",
           "url": "https://www.bellingcat.com/news/2026/10/06/dafs-india-rss-donations/",
           "quelle_id": "bellingcat"
-        },
-        {
-          "datum": "2026-10-01",
-          "datum_ist_naeherung": false,
-          "titel": "Sanctions are a National Priority but Where is the Data to Prove It?",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/sanctions-are-national-priority-where-data-prove-it",
-          "quelle_id": "rusi_commentary"
         },
         {
           "datum": "2026-09-19",
