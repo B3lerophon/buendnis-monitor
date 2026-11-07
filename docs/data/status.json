@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-06T13:28:42.633818+00:00",
+  "generiert_am": "2026-11-07T12:08:38.404940+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -265,29 +265,28 @@
           "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/28-maerz-2019-girls-day-im-verteidigungsministerium-36660",
           "quelle_id": "bmvg_presse",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-07-09",
-          "datum_ist_naeherung": false,
-          "titel": "tens of billions in new procurements revealed at the nato summit defence industry forum in ankara",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/07/07/tens-of-billions-in-new-procurements-revealed-at-the-nato-summit-defence-industry-forum-in-ankara",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": [
+        {
+          "datum": "2026-11-07",
+          "datum_ist_naeherung": false,
+          "titel": "Pistorius rechnet derzeit nicht mit Rückkehr zur Wehrpflicht",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/bundeswehr-diskussion-wehrpflicht-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
+        },
+        {
+          "datum": "2026-11-07",
+          "datum_ist_naeherung": false,
+          "titel": "Bundeswehr: Boris Pistorius sieht derzeit keine Notwendigkeit für Wehrpflicht",
+          "url": "https://www.zeit.de/politik/deutschland/2026-11/wehrpflicht-bundeswehr-boris-pistorius-personal-gxe",
+          "quelle_id": "zeit_politik"
+        },
         {
           "datum": "2026-11-05",
           "datum_ist_naeherung": false,
           "titel": "Christian Freuding wird neuer Generalinspekteur der Bundeswehr",
           "url": "https://www.tagesschau.de/inland/innenpolitik/generalinspekteur-freuding-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-11-02",
-          "datum_ist_naeherung": false,
-          "titel": "Koalitionsverhandlungen in Berlin: Das Rumoren in der SPD",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/spd-rot-gruen-rot-linke-berlin-100.html",
           "quelle_id": "tagesschau_innenpolitik"
         }
       ]
@@ -514,22 +513,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-11-02",
-          "datum_ist_naeherung": false,
-          "titel": "Massive Cyberattacke auf Linken-Abgeordnete in Berlin",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/cyberattacke-linkspartei-mail-postfaecher-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-11-02",
-          "datum_ist_naeherung": false,
-          "titel": "Ukraine: Feuerpause in Oleschky ausgelaufen",
-          "url": "https://www.tagesschau.de/ausland/europa/ukraine-waffenruhe-cherson-100.html",
-          "quelle_id": "tagesschau_ausland"
-        }
-      ]
+      "medienberichte": []
     }
   ],
   "osint": [
