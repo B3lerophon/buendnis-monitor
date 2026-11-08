@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-07T12:08:38.404940+00:00",
+  "generiert_am": "2026-11-08T12:29:39.543992+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -269,6 +269,13 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-11-08",
+          "datum_ist_naeherung": false,
+          "titel": "Medienbericht: Kaum Geld aus Sondervermögen in Bildungsinfrastruktur geflossen",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/sondervermoegen-bildungsinfrastruktur-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
+        },
+        {
           "datum": "2026-11-07",
           "datum_ist_naeherung": false,
           "titel": "Pistorius rechnet derzeit nicht mit Rückkehr zur Wehrpflicht",
@@ -278,9 +285,9 @@
         {
           "datum": "2026-11-07",
           "datum_ist_naeherung": false,
-          "titel": "Bundeswehr: Boris Pistorius sieht derzeit keine Notwendigkeit für Wehrpflicht",
-          "url": "https://www.zeit.de/politik/deutschland/2026-11/wehrpflicht-bundeswehr-boris-pistorius-personal-gxe",
-          "quelle_id": "zeit_politik"
+          "titel": "Newsblog zur Bundespolitik: Pistorius zuversichtlich, dass es keine Wehrpflicht braucht",
+          "url": "https://www.sueddeutsche.de/politik/bundesregierung-deutschland-newsblog-pistorius-wehrpflicht-li.3568524",
+          "quelle_id": "sueddeutsche_politik"
         },
         {
           "datum": "2026-11-05",
