@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-08T12:29:39.543992+00:00",
+  "generiert_am": "2026-11-09T14:44:19.746985+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -283,13 +283,6 @@
           "quelle_id": "tagesschau_innenpolitik"
         },
         {
-          "datum": "2026-11-07",
-          "datum_ist_naeherung": false,
-          "titel": "Newsblog zur Bundespolitik: Pistorius zuversichtlich, dass es keine Wehrpflicht braucht",
-          "url": "https://www.sueddeutsche.de/politik/bundesregierung-deutschland-newsblog-pistorius-wehrpflicht-li.3568524",
-          "quelle_id": "sueddeutsche_politik"
-        },
-        {
           "datum": "2026-11-05",
           "datum_ist_naeherung": false,
           "titel": "Christian Freuding wird neuer Generalinspekteur der Bundeswehr",
@@ -520,7 +513,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-11-09",
+          "datum_ist_naeherung": false,
+          "titel": "Koalicja 2026: Wozu dient das Manöver der »Koalition der Willigen« in Osteuropa?",
+          "url": "https://www.zeit.de/politik/ausland/2026-11/manoever-koalition-der-willigen-ukraine-schwarzes-meer-deutschland-frankreich-gxe",
+          "quelle_id": "zeit_politik"
+        }
+      ]
     }
   ],
   "osint": [
@@ -582,6 +583,13 @@
       "name": "Naher- und Mittlerer Osten",
       "eintraege": [
         {
+          "datum": "2026-11-09",
+          "datum_ist_naeherung": false,
+          "titel": "Israel’s Foreign Funding Inquiry is Not Evidence of a Stolen Election",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/israels-foreign-funding-inquiry-not-evidence-stolen-election",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-11-05",
           "datum_ist_naeherung": false,
           "titel": "How Online Maps Lay Bare the US Military Bases Targeted by Iran",
@@ -641,13 +649,6 @@
           "datum_ist_naeherung": false,
           "titel": "What Do Brazil’s Elections Mean for its Foreign Policy?",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/what-do-brazils-elections-mean-its-foreign-policy",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-10-08",
-          "datum_ist_naeherung": false,
-          "titel": "China is Not Just Claiming the South China Sea. It is Learning to Govern It",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/china-not-just-claiming-south-china-sea-it-learning-govern-it",
           "quelle_id": "rusi_commentary"
         }
       ]
