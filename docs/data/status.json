@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-09T14:44:19.746985+00:00",
+  "generiert_am": "2026-11-10T13:59:05.317253+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -269,6 +269,13 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-11-10",
+          "datum_ist_naeherung": false,
+          "titel": "Christian Freuding: Von der Ukraine lernen",
+          "url": "https://www.zeit.de/politik/2026-11/christian-freuding-bundeswehr-generalinspekteur-erfahrung-ukraine",
+          "quelle_id": "zeit_politik"
+        },
+        {
           "datum": "2026-11-08",
           "datum_ist_naeherung": false,
           "titel": "Medienbericht: Kaum Geld aus Sondervermögen in Bildungsinfrastruktur geflossen",
@@ -280,13 +287,6 @@
           "datum_ist_naeherung": false,
           "titel": "Pistorius rechnet derzeit nicht mit Rückkehr zur Wehrpflicht",
           "url": "https://www.tagesschau.de/inland/innenpolitik/bundeswehr-diskussion-wehrpflicht-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-11-05",
-          "datum_ist_naeherung": false,
-          "titel": "Christian Freuding wird neuer Generalinspekteur der Bundeswehr",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/generalinspekteur-freuding-100.html",
           "quelle_id": "tagesschau_innenpolitik"
         }
       ]
@@ -367,7 +367,36 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-11-10",
+          "datum_ist_naeherung": false,
+          "titel": "Verhandlungen im Ukrainekrieg: Worüber Russland und die Ukraine verhandeln",
+          "url": "https://www.zeit.de/politik/ausland/2026-10/verhandlungen-ukraine-krieg-russland-politik-militaer-chronologie",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-11-10",
+          "datum_ist_naeherung": false,
+          "titel": "Trilaterale Gespräche: Friedensverhandlungen: Donald Trump probiert es wieder",
+          "url": "https://www.zeit.de/politik/2026-11/trilaterale-gespraeche-ukraine-russland-usa-diplomatie",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-11-10",
+          "datum_ist_naeherung": false,
+          "titel": "Umfrage der TU Dresden: Ukraine-Hilfe polarisiert",
+          "url": "https://www.sueddeutsche.de/politik/umfrage-der-tu-dresden-ukraine-hilfe-polarisiert-li.3578302",
+          "quelle_id": "sueddeutsche_politik"
+        },
+        {
+          "datum": "2026-11-10",
+          "datum_ist_naeherung": false,
+          "titel": "Krieg in der Ukraine: Ukraine: Gespräche mit Russland und USA werden am Mittwoch fortgesetzt",
+          "url": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-verhandlungen-kiew-moskau-usa-abu-dhabi-li.3571967",
+          "quelle_id": "sueddeutsche_politik"
+        }
+      ]
     },
     {
       "id": "eu_safe_rearm",
@@ -515,11 +544,18 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-11-10",
+          "datum_ist_naeherung": false,
+          "titel": "Cyberangriff auf Kühlanlagen : Frankreich bestellt iranischen Botschafter ein",
+          "url": "https://www.zeit.de/politik/ausland/2026-11/frankreich-cyberangriff-iran-kuehlanlagen-botschafter-gxe",
+          "quelle_id": "zeit_politik"
+        },
+        {
           "datum": "2026-11-09",
           "datum_ist_naeherung": false,
-          "titel": "Koalicja 2026: Wozu dient das Manöver der »Koalition der Willigen« in Osteuropa?",
-          "url": "https://www.zeit.de/politik/ausland/2026-11/manoever-koalition-der-willigen-ukraine-schwarzes-meer-deutschland-frankreich-gxe",
-          "quelle_id": "zeit_politik"
+          "titel": "Frankreich macht Iran für Cyberangriffe auf Supermarkt-Kühltruhen verantwortlich",
+          "url": "https://www.tagesschau.de/ausland/europa/kuehlanlagen-cyberangriffe-100.html",
+          "quelle_id": "tagesschau_ausland"
         }
       ]
     }
@@ -534,6 +570,13 @@
       "id": "russland_ukraine",
       "name": "Russland / Ukraine",
       "eintraege": [
+        {
+          "datum": "2026-11-10",
+          "datum_ist_naeherung": false,
+          "titel": "Why an ‘Article 5-Style Guarantee’ for Ukraine Makes Little Sense",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/why-article-5-style-guarantee-ukraine-makes-little-sense",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-11-06",
           "datum_ist_naeherung": false,
@@ -560,13 +603,6 @@
           "datum_ist_naeherung": false,
           "titel": "Ukraine Has Imposed a Kerosene Shortage on Russia",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/ukraine-has-imposed-kerosene-shortage-russia",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-10-11",
-          "datum_ist_naeherung": false,
-          "titel": "Talk of Russian Regime Change Could Inspire a New European Peace Strategy",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/talk-russian-regime-change-could-inspire-new-european-peace-strategy",
           "quelle_id": "rusi_commentary"
         },
         {
