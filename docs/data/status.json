@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-11T13:14:49.019902+00:00",
+  "generiert_am": "2026-11-12T14:18:50.572163+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -111,11 +111,19 @@
       "ebene": "NATO",
       "beschreibung": "Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025, Zielhorizont 2035.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-11-05: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
-      "letzte_aenderung_datum": "2026-11-05",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2022/06/28/nato-secretary-general-says-that-climate-change-matters-for-nato",
+      "begruendung": "Neuester relevanter Fund vom 2026-11-12: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
+      "letzte_aenderung_datum": "2026-11-12",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/12/nato-secretary-general-thanks-service-members-during-speech-aboard-uk-aircraft-carrier-in-oslo",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-11-12",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general thanks service members during speech aboard uk aircraft carrier in oslo",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/12/nato-secretary-general-thanks-service-members-during-speech-aboard-uk-aircraft-carrier-in-oslo",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-11-05",
           "datum_ist_naeherung": false,
@@ -187,14 +195,6 @@
           "url": "https://www.nato.int/en/news-and-events/articles/news/2019/12/03/nato-secretary-general-meets-president-trump-ahead-of-leaders-meeting",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-10-15",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general announces increased defence spending by allies",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2019/11/29/nato-secretary-general-announces-increased-defence-spending-by-allies",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": []
@@ -249,41 +249,6 @@
           "datum_ist_naeherung": false,
           "titel": "Pistorius pocht auf \"null Toleranz\" gegenüber sexualisiertem Fehlverhalten in Bundeswehr",
           "url": "https://www.tagesschau.de/inland/innenpolitik/bundeswehr-dunkelfeldstudie-102.html",
-          "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-11-11",
-          "datum_ist_naeherung": false,
-          "titel": "Sexuelle Belästigung in der Bundeswehr: Grüne fordern Meldestelle für sexualisierte Belästigung in Bundeswehr",
-          "url": "https://www.zeit.de/politik/deutschland/2026-11/sexuelle-belaestigung-bundeswehr-dunkelfeldstudie-sara-nanni-boris-pistorius-gxe",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-11-11",
-          "datum_ist_naeherung": false,
-          "titel": "Bundeswehr: Was Pistorius gegen sexuelle Belästigungen und Übergriffe tun will",
-          "url": "https://www.sueddeutsche.de/politik/bundeswehr-boris-pistorius-li.3578671",
-          "quelle_id": "sueddeutsche_politik"
-        },
-        {
-          "datum": "2026-11-11",
-          "datum_ist_naeherung": false,
-          "titel": "Soldatinnen: Studie belegt hohe Zahl sexueller Übergriffe bei der Bundeswehr",
-          "url": "https://www.sueddeutsche.de/politik/bundeswehr-sexuelle-uebergriffe-dunkelfeldstudie-li.3576560",
-          "quelle_id": "sueddeutsche_politik"
-        },
-        {
-          "datum": "2026-11-08",
-          "datum_ist_naeherung": false,
-          "titel": "Medienbericht: Kaum Geld aus Sondervermögen in Bildungsinfrastruktur geflossen",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/sondervermoegen-bildungsinfrastruktur-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-11-07",
-          "datum_ist_naeherung": false,
-          "titel": "Pistorius rechnet derzeit nicht mit Rückkehr zur Wehrpflicht",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/bundeswehr-diskussion-wehrpflicht-100.html",
           "quelle_id": "tagesschau_innenpolitik"
         }
       ]
@@ -431,13 +396,6 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-11-11",
-          "datum_ist_naeherung": false,
-          "titel": "Cyberangriff in Frankreich: Gehackte Kühlregale: Warum die Franzosen Iran beschuldigen",
-          "url": "https://www.sueddeutsche.de/politik/frankreich-cyberangriffe-gehackte-kuehlregale-supermaerkte-verdaechtige-iran-li.3578676",
-          "quelle_id": "sueddeutsche_politik"
-        },
-        {
           "datum": "2026-11-10",
           "datum_ist_naeherung": false,
           "titel": "Wadephul warnt Iran vor hybriden Angriffen",
@@ -512,6 +470,13 @@
       "id": "naher_mittlerer_osten",
       "name": "Naher- und Mittlerer Osten",
       "eintraege": [
+        {
+          "datum": "2026-11-12",
+          "datum_ist_naeherung": false,
+          "titel": "Israel's Arab Parties After the Election: Unprecedented Representation",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/israels-arab-parties-after-election-unprecedented-representation",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-11-09",
           "datum_ist_naeherung": false,
@@ -667,13 +632,6 @@
           "datum_ist_naeherung": false,
           "titel": "Fentanyl in Italy and the European Opioid Market",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/fentanyl-italy-and-european-opioid-market",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-10-12",
-          "datum_ist_naeherung": false,
-          "titel": "The Role of Beneficial Ownership Transparency in the Hard Power Era",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/role-beneficial-ownership-transparency-hard-power-era",
           "quelle_id": "rusi_commentary"
         },
         {
