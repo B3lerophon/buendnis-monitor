@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-13T13:40:01.333362+00:00",
+  "generiert_am": "2026-11-14T12:44:24.827850+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -97,20 +97,6 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-11-13",
-          "datum_ist_naeherung": false,
-          "titel": "Politbarometer: AfD in Umfrage wieder deutlich vor der Union",
-          "url": "https://www.sueddeutsche.de/politik/afd-politbarometer-union-schulden-sonntagsfrage-li.3579892",
-          "quelle_id": "sueddeutsche_politik"
-        },
-        {
-          "datum": "2026-11-13",
-          "datum_ist_naeherung": false,
-          "titel": "Nukleare Abschreckung: Bund plant Milliardeneinstieg bei Atomkonzern Urenco",
-          "url": "https://www.sueddeutsche.de/politik/urenco-atomkonzern-grossbritannien-deutschland-beteiligung-li.3579763",
-          "quelle_id": "sueddeutsche_politik"
-        },
-        {
           "datum": "2026-11-11",
           "datum_ist_naeherung": false,
           "titel": "Profite von Rüstungskonzernen - Linke will Übergewinne besteuern",
@@ -127,14 +113,38 @@
       "ampel": "gelb",
       "begruendung": "Neuester relevanter Fund vom 2026-11-13: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
       "letzte_aenderung_datum": "2026-11-13",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/13/nato-secretary-general-participates-in-the-european-political-community-summit-in-dublin",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/12/nato-secretary-general-participates-in-the-european-political-community-summit-in-dublin",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
         {
           "datum": "2026-11-13",
           "datum_ist_naeherung": false,
           "titel": "nato secretary general participates in the european political community summit in dublin",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/13/nato-secretary-general-participates-in-the-european-political-community-summit-in-dublin",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/12/nato-secretary-general-participates-in-the-european-political-community-summit-in-dublin",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-13",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general expanding transatlantic defence cooperation is crucial",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/13/nato-secretary-general-expanding-transatlantic-defence-cooperation-is-crucial",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-13",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general participates in the european political community summit in dublin",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/13/nato-secretary-general-participates-in-the-european-political-community-summit-in-dublin",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-13",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general expanding transatlantic defence cooperation is crucial",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/13/nato-secretary-general-expanding-transatlantic-defence-cooperation-is-crucial",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
@@ -185,30 +195,6 @@
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2022/06/28/nato-secretary-general-says-that-climate-change-matters-for-nato",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-05",
-          "datum_ist_naeherung": false,
-          "titel": "secretary general arrives in madrid thanks spain for hosting historic nato summit",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2022/06/28/secretary-general-arrives-in-madrid-thanks-spain-for-hosting-historic-nato-summit",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-10-30",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general addresses national armaments directors",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/10/29/nato-secretary-general-addresses-national-armaments-directors",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-10-30",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general addresses national armaments directors",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/10/29/nato-secretary-general-addresses-national-armaments-directors",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": []
@@ -219,11 +205,27 @@
       "ebene": "Bund",
       "beschreibung": "2022 beschlossenes Sondervermögen (100 Mrd. €, seit 2025 durch Grundgesetzänderung faktisch unbegrenzte Verteidigungsausgaben außerhalb der Schuldenbremse). Tracking von Mittelabfluss und politischer Debatte darüber.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-11-12: keine klare Richtung erkennbar. Bezug erkannt an: procurement",
-      "letzte_aenderung_datum": "2026-11-12",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/05/nato-accelerates-procurement-for-counter-drone-technologies",
+      "begruendung": "Neuester relevanter Fund vom 2026-11-13: keine klare Richtung erkennbar. Bezug erkannt an: readiness",
+      "letzte_aenderung_datum": "2026-11-13",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/13/nato-deputy-secretary-general-visits-act-in-the-united-states-for-discussions-about-transformation-and-readiness",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-11-13",
+          "datum_ist_naeherung": false,
+          "titel": "nato deputy secretary general visits act in the united states for discussions about transformation and readiness",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/13/nato-deputy-secretary-general-visits-act-in-the-united-states-for-discussions-about-transformation-and-readiness",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-13",
+          "datum_ist_naeherung": false,
+          "titel": "nato deputy secretary general visits act in the united states for discussions about transformation and readiness",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/13/nato-deputy-secretary-general-visits-act-in-the-united-states-for-discussions-about-transformation-and-readiness",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-11-12",
           "datum_ist_naeherung": false,
@@ -285,22 +287,6 @@
           "datum_ist_naeherung": true,
           "titel": "verteidigungsministerium und wisag vereinbaren eine personalkooperation 18484",
           "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministerium-und-wisag-vereinbaren-eine-personalkooperation-18484",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "verteidigungsministerium ist gastgeber des 4 partnership for technology in peacekeeping symposium 24524",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministerium-ist-gastgeber-des-4-partnership-for-technology-in-peacekeeping-symposium-24524",
-          "quelle_id": "bmvg_presse",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-08-13",
-          "datum_ist_naeherung": true,
-          "titel": "gesetz ueber personelle einsatzbereitschaft 33180",
-          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/gesetz-ueber-personelle-einsatzbereitschaft-33180",
           "quelle_id": "bmvg_presse",
           "richtung": "unklar"
         }
@@ -409,11 +395,25 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-11-14",
+          "datum_ist_naeherung": false,
+          "titel": "Nato-Beitritt der Ukraine: USA schlagen laut Selenskyj Nato-Beitritt gegen Gebietsabtritt vor",
+          "url": "https://www.zeit.de/politik/ausland/2026-11/nato-beitritt-ukraine-usa-wolodymyr-selenskyj-gebietsverzicht-gxe",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-11-14",
+          "datum_ist_naeherung": false,
+          "titel": "Krieg gegen die Ukraine: USA sehen laut Selenskyj Nato-Beitritt gegen Gebietsabtritt als Option",
+          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+          "quelle_id": "zeit_politik"
+        },
+        {
           "datum": "2026-11-13",
           "datum_ist_naeherung": false,
-          "titel": "EU-Gipfel in Dublin: Merz führt einen riskanten Kampf gegen die Trittbrettfahrer",
-          "url": "https://www.sueddeutsche.de/politik/eu-gipfel-dublin-friedrich-merz-ukraine-hilfe-eu-haushalt-li.3579437",
-          "quelle_id": "sueddeutsche_politik"
+          "titel": "Merz beansprucht Teilnahme an künftigen Ukraine-Gesprächen",
+          "url": "https://www.tagesschau.de/ausland/europa/ukraine-gipfel-eu-dublin-merz-100.html",
+          "quelle_id": "tagesschau_ausland"
         }
       ]
     },
@@ -547,15 +547,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-11-13",
-          "datum_ist_naeherung": false,
-          "titel": "Nukleare Abschreckung: Bund plant Milliardeneinstieg bei Atomkonzern Urenco",
-          "url": "https://www.sueddeutsche.de/politik/urenco-atomkonzern-grossbritannien-deutschland-beteiligung-li.3579763",
-          "quelle_id": "sueddeutsche_politik"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "moderne_kriegsfuehrung",
@@ -578,13 +570,6 @@
         }
       ],
       "medienberichte": [
-        {
-          "datum": "2026-11-13",
-          "datum_ist_naeherung": false,
-          "titel": "Newsblog zur Bundespolitik: Bundestag beschließt weitreichende Geheimdienstreform",
-          "url": "https://www.sueddeutsche.de/politik/bundesregierung-bundestag-geheimdienste-reform-li.3568524",
-          "quelle_id": "sueddeutsche_politik"
-        },
         {
           "datum": "2026-11-10",
           "datum_ist_naeherung": false,
