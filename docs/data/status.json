@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-14T12:44:24.827850+00:00",
+  "generiert_am": "2026-11-15T13:11:22.136524+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -395,16 +395,9 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-11-14",
+          "datum": "2026-11-15",
           "datum_ist_naeherung": false,
-          "titel": "Nato-Beitritt der Ukraine: USA schlagen laut Selenskyj Nato-Beitritt gegen Gebietsabtritt vor",
-          "url": "https://www.zeit.de/politik/ausland/2026-11/nato-beitritt-ukraine-usa-wolodymyr-selenskyj-gebietsverzicht-gxe",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-11-14",
-          "datum_ist_naeherung": false,
-          "titel": "Krieg gegen die Ukraine: USA sehen laut Selenskyj Nato-Beitritt gegen Gebietsabtritt als Option",
+          "titel": "Krieg gegen die Ukraine: Wolodymyr Selenskyj kritisiert erneut Starshield-Einschränkungen",
           "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
           "quelle_id": "zeit_politik"
         },
