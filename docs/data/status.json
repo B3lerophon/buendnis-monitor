@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-15T13:11:22.136524+00:00",
+  "generiert_am": "2026-11-16T14:20:19.211087+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -27,6 +27,14 @@
           "datum_ist_naeherung": false,
           "titel": "Key Note von Staatssekretär Dr. Géza Andreas von Geyr beim „NATO Talk“ der Deutsch-Atlantischen Gesellschaft in Berlin",
           "url": "https://www.auswaertiges-amt.de/de/newsroom/2810690-2810690",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-11",
+          "datum_ist_naeherung": false,
+          "titel": "Gemeinsame Erklärung im Anschluss an das Treffen der Außenministerinnen und ‑minister der G7 am 9. und 10. November 2026 in Paris",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2810398-2810398",
           "quelle_id": "auswaertiges_amt_presse",
           "richtung": "unklar"
         },
@@ -85,25 +93,9 @@
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/16/bucharest-conference-brings-together-international-audit-community-to-discuss-transparency-and-accountability-in-defence-spending",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-02",
-          "datum_ist_naeherung": false,
-          "titel": "nato agrees strong package for ukraine boosts deterrence and defence",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2023/07/11/nato-agrees-strong-package-for-ukraine-boosts-deterrence-and-defence",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-11-11",
-          "datum_ist_naeherung": false,
-          "titel": "Profite von Rüstungskonzernen - Linke will Übergewinne besteuern",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/linke-uebergewinne-ruestungskonzerne-steuer-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "nato_3_5_prozent",
@@ -395,13 +387,6 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-11-15",
-          "datum_ist_naeherung": false,
-          "titel": "Krieg gegen die Ukraine: Wolodymyr Selenskyj kritisiert erneut Starshield-Einschränkungen",
-          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-          "quelle_id": "zeit_politik"
-        },
-        {
           "datum": "2026-11-13",
           "datum_ist_naeherung": false,
           "titel": "Merz beansprucht Teilnahme an künftigen Ukraine-Gesprächen",
@@ -547,12 +532,20 @@
       "name": "Moderne Kriegsführung (Drohnen, Cyber, hybride Bedrohungen)",
       "ebene": "NATO",
       "beschreibung": "Anpassung von NATO und Deutschland an neue Kriegsführungsformen: Drohnenkrieg, gemeinsame Luft-/Raketenabwehr (u.a. European Sky Shield Initiative), Cyber- und hybride Bedrohungen, autonome/KI-gestützte Waffensysteme. Betrifft sowohl NATO-weite Programme/Übungen als auch die konkrete Unterstützung der Ukraine in diesen Bereichen.",
-      "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-11-06: keine klare Richtung erkennbar. Bezug erkannt an: Cyberangriff, hybride Bedrohungen",
-      "letzte_aenderung_datum": "2026-11-06",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2809128-2809128",
-      "aenderung": "keine klare Richtung erkennbar",
+      "ampel": "gruen",
+      "begruendung": "Neuester relevanter Fund vom 2026-11-11: verstärkt / bestätigt. Bezug erkannt an: Sabotage, sabotage; bestätigende Formulierungen: Fortschritt, verstärkt, vorangetrieben",
+      "letzte_aenderung_datum": "2026-11-11",
+      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2810398-2810398",
+      "aenderung": "verstärkt / bestätigt",
       "historie": [
+        {
+          "datum": "2026-11-11",
+          "datum_ist_naeherung": false,
+          "titel": "Gemeinsame Erklärung im Anschluss an das Treffen der Außenministerinnen und ‑minister der G7 am 9. und 10. November 2026 in Paris",
+          "url": "https://www.auswaertiges-amt.de/de/newsroom/2810398-2810398",
+          "quelle_id": "auswaertiges_amt_presse",
+          "richtung": "verstaerkt"
+        },
         {
           "datum": "2026-11-06",
           "datum_ist_naeherung": false,
@@ -563,6 +556,27 @@
         }
       ],
       "medienberichte": [
+        {
+          "datum": "2026-11-16",
+          "datum_ist_naeherung": false,
+          "titel": "Immer mehr Angriffe: BKA-Chef Münch fordert Ausbau der Cyberabwehr",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/cyberangriffe-abwehr-bka-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
+        },
+        {
+          "datum": "2026-11-16",
+          "datum_ist_naeherung": false,
+          "titel": "UN verhandeln Regeln zum Einsatz autonomer Waffensysteme",
+          "url": "https://www.tagesschau.de/ausland/europa/vereinte-nationen-autonome-waffensysteme-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
+          "datum": "2026-11-16",
+          "datum_ist_naeherung": false,
+          "titel": "Autonome Waffensysteme: 128 Länder beraten über Grenzen für autonome KI-Waffen",
+          "url": "https://www.zeit.de/politik/2026-11/autonome-waffensysteme-ki-verbot-beratungen-genf-gxe",
+          "quelle_id": "zeit_politik"
+        },
         {
           "datum": "2026-11-10",
           "datum_ist_naeherung": false,
@@ -699,13 +713,6 @@
           "titel": "Why Kazakhstan Joined Both the American and Chinese AI Initiatives",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/why-kazakhstan-joined-both-american-and-chinese-ai-initiatives",
           "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-10-13",
-          "datum_ist_naeherung": false,
-          "titel": "What Do Brazil’s Elections Mean for its Foreign Policy?",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/what-do-brazils-elections-mean-its-foreign-policy",
-          "quelle_id": "rusi_commentary"
         }
       ]
     },
@@ -718,6 +725,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-11-16",
+          "datum_ist_naeherung": false,
+          "titel": "CBRN Supply Chains: The Strategic Enablers Missing from Resilience",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/cbrn-supply-chains-strategic-enablers-missing-resilience",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-11-05",
           "datum_ist_naeherung": false,
