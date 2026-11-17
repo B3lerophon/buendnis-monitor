@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-16T14:20:19.211087+00:00",
+  "generiert_am": "2026-11-17T15:13:02.061084+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -285,11 +285,18 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-11-11",
+          "datum": "2026-11-17",
           "datum_ist_naeherung": false,
-          "titel": "Pistorius pocht auf \"null Toleranz\" gegenüber sexualisiertem Fehlverhalten in Bundeswehr",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/bundeswehr-dunkelfeldstudie-102.html",
-          "quelle_id": "tagesschau_innenpolitik"
+          "titel": "Debatte über Wehrpflicht: Bundeswehr hat Personalziel für 2026 bereits übertroffen",
+          "url": "https://www.zeit.de/politik/deutschland/2026-11/bundeswehr-personalstaerke-soldaten-wehrpflicht-reservisten",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-11-17",
+          "datum_ist_naeherung": false,
+          "titel": "Krieg gegen die Ukraine: Hunderttausende Haushalte bei Dnipro nach Angriffen ohne Strom",
+          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+          "quelle_id": "zeit_politik"
         }
       ]
     },
@@ -557,25 +564,18 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-11-16",
+          "datum": "2026-11-17",
           "datum_ist_naeherung": false,
-          "titel": "Immer mehr Angriffe: BKA-Chef Münch fordert Ausbau der Cyberabwehr",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/cyberangriffe-abwehr-bka-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
-        },
-        {
-          "datum": "2026-11-16",
-          "datum_ist_naeherung": false,
-          "titel": "UN verhandeln Regeln zum Einsatz autonomer Waffensysteme",
-          "url": "https://www.tagesschau.de/ausland/europa/vereinte-nationen-autonome-waffensysteme-100.html",
+          "titel": "Deutschland kauft neue Flugabwehrraketen für Ukraine",
+          "url": "https://www.tagesschau.de/ausland/europa/deutschland-ukraine-hilfe-flugabwehr-100.html",
           "quelle_id": "tagesschau_ausland"
         },
         {
           "datum": "2026-11-16",
           "datum_ist_naeherung": false,
-          "titel": "Autonome Waffensysteme: 128 Länder beraten über Grenzen für autonome KI-Waffen",
-          "url": "https://www.zeit.de/politik/2026-11/autonome-waffensysteme-ki-verbot-beratungen-genf-gxe",
-          "quelle_id": "zeit_politik"
+          "titel": "Immer mehr Angriffe: BKA-Chef Münch fordert Ausbau der Cyberabwehr",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/cyberangriffe-abwehr-bka-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
         },
         {
           "datum": "2026-11-10",
@@ -623,13 +623,6 @@
           "datum_ist_naeherung": false,
           "titel": "The Missing Pillar of European Resilience",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/missing-pillar-european-resilience",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-10-14",
-          "datum_ist_naeherung": false,
-          "titel": "Ukraine Has Imposed a Kerosene Shortage on Russia",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/ukraine-has-imposed-kerosene-shortage-russia",
           "quelle_id": "rusi_commentary"
         },
         {
@@ -725,6 +718,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-11-17",
+          "datum_ist_naeherung": false,
+          "titel": "The Last Mile of Rearmament: Turning New Equipment into Fighting Power",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/last-mile-rearmament-turning-new-equipment-fighting-power",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-11-16",
           "datum_ist_naeherung": false,
