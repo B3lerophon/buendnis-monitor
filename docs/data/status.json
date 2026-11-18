@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-17T15:13:02.061084+00:00",
+  "generiert_am": "2026-11-18T14:50:05.432388+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -103,11 +103,27 @@
       "ebene": "NATO",
       "beschreibung": "Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025, Zielhorizont 2035.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-11-13: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
-      "letzte_aenderung_datum": "2026-11-13",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/12/nato-secretary-general-participates-in-the-european-political-community-summit-in-dublin",
+      "begruendung": "Neuester relevanter Fund vom 2026-11-18: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
+      "letzte_aenderung_datum": "2026-11-18",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/18/nato-secretary-general-welcomes-strong-allied-support-at-ukraine-defence-contact-group-meeting",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-11-18",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general welcomes strong allied support at ukraine defence contact group meeting",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/18/nato-secretary-general-welcomes-strong-allied-support-at-ukraine-defence-contact-group-meeting",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-18",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general welcomes strong allied support at ukraine defence contact group meeting",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/18/nato-secretary-general-welcomes-strong-allied-support-at-ukraine-defence-contact-group-meeting",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-11-13",
           "datum_ist_naeherung": false,
@@ -169,22 +185,6 @@
           "datum_ist_naeherung": false,
           "titel": "nato secretary general says that climate change matters for nato",
           "url": "https://www.nato.int/en/news-and-events/articles/news/2022/06/28/nato-secretary-general-says-that-climate-change-matters-for-nato",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-05",
-          "datum_ist_naeherung": false,
-          "titel": "secretary general arrives in madrid thanks spain for hosting historic nato summit",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2022/06/28/secretary-general-arrives-in-madrid-thanks-spain-for-hosting-historic-nato-summit",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-05",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general says that climate change matters for nato",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2022/06/28/nato-secretary-general-says-that-climate-change-matters-for-nato",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
@@ -285,18 +285,18 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-11-17",
+          "datum": "2026-11-18",
           "datum_ist_naeherung": false,
-          "titel": "Debatte über Wehrpflicht: Bundeswehr hat Personalziel für 2026 bereits übertroffen",
-          "url": "https://www.zeit.de/politik/deutschland/2026-11/bundeswehr-personalstaerke-soldaten-wehrpflicht-reservisten",
+          "titel": "Krieg gegen die Ukraine: Pistorius bezeichnet Kritik der USA an Ukraine als »ziemlich dumm«",
+          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
           "quelle_id": "zeit_politik"
         },
         {
           "datum": "2026-11-17",
           "datum_ist_naeherung": false,
-          "titel": "Krieg gegen die Ukraine: Hunderttausende Haushalte bei Dnipro nach Angriffen ohne Strom",
-          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
-          "quelle_id": "zeit_politik"
+          "titel": "\"Ziemlich dumm\": Pistorius reagiert auf US-Kritik an ukrainischen Angriffen",
+          "url": "https://www.tagesschau.de/ausland/europa/pistorius-ukraine-angriffe-usa-kritik-100.html",
+          "quelle_id": "tagesschau_ausland"
         }
       ]
     },
@@ -305,12 +305,28 @@
       "name": "Rüstungslieferungen an die Ukraine",
       "ebene": "Bund",
       "beschreibung": "Zusagen der Bundesregierung zu Waffen-/Munitionslieferungen an die Ukraine, Abgleich Ankündigung vs. tatsächliche Lieferung.",
-      "ampel": "gruen",
-      "begruendung": "Neuester relevanter Fund vom 2026-11-13: verstärkt / bestätigt. Bezug erkannt an: Waffenstillstand; bestätigende Formulierungen: zusätzlich",
-      "letzte_aenderung_datum": "2026-11-13",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/ukraine-winterhilfe-2810644",
-      "aenderung": "verstärkt / bestätigt",
+      "ampel": "gelb",
+      "begruendung": "Neuester relevanter Fund vom 2026-11-18: keine klare Richtung erkennbar. Bezug erkannt an: Contact Group",
+      "letzte_aenderung_datum": "2026-11-18",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/18/nato-secretary-general-welcomes-strong-allied-support-at-ukraine-defence-contact-group-meeting",
+      "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-11-18",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general welcomes strong allied support at ukraine defence contact group meeting",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/18/nato-secretary-general-welcomes-strong-allied-support-at-ukraine-defence-contact-group-meeting",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-18",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general welcomes strong allied support at ukraine defence contact group meeting",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/18/nato-secretary-general-welcomes-strong-allied-support-at-ukraine-defence-contact-group-meeting",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-11-13",
           "datum_ist_naeherung": false,
@@ -374,33 +390,9 @@
           "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/18/nato-hosts-international-contact-group-on-civilian-harm-mitigation-and-response",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-01",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general welcomes president zelenskyy to the washington summit saying ukraines future is in nato",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2024/07/11/nato-secretary-general-welcomes-president-zelenskyy-to-the-washington-summit-saying-ukraines-future-is-in-nato",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-01",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general welcomes president zelenskyy to the washington summit saying ukraines future is in nato",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2024/07/11/nato-secretary-general-welcomes-president-zelenskyy-to-the-washington-summit-saying-ukraines-future-is-in-nato",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-11-13",
-          "datum_ist_naeherung": false,
-          "titel": "Merz beansprucht Teilnahme an künftigen Ukraine-Gesprächen",
-          "url": "https://www.tagesschau.de/ausland/europa/ukraine-gipfel-eu-dublin-merz-100.html",
-          "quelle_id": "tagesschau_ausland"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "eu_safe_rearm",
@@ -552,14 +544,6 @@
           "url": "https://www.auswaertiges-amt.de/de/newsroom/2810398-2810398",
           "quelle_id": "auswaertiges_amt_presse",
           "richtung": "verstaerkt"
-        },
-        {
-          "datum": "2026-11-06",
-          "datum_ist_naeherung": false,
-          "titel": "Außenminister Wadephul vor seiner Abreise nach Warschau",
-          "url": "https://www.auswaertiges-amt.de/de/newsroom/2809128-2809128",
-          "quelle_id": "auswaertiges_amt_presse",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": [
@@ -597,6 +581,13 @@
       "id": "russland_ukraine",
       "name": "Russland / Ukraine",
       "eintraege": [
+        {
+          "datum": "2026-11-18",
+          "datum_ist_naeherung": false,
+          "titel": "Ukraine Straddles Diverging Fronts",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/ukraine-straddles-diverging-fronts",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-11-10",
           "datum_ist_naeherung": false,
@@ -801,13 +792,6 @@
           "titel": "Satellite Images Show Extent of Trump Admin’s Tree-Felling at DC Golf Course",
           "url": "https://www.bellingcat.com/news/us-canada/2026/10/15/satellite-images-show-extent-of-trump-admins-tree-felling-at-dc-golf-course/",
           "quelle_id": "bellingcat"
-        },
-        {
-          "datum": "2026-10-15",
-          "datum_ist_naeherung": false,
-          "titel": "Fentanyl in Italy and the European Opioid Market",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/fentanyl-italy-and-european-opioid-market",
-          "quelle_id": "rusi_commentary"
         },
         {
           "datum": "2026-10-06",
