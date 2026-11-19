@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-18T14:50:05.432388+00:00",
+  "generiert_am": "2026-11-19T14:56:33.981420+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -285,10 +285,10 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-11-18",
+          "datum": "2026-11-19",
           "datum_ist_naeherung": false,
-          "titel": "Krieg gegen die Ukraine: Pistorius bezeichnet Kritik der USA an Ukraine als »ziemlich dumm«",
-          "url": "https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog",
+          "titel": "Nato-Verteidigung: Bundeswehr schließt Aufstellung der Litauen-Brigade ab",
+          "url": "https://www.zeit.de/politik/2026-11/litauen-brigade-bundeswehr-panzerbrigade-45-boris-pistorius",
           "quelle_id": "zeit_politik"
         },
         {
@@ -547,6 +547,20 @@
         }
       ],
       "medienberichte": [
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "KI-gestützter Cyberangriff auf EU-Kommission",
+          "url": "https://www.tagesschau.de/ausland/europa/cyberangriff-eu-kommission-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "Russische Tu-95-Bomber: Russische Militärflieger nähern sich erneut Taiwan",
+          "url": "https://www.zeit.de/politik/ausland/2026-11/tu-95-russland-taiwan-adiz-bomber-gxe",
+          "quelle_id": "zeit_politik"
+        },
         {
           "datum": "2026-11-17",
           "datum_ist_naeherung": false,
