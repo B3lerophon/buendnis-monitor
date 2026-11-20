@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-19T14:56:33.981420+00:00",
+  "generiert_am": "2026-11-20T14:38:11.123438+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -9,11 +9,27 @@
       "ebene": "NATO",
       "beschreibung": "Zusage der NATO-Mitgliedstaaten, mindestens 2% des BIP für Verteidigung auszugeben (Wales-Gipfel 2014, seither wiederholt bekräftigt).",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-11-12: keine klare Richtung erkennbar. Bezug erkannt an: deterrence",
-      "letzte_aenderung_datum": "2026-11-12",
-      "quelle_url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/10/nato-discusses-deep-precision-strike-capabilities-for-deterrence-and-defence",
+      "begruendung": "Neuester relevanter Fund vom 2026-11-19: keine klare Richtung erkennbar. Bezug erkannt an: deterrence",
+      "letzte_aenderung_datum": "2026-11-19",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2025/10/15/nato-defence-ministers-focus-on-deterrence-counter-drone-initiatives-defence-investment-and-support-to-ukraine",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "nato defence ministers focus on deterrence counter drone initiatives defence investment and support to ukraine",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2025/10/15/nato-defence-ministers-focus-on-deterrence-counter-drone-initiatives-defence-investment-and-support-to-ukraine",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "nato defence ministers focus on deterrence counter drone initiatives defence investment and support to ukraine",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2025/10/15/nato-defence-ministers-focus-on-deterrence-counter-drone-initiatives-defence-investment-and-support-to-ukraine",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-11-12",
           "datum_ist_naeherung": false,
@@ -77,22 +93,6 @@
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/07/secretary-general-vilnius-summit-will-make-ukraine-stronger-reinforce-natos-deterrence-and-defence",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-16",
-          "datum_ist_naeherung": false,
-          "titel": "bucharest conference brings together international audit community to discuss transparency and accountability in defence spending",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/16/bucharest-conference-brings-together-international-audit-community-to-discuss-transparency-and-accountability-in-defence-spending",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-16",
-          "datum_ist_naeherung": false,
-          "titel": "bucharest conference brings together international audit community to discuss transparency and accountability in defence spending",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/09/16/bucharest-conference-brings-together-international-audit-community-to-discuss-transparency-and-accountability-in-defence-spending",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": []
@@ -103,11 +103,59 @@
       "ebene": "NATO",
       "beschreibung": "Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025, Zielhorizont 2035.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-11-18: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
-      "letzte_aenderung_datum": "2026-11-18",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/18/nato-secretary-general-welcomes-strong-allied-support-at-ukraine-defence-contact-group-meeting",
+      "begruendung": "Neuester relevanter Fund vom 2026-11-19: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
+      "letzte_aenderung_datum": "2026-11-19",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/01/12/nato-secretary-general-commends-croatias-contributions-to-nato-and-support-for-ukraine",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general commends croatias contributions to nato and support for ukraine",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/01/12/nato-secretary-general-commends-croatias-contributions-to-nato-and-support-for-ukraine",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general attends meeting of the coalition of the willing in berlin",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/19/nato-secretary-general-attends-meeting-of-the-coalition-of-the-willing-in-berlin",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general highlights new opportunity for support at ukraine defence contact group meeting",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2025/07/21/nato-secretary-general-highlights-new-opportunity-for-support-at-ukraine-defence-contact-group-meeting",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general highlights new opportunity for support at ukraine defence contact group meeting",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2025/07/21/nato-secretary-general-highlights-new-opportunity-for-support-at-ukraine-defence-contact-group-meeting",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general commends croatias contributions to nato and support for ukraine",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/01/12/nato-secretary-general-commends-croatias-contributions-to-nato-and-support-for-ukraine",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general attends meeting of the coalition of the willing in berlin",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/19/nato-secretary-general-attends-meeting-of-the-coalition-of-the-willing-in-berlin",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-11-18",
           "datum_ist_naeherung": false,
@@ -139,54 +187,6 @@
           "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/13/nato-secretary-general-expanding-transatlantic-defence-cooperation-is-crucial",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-13",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general participates in the european political community summit in dublin",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/13/nato-secretary-general-participates-in-the-european-political-community-summit-in-dublin",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-13",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general expanding transatlantic defence cooperation is crucial",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/13/nato-secretary-general-expanding-transatlantic-defence-cooperation-is-crucial",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-12",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general thanks service members during speech aboard uk aircraft carrier in oslo",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/12/nato-secretary-general-thanks-service-members-during-speech-aboard-uk-aircraft-carrier-in-oslo",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-12",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general thanks service members during speech aboard uk aircraft carrier in oslo",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/12/nato-secretary-general-thanks-service-members-during-speech-aboard-uk-aircraft-carrier-in-oslo",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-12",
-          "datum_ist_naeherung": false,
-          "titel": "Key Note von Staatssekretär Dr. Géza Andreas von Geyr beim „NATO Talk“ der Deutsch-Atlantischen Gesellschaft in Berlin",
-          "url": "https://www.auswaertiges-amt.de/de/newsroom/2810690-2810690",
-          "quelle_id": "auswaertiges_amt_presse",
-          "richtung": "schwaecht_ab"
-        },
-        {
-          "datum": "2026-11-05",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general says that climate change matters for nato",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2022/06/28/nato-secretary-general-says-that-climate-change-matters-for-nato",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
       "medienberichte": []
@@ -197,11 +197,35 @@
       "ebene": "Bund",
       "beschreibung": "2022 beschlossenes Sondervermögen (100 Mrd. €, seit 2025 durch Grundgesetzänderung faktisch unbegrenzte Verteidigungsausgaben außerhalb der Schuldenbremse). Tracking von Mittelabfluss und politischer Debatte darüber.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-11-13: keine klare Richtung erkennbar. Bezug erkannt an: readiness",
-      "letzte_aenderung_datum": "2026-11-13",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/13/nato-deputy-secretary-general-visits-act-in-the-united-states-for-discussions-about-transformation-and-readiness",
+      "begruendung": "Neuester relevanter Fund vom 2026-11-19: keine klare Richtung erkennbar. Bezug erkannt an: procurement",
+      "letzte_aenderung_datum": "2026-11-19",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/05/nato-accelerates-procurement-for-counter-drone-technologies",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "nato accelerates procurement for counter drone technologies",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/05/nato-accelerates-procurement-for-counter-drone-technologies",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "nato logistics directors address how to strengthen warfighting readiness",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/12/nato-logistics-directors-address-how-to-strengthen-warfighting-readiness",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "nato logistics directors address how to strengthen warfighting readiness",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/12/nato-logistics-directors-address-how-to-strengthen-warfighting-readiness",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-11-13",
           "datum_ist_naeherung": false,
@@ -215,30 +239,6 @@
           "datum_ist_naeherung": false,
           "titel": "nato deputy secretary general visits act in the united states for discussions about transformation and readiness",
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/13/nato-deputy-secretary-general-visits-act-in-the-united-states-for-discussions-about-transformation-and-readiness",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-12",
-          "datum_ist_naeherung": false,
-          "titel": "nato accelerates procurement for counter drone technologies",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/05/nato-accelerates-procurement-for-counter-drone-technologies",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-12",
-          "datum_ist_naeherung": false,
-          "titel": "nato logistics directors address how to strengthen warfighting readiness",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/12/nato-logistics-directors-address-how-to-strengthen-warfighting-readiness",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-12",
-          "datum_ist_naeherung": false,
-          "titel": "nato logistics directors address how to strengthen warfighting readiness",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/12/nato-logistics-directors-address-how-to-strengthen-warfighting-readiness",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
@@ -285,10 +285,24 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-11-19",
+          "datum": "2026-11-20",
           "datum_ist_naeherung": false,
-          "titel": "Nato-Verteidigung: Bundeswehr schließt Aufstellung der Litauen-Brigade ab",
-          "url": "https://www.zeit.de/politik/2026-11/litauen-brigade-bundeswehr-panzerbrigade-45-boris-pistorius",
+          "titel": "Gespräche mit Russland ja - aber wo?",
+          "url": "https://www.tagesschau.de/ausland/asien/russland-ukraine-gespraeche-europa-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
+          "datum": "2026-11-20",
+          "datum_ist_naeherung": false,
+          "titel": "Pistorius will Militärpakt mit Polen ausbauen",
+          "url": "https://www.tagesschau.de/ausland/europa/polen-deutschland-militaer-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
+          "datum": "2026-11-20",
+          "datum_ist_naeherung": false,
+          "titel": "Verteidigungsminister in Polen: Ein Mann weist den Weg",
+          "url": "https://www.zeit.de/politik/2026-11/boris-pistorius-verteidigungsminister-polen-auschwitz-mahnung",
           "quelle_id": "zeit_politik"
         },
         {
@@ -306,11 +320,27 @@
       "ebene": "Bund",
       "beschreibung": "Zusagen der Bundesregierung zu Waffen-/Munitionslieferungen an die Ukraine, Abgleich Ankündigung vs. tatsächliche Lieferung.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-11-18: keine klare Richtung erkennbar. Bezug erkannt an: Contact Group",
-      "letzte_aenderung_datum": "2026-11-18",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/18/nato-secretary-general-welcomes-strong-allied-support-at-ukraine-defence-contact-group-meeting",
+      "begruendung": "Neuester relevanter Fund vom 2026-11-19: keine klare Richtung erkennbar. Bezug erkannt an: Contact Group",
+      "letzte_aenderung_datum": "2026-11-19",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2025/07/21/nato-secretary-general-highlights-new-opportunity-for-support-at-ukraine-defence-contact-group-meeting",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general highlights new opportunity for support at ukraine defence contact group meeting",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2025/07/21/nato-secretary-general-highlights-new-opportunity-for-support-at-ukraine-defence-contact-group-meeting",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general highlights new opportunity for support at ukraine defence contact group meeting",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2025/07/21/nato-secretary-general-highlights-new-opportunity-for-support-at-ukraine-defence-contact-group-meeting",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-11-18",
           "datum_ist_naeherung": false,
@@ -374,25 +404,31 @@
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/12/nato-leaders-president-zelenskyy-meet-for-first-nato-ukraine-council",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-28",
-          "datum_ist_naeherung": false,
-          "titel": "secretary general welcomes president zelenskyy to the nato summit ahead of inaugural nato ukraine council",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2023/07/12/secretary-general-welcomes-president-zelenskyy-to-the-nato-summit-ahead-of-inaugural-nato-ukraine-council",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-09-18",
-          "datum_ist_naeherung": false,
-          "titel": "nato hosts international contact group on civilian harm mitigation and response",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/09/18/nato-hosts-international-contact-group-on-civilian-harm-mitigation-and-response",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-11-20",
+          "datum_ist_naeherung": false,
+          "titel": "Pistorius will Militärpakt mit Polen ausbauen",
+          "url": "https://www.tagesschau.de/ausland/europa/polen-deutschland-militaer-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
+          "datum": "2026-11-20",
+          "datum_ist_naeherung": false,
+          "titel": "Verhandlungen im Ukrainekrieg: Worüber Russland und die Ukraine verhandeln",
+          "url": "https://www.zeit.de/politik/ausland/2026-10/verhandlungen-ukraine-krieg-russland-politik-militaer-chronologie",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-11-20",
+          "datum_ist_naeherung": false,
+          "titel": "Krieg gegen die Ukraine: Russische Marschflugkörper stürzen in Polen ab",
+          "url": "https://www.zeit.de/politik/ausland/2026-11/russland-raketen-luftraumverletzung-polen-ukraine-gxe",
+          "quelle_id": "zeit_politik"
+        }
+      ]
     },
     {
       "id": "eu_safe_rearm",
@@ -493,12 +529,28 @@
       "name": "Bekenntnis zu Art. 5 NATO / Art. 42.7 EUV (Beistandsklausel)",
       "ebene": "NATO",
       "beschreibung": "Rhetorische/politische Bekräftigungen (oder Infragestellungen) der gegenseitigen Beistandsverpflichtung durch Regierungsvertreter.",
-      "ampel": "rot",
-      "begruendung": "Neuester relevanter Fund vom 2026-11-12: schwächt ab. Bezug erkannt an: Artikel 5; abschwächende Formulierungen: Zweifel, unklar",
-      "letzte_aenderung_datum": "2026-11-12",
-      "quelle_url": "https://www.auswaertiges-amt.de/de/newsroom/2810690-2810690",
-      "aenderung": "schwächt ab",
+      "ampel": "gelb",
+      "begruendung": "Neuester relevanter Fund vom 2026-11-19: keine klare Richtung erkennbar. Bezug erkannt an: collective defence",
+      "letzte_aenderung_datum": "2026-11-19",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/19/allies-strengthen-medical-support-for-natos-collective-defence",
+      "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "allies strengthen medical support for natos collective defence",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/19/allies-strengthen-medical-support-for-natos-collective-defence",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "allies strengthen medical support for natos collective defence",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/19/allies-strengthen-medical-support-for-natos-collective-defence",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-11-12",
           "datum_ist_naeherung": false,
@@ -548,18 +600,25 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-11-20",
+          "datum_ist_naeherung": false,
+          "titel": "Pistorius will Militärpakt mit Polen ausbauen",
+          "url": "https://www.tagesschau.de/ausland/europa/polen-deutschland-militaer-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
+          "datum": "2026-11-20",
+          "datum_ist_naeherung": false,
+          "titel": "Gesetzesreformen: Bundesrat billigt Reformen zu Führerschein, Cyberabwehr und Notfällen",
+          "url": "https://www.zeit.de/politik/deutschland/2026-11/bundesrat-reformen-fuehrerschein-cyberabwehr-notfallversorgung-altersvorsorge-kinder-sprachtests-kitas-gxe",
+          "quelle_id": "zeit_politik"
+        },
+        {
           "datum": "2026-11-19",
           "datum_ist_naeherung": false,
           "titel": "KI-gestützter Cyberangriff auf EU-Kommission",
           "url": "https://www.tagesschau.de/ausland/europa/cyberangriff-eu-kommission-100.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-11-19",
-          "datum_ist_naeherung": false,
-          "titel": "Russische Tu-95-Bomber: Russische Militärflieger nähern sich erneut Taiwan",
-          "url": "https://www.zeit.de/politik/ausland/2026-11/tu-95-russland-taiwan-adiz-bomber-gxe",
-          "quelle_id": "zeit_politik"
         },
         {
           "datum": "2026-11-17",
@@ -699,6 +758,13 @@
       "name": "China",
       "eintraege": [
         {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "Can Japan's ‘007’ Act as a Tailwind for Its New Intelligence Agency?",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/can-japans-007-act-tailwind-its-new-intelligence-agency",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-10-27",
           "datum_ist_naeherung": false,
           "titel": "Why the Netherlands Must Hold the Line on ASML",
@@ -723,6 +789,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-11-20",
+          "datum_ist_naeherung": false,
+          "titel": "Beyond the Menu – Pragmatism over Purity in UK–EU Relations",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/beyond-menu-pragmatism-over-purity-uk-eu-relations",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-11-17",
           "datum_ist_naeherung": false,
@@ -785,20 +858,6 @@
           "titel": "Can LLMs Supercharge Geolocations? Our Tests Show Big Improvements But Humans Remain Key",
           "url": "https://www.bellingcat.com/resources/2026/10/22/can-llms-supercharge-geolocations-our-tests-show-big-improvements-but-humans-remain-key/",
           "quelle_id": "bellingcat"
-        },
-        {
-          "datum": "2026-10-19",
-          "datum_ist_naeherung": false,
-          "titel": "Nature Credits: Europe’s Next Financial Crime Blind Spot",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/nature-credits-europes-next-financial-crime-blind-spot",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-10-18",
-          "datum_ist_naeherung": false,
-          "titel": "FATF Has Declared War on Fraud. Not All Its Allies Can Afford to Fight",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/fatf-has-declared-war-fraud-not-all-its-allies-can-afford-fight",
-          "quelle_id": "rusi_commentary"
         },
         {
           "datum": "2026-10-15",
