@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-20T14:38:11.123438+00:00",
+  "generiert_am": "2026-11-21T13:55:34.390527+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -95,7 +95,15 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-11-21",
+          "datum_ist_naeherung": false,
+          "titel": "Polizeigewalt in Frankreich: Sie wollen die Abschreckung, sie bereiten Le Pen den Weg",
+          "url": "https://www.zeit.de/politik/ausland/2026-11/polizeigewalt-frankreich-proteste-emmanuel-macron-marine-le-pen",
+          "quelle_id": "zeit_politik"
+        }
+      ]
     },
     {
       "id": "nato_3_5_prozent",
@@ -287,9 +295,9 @@
         {
           "datum": "2026-11-20",
           "datum_ist_naeherung": false,
-          "titel": "Gespräche mit Russland ja - aber wo?",
-          "url": "https://www.tagesschau.de/ausland/asien/russland-ukraine-gespraeche-europa-100.html",
-          "quelle_id": "tagesschau_ausland"
+          "titel": "Pistorius in Polen: Eine Reise im Zeichen der Erinnerungsarbeit",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/pistorius-polen-gedenken-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
         },
         {
           "datum": "2026-11-20",
@@ -297,13 +305,6 @@
           "titel": "Pistorius will Militärpakt mit Polen ausbauen",
           "url": "https://www.tagesschau.de/ausland/europa/polen-deutschland-militaer-100.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-11-20",
-          "datum_ist_naeherung": false,
-          "titel": "Verteidigungsminister in Polen: Ein Mann weist den Weg",
-          "url": "https://www.zeit.de/politik/2026-11/boris-pistorius-verteidigungsminister-polen-auschwitz-mahnung",
-          "quelle_id": "zeit_politik"
         },
         {
           "datum": "2026-11-17",
@@ -413,20 +414,6 @@
           "titel": "Pistorius will Militärpakt mit Polen ausbauen",
           "url": "https://www.tagesschau.de/ausland/europa/polen-deutschland-militaer-100.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-11-20",
-          "datum_ist_naeherung": false,
-          "titel": "Verhandlungen im Ukrainekrieg: Worüber Russland und die Ukraine verhandeln",
-          "url": "https://www.zeit.de/politik/ausland/2026-10/verhandlungen-ukraine-krieg-russland-politik-militaer-chronologie",
-          "quelle_id": "zeit_politik"
-        },
-        {
-          "datum": "2026-11-20",
-          "datum_ist_naeherung": false,
-          "titel": "Krieg gegen die Ukraine: Russische Marschflugkörper stürzen in Polen ab",
-          "url": "https://www.zeit.de/politik/ausland/2026-11/russland-raketen-luftraumverletzung-polen-ukraine-gxe",
-          "quelle_id": "zeit_politik"
         }
       ]
     },
@@ -600,18 +587,18 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-11-21",
+          "datum_ist_naeherung": false,
+          "titel": "Sabotageakte von Russland: Wo Russland Deutschland angreift",
+          "url": "https://www.zeit.de/politik/deutschland/2026-11/sabotageakte-russland-hybrider-krieg-desinformation-spionage",
+          "quelle_id": "zeit_politik"
+        },
+        {
           "datum": "2026-11-20",
           "datum_ist_naeherung": false,
           "titel": "Pistorius will Militärpakt mit Polen ausbauen",
           "url": "https://www.tagesschau.de/ausland/europa/polen-deutschland-militaer-100.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-11-20",
-          "datum_ist_naeherung": false,
-          "titel": "Gesetzesreformen: Bundesrat billigt Reformen zu Führerschein, Cyberabwehr und Notfällen",
-          "url": "https://www.zeit.de/politik/deutschland/2026-11/bundesrat-reformen-fuehrerschein-cyberabwehr-notfallversorgung-altersvorsorge-kinder-sprachtests-kitas-gxe",
-          "quelle_id": "zeit_politik"
         },
         {
           "datum": "2026-11-19",
@@ -680,13 +667,6 @@
           "datum_ist_naeherung": false,
           "titel": "From Human Proxies to Autonomous Adaptation: The Next Phase of Russia's Hybrid Activity",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/human-proxies-autonomous-adaptation-next-phase-russias-hybrid-activity",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-10-20",
-          "datum_ist_naeherung": false,
-          "titel": "The Missing Pillar of European Resilience",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/missing-pillar-european-resilience",
           "quelle_id": "rusi_commentary"
         },
         {
@@ -789,6 +769,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-11-20",
+          "datum_ist_naeherung": false,
+          "titel": "Co-Creating the New Europe: The Road, Not the Destination in EU–UK Talks",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/co-creating-new-europe-road-not-destination-eu-uk-talks",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-11-20",
           "datum_ist_naeherung": false,
