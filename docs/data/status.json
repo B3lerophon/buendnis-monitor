@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-21T13:55:34.390527+00:00",
+  "generiert_am": "2026-11-22T13:48:44.462401+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -95,15 +95,7 @@
           "richtung": "unklar"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-11-21",
-          "datum_ist_naeherung": false,
-          "titel": "Polizeigewalt in Frankreich: Sie wollen die Abschreckung, sie bereiten Le Pen den Weg",
-          "url": "https://www.zeit.de/politik/ausland/2026-11/polizeigewalt-frankreich-proteste-emmanuel-macron-marine-le-pen",
-          "quelle_id": "zeit_politik"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "nato_3_5_prozent",
@@ -587,31 +579,10 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-11-21",
-          "datum_ist_naeherung": false,
-          "titel": "Sabotageakte von Russland: Wo Russland Deutschland angreift",
-          "url": "https://www.zeit.de/politik/deutschland/2026-11/sabotageakte-russland-hybrider-krieg-desinformation-spionage",
-          "quelle_id": "zeit_politik"
-        },
-        {
           "datum": "2026-11-20",
           "datum_ist_naeherung": false,
           "titel": "Pistorius will Militärpakt mit Polen ausbauen",
           "url": "https://www.tagesschau.de/ausland/europa/polen-deutschland-militaer-100.html",
-          "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-11-19",
-          "datum_ist_naeherung": false,
-          "titel": "KI-gestützter Cyberangriff auf EU-Kommission",
-          "url": "https://www.tagesschau.de/ausland/europa/cyberangriff-eu-kommission-100.html",
-          "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-11-17",
-          "datum_ist_naeherung": false,
-          "titel": "Deutschland kauft neue Flugabwehrraketen für Ukraine",
-          "url": "https://www.tagesschau.de/ausland/europa/deutschland-ukraine-hilfe-flugabwehr-100.html",
           "quelle_id": "tagesschau_ausland"
         },
         {
