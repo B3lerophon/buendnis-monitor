@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-22T13:48:44.462401+00:00",
+  "generiert_am": "2026-11-23T16:53:56.851528+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -297,13 +297,6 @@
           "titel": "Pistorius will Militärpakt mit Polen ausbauen",
           "url": "https://www.tagesschau.de/ausland/europa/polen-deutschland-militaer-100.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-11-17",
-          "datum_ist_naeherung": false,
-          "titel": "\"Ziemlich dumm\": Pistorius reagiert auf US-Kritik an ukrainischen Angriffen",
-          "url": "https://www.tagesschau.de/ausland/europa/pistorius-ukraine-angriffe-usa-kritik-100.html",
-          "quelle_id": "tagesschau_ausland"
         }
       ]
     },
@@ -400,6 +393,13 @@
         }
       ],
       "medienberichte": [
+        {
+          "datum": "2026-11-23",
+          "datum_ist_naeherung": false,
+          "titel": "Koalition der Willigen: Sie üben für den Frieden in der Ukraine – dann schlagen russische Marschflugkörper in der Nähe ein",
+          "url": "https://www.sueddeutsche.de/politik/polen-ukraine-koalition-der-willigen-militaermanoever-koalicja-russland-li.3582564",
+          "quelle_id": "sueddeutsche_politik"
+        },
         {
           "datum": "2026-11-20",
           "datum_ist_naeherung": false,
@@ -579,18 +579,18 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-11-23",
+          "datum_ist_naeherung": false,
+          "titel": "Drohnenkrieg: Ukraine versenkt modernes russisches Kriegsschiff vor Afrika",
+          "url": "https://www.sueddeutsche.de/projekte/artikel/politik/ukraine-russland-libyen-drohnenangriffe-selenskyj-e940260/",
+          "quelle_id": "sueddeutsche_politik"
+        },
+        {
           "datum": "2026-11-20",
           "datum_ist_naeherung": false,
           "titel": "Pistorius will Militärpakt mit Polen ausbauen",
           "url": "https://www.tagesschau.de/ausland/europa/polen-deutschland-militaer-100.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-11-16",
-          "datum_ist_naeherung": false,
-          "titel": "Immer mehr Angriffe: BKA-Chef Münch fordert Ausbau der Cyberabwehr",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/cyberangriffe-abwehr-bka-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
         },
         {
           "datum": "2026-11-10",
@@ -721,13 +721,6 @@
           "titel": "Why the Netherlands Must Hold the Line on ASML",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/why-netherlands-must-hold-line-asml",
           "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-10-21",
-          "datum_ist_naeherung": false,
-          "titel": "Why Kazakhstan Joined Both the American and Chinese AI Initiatives",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/why-kazakhstan-joined-both-american-and-chinese-ai-initiatives",
-          "quelle_id": "rusi_commentary"
         }
       ]
     },
@@ -740,6 +733,13 @@
       "id": "sonstige_global",
       "name": "Sonstige / global",
       "eintraege": [
+        {
+          "datum": "2026-11-23",
+          "datum_ist_naeherung": false,
+          "titel": "Same Risk, Different Letterhead? The City Watchdog Takes On the Professions",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/same-risk-different-letterhead-city-watchdog-takes-professions",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-11-20",
           "datum_ist_naeherung": false,
