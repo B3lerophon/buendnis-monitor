@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-23T16:53:56.851528+00:00",
+  "generiert_am": "2026-11-24T16:44:20.083903+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -135,14 +135,6 @@
         {
           "datum": "2026-11-19",
           "datum_ist_naeherung": false,
-          "titel": "nato secretary general highlights new opportunity for support at ukraine defence contact group meeting",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2025/07/21/nato-secretary-general-highlights-new-opportunity-for-support-at-ukraine-defence-contact-group-meeting",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-19",
-          "datum_ist_naeherung": false,
           "titel": "nato secretary general commends croatias contributions to nato and support for ukraine",
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/01/12/nato-secretary-general-commends-croatias-contributions-to-nato-and-support-for-ukraine",
           "quelle_id": "nato_newsroom",
@@ -153,6 +145,14 @@
           "datum_ist_naeherung": false,
           "titel": "nato secretary general attends meeting of the coalition of the willing in berlin",
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/19/nato-secretary-general-attends-meeting-of-the-coalition-of-the-willing-in-berlin",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-19",
+          "datum_ist_naeherung": false,
+          "titel": "nato secretary general highlights new opportunity for support at ukraine defence contact group meeting",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2025/07/21/nato-secretary-general-highlights-new-opportunity-for-support-at-ukraine-defence-contact-group-meeting",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
@@ -285,6 +285,13 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-11-24",
+          "datum_ist_naeherung": false,
+          "titel": "Deutschland baut künftig ukrainische Drohnen",
+          "url": "https://www.tagesschau.de/ausland/europa/ukraine-pistorius-104.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
           "datum": "2026-11-20",
           "datum_ist_naeherung": false,
           "titel": "Pistorius in Polen: Eine Reise im Zeichen der Erinnerungsarbeit",
@@ -393,13 +400,6 @@
         }
       ],
       "medienberichte": [
-        {
-          "datum": "2026-11-23",
-          "datum_ist_naeherung": false,
-          "titel": "Koalition der Willigen: Sie üben für den Frieden in der Ukraine – dann schlagen russische Marschflugkörper in der Nähe ein",
-          "url": "https://www.sueddeutsche.de/politik/polen-ukraine-koalition-der-willigen-militaermanoever-koalicja-russland-li.3582564",
-          "quelle_id": "sueddeutsche_politik"
-        },
         {
           "datum": "2026-11-20",
           "datum_ist_naeherung": false,
@@ -579,11 +579,11 @@
       ],
       "medienberichte": [
         {
-          "datum": "2026-11-23",
+          "datum": "2026-11-24",
           "datum_ist_naeherung": false,
-          "titel": "Drohnenkrieg: Ukraine versenkt modernes russisches Kriegsschiff vor Afrika",
-          "url": "https://www.sueddeutsche.de/projekte/artikel/politik/ukraine-russland-libyen-drohnenangriffe-selenskyj-e940260/",
-          "quelle_id": "sueddeutsche_politik"
+          "titel": "Südkorea meldet russische Militärflugzeuge vor seiner Küste",
+          "url": "https://www.tagesschau.de/ausland/asien/suedkorea-russland-100.html",
+          "quelle_id": "tagesschau_ausland"
         },
         {
           "datum": "2026-11-20",
@@ -612,6 +612,13 @@
       "id": "russland_ukraine",
       "name": "Russland / Ukraine",
       "eintraege": [
+        {
+          "datum": "2026-11-24",
+          "datum_ist_naeherung": false,
+          "titel": "Kerch Bridge Destruction: Politically Embarrassing, Logistically Contained",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/kerch-bridge-destruction-politically-embarrassing-logistically-contained",
+          "quelle_id": "rusi_commentary"
+        },
         {
           "datum": "2026-11-18",
           "datum_ist_naeherung": false,
@@ -801,13 +808,6 @@
           "datum_ist_naeherung": false,
           "titel": "Operation Rummy: Franco-British Nuclear Cooperation Strengthens European Deterrence",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/operation-rummy-franco-british-nuclear-cooperation-strengthens-european-deterrence",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-10-26",
-          "datum_ist_naeherung": false,
-          "titel": "Defence Spending: Challenges for the Budget and Beyond",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/defence-spending-challenges-budget-and-beyond",
           "quelle_id": "rusi_commentary"
         },
         {
