@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-25T16:30:17.386939+00:00",
+  "generiert_am": "2026-11-26T16:03:35.661073+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -95,7 +95,15 @@
           "richtung": "verstaerkt"
         }
       ],
-      "medienberichte": []
+      "medienberichte": [
+        {
+          "datum": "2026-11-26",
+          "datum_ist_naeherung": false,
+          "titel": "Großbritannien: London investiert Milliarden in nukleare Abschreckung",
+          "url": "https://www.sueddeutsche.de/politik/grossbritannien-london-investiert-milliarden-in-nukleare-abschreckung-li.3586588",
+          "quelle_id": "sueddeutsche_politik"
+        }
+      ]
     },
     {
       "id": "nato_3_5_prozent",
@@ -105,14 +113,30 @@
       "ampel": "gelb",
       "begruendung": "Neuester relevanter Fund vom 2026-11-25: keine klare Richtung erkennbar. Bezug erkannt an: NATO summit",
       "letzte_aenderung_datum": "2026-11-25",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2022/06/29/secretary-general-welcomes-us-president-to-nato-summit",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2022/06/29/nato-leaders-meet-with-key-partners-to-address-global-challenges-indo-pacific-partners-participate-in-a-nato-summit-for-the-first-time",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
         {
           "datum": "2026-11-25",
           "datum_ist_naeherung": false,
+          "titel": "nato leaders meet with key partners to address global challenges indo pacific partners participate in a nato summit for the first time",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2022/06/29/nato-leaders-meet-with-key-partners-to-address-global-challenges-indo-pacific-partners-participate-in-a-nato-summit-for-the-first-time",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-25",
+          "datum_ist_naeherung": false,
           "titel": "secretary general welcomes us president to nato summit",
           "url": "https://www.nato.int/en/news-and-events/articles/news/2022/06/29/secretary-general-welcomes-us-president-to-nato-summit",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-25",
+          "datum_ist_naeherung": false,
+          "titel": "nato leaders meet with key partners to address global challenges indo pacific partners participate in a nato summit for the first time",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2022/06/29/nato-leaders-meet-with-key-partners-to-address-global-challenges-indo-pacific-partners-participate-in-a-nato-summit-for-the-first-time",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         },
@@ -169,22 +193,6 @@
           "datum_ist_naeherung": false,
           "titel": "nato secretary general highlights new opportunity for support at ukraine defence contact group meeting",
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2025/07/21/nato-secretary-general-highlights-new-opportunity-for-support-at-ukraine-defence-contact-group-meeting",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-18",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general welcomes strong allied support at ukraine defence contact group meeting",
-          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/18/nato-secretary-general-welcomes-strong-allied-support-at-ukraine-defence-contact-group-meeting",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-18",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general welcomes strong allied support at ukraine defence contact group meeting",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/18/nato-secretary-general-welcomes-strong-allied-support-at-ukraine-defence-contact-group-meeting",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
@@ -273,16 +281,17 @@
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/06/17/nato-secretary-general-and-the-prime-minister-of-croatia-discuss-alliance-readiness-and-regional-security",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "verteidigungsministerium und wisag vereinbaren eine personalkooperation 18484",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/verteidigungsministerium-und-wisag-vereinbaren-eine-personalkooperation-18484",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
         }
       ],
       "medienberichte": [
-        {
-          "datum": "2026-11-25",
-          "datum_ist_naeherung": false,
-          "titel": "Generaldebatte im Bundestag: Opposition wirft Bundesregierung Tricks beim Haushalt vor",
-          "url": "https://www.zeit.de/politik/deutschland/2026-11/schuldenbremse-bundesregierung-haushalt-verschuldung-friedrich-merz-gxe",
-          "quelle_id": "zeit_politik"
-        },
         {
           "datum": "2026-11-24",
           "datum_ist_naeherung": false,
@@ -393,11 +402,32 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-11-26",
+          "datum_ist_naeherung": false,
+          "titel": "Streit um EU-Haushalt: Warum die Slowakei blockieren will",
+          "url": "https://www.tagesschau.de/ausland/europa/slowakei-blockiert-eu-haushalt-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
+          "datum": "2026-11-26",
+          "datum_ist_naeherung": false,
+          "titel": "Plattform „Delta“: Militärhilfe mal umgekehrt: Wo die Ukraine die Bundeswehr unterstützt",
+          "url": "https://www.sueddeutsche.de/politik/bundeswehr-delta-militaerhilfe-ukraine-li.3586457",
+          "quelle_id": "sueddeutsche_politik"
+        },
+        {
+          "datum": "2026-11-26",
+          "datum_ist_naeherung": false,
+          "titel": "EU-Gipfel: Europas Geld und Deutschlands Beitrag",
+          "url": "https://www.sueddeutsche.de/politik/bruessel-eu-haushalt-gipfel-merz-li.3584884",
+          "quelle_id": "sueddeutsche_politik"
+        },
+        {
           "datum": "2026-11-25",
           "datum_ist_naeherung": false,
-          "titel": "Russische Marschflugkörper: Polen vermisst Reaktion der USA auf Raketen-Vorfälle",
-          "url": "https://www.sueddeutsche.de/politik/russische-marschflugkoerper-polen-vermisst-reaktion-der-usa-auf-raketen-vorfaelle-li.3586113",
-          "quelle_id": "sueddeutsche_politik"
+          "titel": "Ukraine-Hilfe polarisiert die Generaldebatte im Bundestag",
+          "url": "https://www.tagesschau.de/inland/innenpolitik/bundestag-generaldebatte-ukraine-hilfe-100.html",
+          "quelle_id": "tagesschau_innenpolitik"
         }
       ]
     },
@@ -406,12 +436,93 @@
       "name": "EU-Verteidigungsinitiative (SAFE / ReArm Europe) – deutsche Beteiligung",
       "ebene": "EU",
       "beschreibung": "EU-Programme zur gemeinsamen Verteidigungsfinanzierung/-beschaffung (SAFE-Verordnung, ReArm Europe / Readiness 2030) und die deutsche Beteiligung bzw. Positionierung dazu.",
-      "ampel": "neutral",
-      "begruendung": "Keine aktuellen Funde (letzte 120 Tage, ab 2025-01-01) zu dieser Zusage.",
-      "letzte_aenderung_datum": null,
-      "quelle_url": null,
-      "aenderung": "keine_neue_information",
-      "historie": [],
+      "ampel": "gelb",
+      "begruendung": "Neuester relevanter Fund vom 2026-08-13 (Datum genähert, kein echtes Veröffentlichungsdatum verfügbar): keine klare Richtung erkennbar. Bezug erkannt an: Ursula von der Leyen",
+      "letzte_aenderung_datum": "2026-08-13",
+      "quelle_url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/laudatio-der-bundesministerin-der-verteidigung-ursula-von-der-leyen-18982",
+      "aenderung": "keine klare Richtung erkennbar",
+      "historie": [
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "laudatio der bundesministerin der verteidigung ursula von der leyen 18982",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/laudatio-der-bundesministerin-der-verteidigung-ursula-von-der-leyen-18982",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt parlamentsmitglieder des staates israel 14674",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-parlamentsmitglieder-des-staates-israel-14674",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt die verteidigungsminister aus der schweiz und oesterreich 14680",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-die-verteidigungsminister-aus-der-schweiz-und-oesterreich-14680",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt den georgischen verteidigungsminister levan izoria 13974",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-georgischen-verteidigungsminister-levan-izoria-13974",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen verleiht zum dritten mal preis bundeswehr und gesellschaft  13978",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-verleiht-zum-dritten-mal-preis-bundeswehr-und-gesellschaft--13978",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt franzoesische verteidigungsministerin 14484",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-franzoesische-verteidigungsministerin-14484",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt ukrainischen verteidigungsminister 14486",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-ukrainischen-verteidigungsminister-14486",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen ueberreicht auszeichnung partner der reserve 2018  22666",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-ueberreicht-auszeichnung-partner-der-reserve-2018--22666",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt den oesterreichischen verteidigungsminister mario kunasek 23872",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-oesterreichischen-verteidigungsminister-mario-kunasek-23872",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-08-13",
+          "datum_ist_naeherung": true,
+          "titel": "ursula von der leyen empfaengt den australischen premierminister und die australische verteidigungsministerin  23884",
+          "url": "https://www.bmvg.de/de/presse/alle-pressetermine-pressemitteilungen-bmvg/ursula-von-der-leyen-empfaengt-den-australischen-premierminister-und-die-australische-verteidigungsministerin--23884",
+          "quelle_id": "bmvg_presse",
+          "richtung": "unklar"
+        }
+      ],
       "medienberichte": []
     },
     {
@@ -495,13 +606,6 @@
           "titel": "Südkorea meldet russische Militärflugzeuge vor seiner Küste",
           "url": "https://www.tagesschau.de/ausland/asien/suedkorea-russland-100.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-11-10",
-          "datum_ist_naeherung": false,
-          "titel": "Wadephul warnt Iran vor hybriden Angriffen",
-          "url": "https://www.tagesschau.de/ausland/wadephul-iran-102.html",
-          "quelle_id": "tagesschau_ausland"
         }
       ]
     }
@@ -517,6 +621,13 @@
       "name": "Russland / Ukraine",
       "eintraege": [
         {
+          "datum": "2026-11-26",
+          "datum_ist_naeherung": false,
+          "titel": "Views from Ukraine on Digitalised Warfare",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/views-ukraine-digitalised-warfare",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-11-25",
           "datum_ist_naeherung": false,
           "titel": "Russia's New Cruise Missiles and the Rapid Iteration Trap",
@@ -526,15 +637,15 @@
         {
           "datum": "2026-11-24",
           "datum_ist_naeherung": false,
-          "titel": "Kerch Bridge Destruction: Politically Embarrassing, Logistically Contained",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/kerch-bridge-destruction-politically-embarrassing-logistically-contained",
+          "titel": "The Gloves Come Off as Zelensky Gives Up on Trump. What Should Europe Do?",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/gloves-come-zelensky-gives-trump-what-should-europe-do",
           "quelle_id": "rusi_commentary"
         },
         {
           "datum": "2026-11-24",
           "datum_ist_naeherung": false,
-          "titel": "The Gloves Come Off as Zelensky Gives Up on Trump. What Should Europe Do?",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/gloves-come-zelensky-gives-trump-what-should-europe-do",
+          "titel": "Kerch Bridge Destruction: Politically Embarrassing, Logistically Contained",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/kerch-bridge-destruction-politically-embarrassing-logistically-contained",
           "quelle_id": "rusi_commentary"
         },
         {
@@ -556,13 +667,6 @@
           "datum_ist_naeherung": false,
           "titel": "Why Rasputitsa Shapes Operational and Strategic Considerations in Ukraine",
           "url": "https://www.rusi.org/explore-our-research/publications/commentary/why-rasputitsa-shapes-operational-and-strategic-considerations-ukraine",
-          "quelle_id": "rusi_commentary"
-        },
-        {
-          "datum": "2026-10-29",
-          "datum_ist_naeherung": false,
-          "titel": "From Human Proxies to Autonomous Adaptation: The Next Phase of Russia's Hybrid Activity",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/human-proxies-autonomous-adaptation-next-phase-russias-hybrid-activity",
           "quelle_id": "rusi_commentary"
         },
         {
