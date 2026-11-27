@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-26T16:03:35.661073+00:00",
+  "generiert_am": "2026-11-27T15:51:51.166153+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -95,15 +95,7 @@
           "richtung": "verstaerkt"
         }
       ],
-      "medienberichte": [
-        {
-          "datum": "2026-11-26",
-          "datum_ist_naeherung": false,
-          "titel": "Großbritannien: London investiert Milliarden in nukleare Abschreckung",
-          "url": "https://www.sueddeutsche.de/politik/grossbritannien-london-investiert-milliarden-in-nukleare-abschreckung-li.3586588",
-          "quelle_id": "sueddeutsche_politik"
-        }
-      ]
+      "medienberichte": []
     },
     {
       "id": "nato_3_5_prozent",
@@ -111,11 +103,27 @@
       "ebene": "NATO",
       "beschreibung": "Neues Ausgabenziel von 3,5% (Kernverteidigung) plus 1,5% (breitere Sicherheitsausgaben), beschlossen auf dem NATO-Gipfel Den Haag 2025, Zielhorizont 2035.",
       "ampel": "gelb",
-      "begruendung": "Neuester relevanter Fund vom 2026-11-25: keine klare Richtung erkennbar. Bezug erkannt an: NATO summit",
-      "letzte_aenderung_datum": "2026-11-25",
-      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2022/06/29/nato-leaders-meet-with-key-partners-to-address-global-challenges-indo-pacific-partners-participate-in-a-nato-summit-for-the-first-time",
+      "begruendung": "Neuester relevanter Fund vom 2026-11-26: keine klare Richtung erkennbar. Bezug erkannt an: NATO Secretary General",
+      "letzte_aenderung_datum": "2026-11-26",
+      "quelle_url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/26/joint-statement-by-the-president-of-the-united-states-of-america-and-the-nato-secretary-general",
       "aenderung": "keine klare Richtung erkennbar",
       "historie": [
+        {
+          "datum": "2026-11-26",
+          "datum_ist_naeherung": false,
+          "titel": "joint statement by the president of the united states of america and the nato secretary general",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/11/26/joint-statement-by-the-president-of-the-united-states-of-america-and-the-nato-secretary-general",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
+        {
+          "datum": "2026-11-26",
+          "datum_ist_naeherung": false,
+          "titel": "joint statement by the president of the united states of america and the nato secretary general",
+          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/26/joint-statement-by-the-president-of-the-united-states-of-america-and-the-nato-secretary-general",
+          "quelle_id": "nato_newsroom",
+          "richtung": "unklar"
+        },
         {
           "datum": "2026-11-25",
           "datum_ist_naeherung": false,
@@ -177,22 +185,6 @@
           "datum_ist_naeherung": false,
           "titel": "nato secretary general commends croatias contributions to nato and support for ukraine",
           "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/01/12/nato-secretary-general-commends-croatias-contributions-to-nato-and-support-for-ukraine",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-19",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general attends meeting of the coalition of the willing in berlin",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2026/11/19/nato-secretary-general-attends-meeting-of-the-coalition-of-the-willing-in-berlin",
-          "quelle_id": "nato_newsroom",
-          "richtung": "unklar"
-        },
-        {
-          "datum": "2026-11-19",
-          "datum_ist_naeherung": false,
-          "titel": "nato secretary general highlights new opportunity for support at ukraine defence contact group meeting",
-          "url": "https://www.nato.int/fr/news-and-events/articles/news/2025/07/21/nato-secretary-general-highlights-new-opportunity-for-support-at-ukraine-defence-contact-group-meeting",
           "quelle_id": "nato_newsroom",
           "richtung": "unklar"
         }
@@ -293,18 +285,25 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-11-27",
+          "datum_ist_naeherung": false,
+          "titel": "Bundeswehr: General Heico Hübner wird neuer Inspekteur des Heeres",
+          "url": "https://www.zeit.de/politik/deutschland/2026-11/heico-huebner-inspekteur-des-heeres-bundeswehr-boris-pistorius-gxe",
+          "quelle_id": "zeit_politik"
+        },
+        {
+          "datum": "2026-11-26",
+          "datum_ist_naeherung": false,
+          "titel": "Rheinmetall-Arbeiter bei Angriff in Kuwait getötet",
+          "url": "https://www.tagesschau.de/ausland/asien/kuwait-tote-angriff-kuwait-100.html",
+          "quelle_id": "tagesschau_ausland"
+        },
+        {
           "datum": "2026-11-24",
           "datum_ist_naeherung": false,
           "titel": "Deutschland baut künftig ukrainische Drohnen",
           "url": "https://www.tagesschau.de/ausland/europa/ukraine-pistorius-104.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-11-20",
-          "datum_ist_naeherung": false,
-          "titel": "Pistorius in Polen: Eine Reise im Zeichen der Erinnerungsarbeit",
-          "url": "https://www.tagesschau.de/inland/innenpolitik/pistorius-polen-gedenken-100.html",
-          "quelle_id": "tagesschau_innenpolitik"
         }
       ]
     },
@@ -407,20 +406,6 @@
           "titel": "Streit um EU-Haushalt: Warum die Slowakei blockieren will",
           "url": "https://www.tagesschau.de/ausland/europa/slowakei-blockiert-eu-haushalt-100.html",
           "quelle_id": "tagesschau_ausland"
-        },
-        {
-          "datum": "2026-11-26",
-          "datum_ist_naeherung": false,
-          "titel": "Plattform „Delta“: Militärhilfe mal umgekehrt: Wo die Ukraine die Bundeswehr unterstützt",
-          "url": "https://www.sueddeutsche.de/politik/bundeswehr-delta-militaerhilfe-ukraine-li.3586457",
-          "quelle_id": "sueddeutsche_politik"
-        },
-        {
-          "datum": "2026-11-26",
-          "datum_ist_naeherung": false,
-          "titel": "EU-Gipfel: Europas Geld und Deutschlands Beitrag",
-          "url": "https://www.sueddeutsche.de/politik/bruessel-eu-haushalt-gipfel-merz-li.3584884",
-          "quelle_id": "sueddeutsche_politik"
         },
         {
           "datum": "2026-11-25",
@@ -601,6 +586,13 @@
       ],
       "medienberichte": [
         {
+          "datum": "2026-11-27",
+          "datum_ist_naeherung": false,
+          "titel": "Hybride Kriegsführung: Russland verstärkt offenbar Sabotageaktivitäten in Europa",
+          "url": "https://www.zeit.de/politik/2026-11/russland-sabotageakte-europa-iiss-bericht-gxe",
+          "quelle_id": "zeit_politik"
+        },
+        {
           "datum": "2026-11-24",
           "datum_ist_naeherung": false,
           "titel": "Südkorea meldet russische Militärflugzeuge vor seiner Küste",
@@ -749,6 +741,13 @@
       "name": "Sonstige / global",
       "eintraege": [
         {
+          "datum": "2026-11-27",
+          "datum_ist_naeherung": false,
+          "titel": "The Price of Cost-Cutting: What Next for UK Aid and Development Assistance?",
+          "url": "https://www.rusi.org/explore-our-research/publications/commentary/price-cost-cutting-what-next-uk-aid-and-development-assistance",
+          "quelle_id": "rusi_commentary"
+        },
+        {
           "datum": "2026-11-23",
           "datum_ist_naeherung": false,
           "titel": "Same Risk, Different Letterhead? The City Watchdog Takes On the Professions",
@@ -810,13 +809,6 @@
           "titel": "Inside the Secretive, Contradictory World of Campaign Ads Funded by AI Super PACs",
           "url": "https://www.bellingcat.com/news/2026/11/02/ai-super-pacs-political-advertising/",
           "quelle_id": "bellingcat"
-        },
-        {
-          "datum": "2026-10-30",
-          "datum_ist_naeherung": false,
-          "titel": "Operation Rummy: Franco-British Nuclear Cooperation Strengthens European Deterrence",
-          "url": "https://www.rusi.org/explore-our-research/publications/commentary/operation-rummy-franco-british-nuclear-cooperation-strengthens-european-deterrence",
-          "quelle_id": "rusi_commentary"
         },
         {
           "datum": "2026-10-22",
