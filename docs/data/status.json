@@ -1,5 +1,5 @@
 {
-  "generiert_am": "2026-11-27T15:51:51.166153+00:00",
+  "generiert_am": "2026-11-28T14:46:45.041582+00:00",
   "min_datum_filter": "2025-01-01",
   "lookback_tage": 120,
   "zusagen": [
@@ -284,13 +284,6 @@
         }
       ],
       "medienberichte": [
-        {
-          "datum": "2026-11-27",
-          "datum_ist_naeherung": false,
-          "titel": "Bundeswehr: General Heico Hübner wird neuer Inspekteur des Heeres",
-          "url": "https://www.zeit.de/politik/deutschland/2026-11/heico-huebner-inspekteur-des-heeres-bundeswehr-boris-pistorius-gxe",
-          "quelle_id": "zeit_politik"
-        },
         {
           "datum": "2026-11-26",
           "datum_ist_naeherung": false,
@@ -585,13 +578,6 @@
         }
       ],
       "medienberichte": [
-        {
-          "datum": "2026-11-27",
-          "datum_ist_naeherung": false,
-          "titel": "Hybride Kriegsführung: Russland verstärkt offenbar Sabotageaktivitäten in Europa",
-          "url": "https://www.zeit.de/politik/2026-11/russland-sabotageakte-europa-iiss-bericht-gxe",
-          "quelle_id": "zeit_politik"
-        },
         {
           "datum": "2026-11-24",
           "datum_ist_naeherung": false,
